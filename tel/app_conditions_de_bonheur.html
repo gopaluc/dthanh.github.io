@@ -1,0 +1,230 @@
+ 
+
+<!DOCTYPE html>
+ 
+
+
+
+
+
+
+
+
+<html manifest="tel.webcache">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->  
+
+<head>
+
+	
+<title>Tout Est Lumière</title>
+
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Luc Bonameau">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Web Fonts -->
+<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- CSS Header and Footer -->
+<link rel="stylesheet" href="assets/css/headers/header-default.css">
+<link rel="stylesheet" href="assets/css/footers/footer-default.css">
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="assets/plugins/animate.css">
+<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css">
+<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+
+<!-- CSS Theme -->
+<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+<link rel="stylesheet" href="assets/css/theme-skins/dark.css">
+
+<!-- CSS Customization -->
+<link rel="stylesheet" href="assets/css/custom.css">
+
+<!-- CSS Page Style -->
+<link rel="stylesheet" href="assets/css/pages/portfolio-v1.css">
+<link rel="stylesheet" href="assets/css/pages/portfolio-v2.css">
+<link rel="stylesheet" href="assets/css/pages/page_search.css">
+<link rel="stylesheet" href="assets/css/pages/shortcode_timeline1.css">
+
+<!-- Personnal Gopal CSS Page Style -->
+<link rel="stylesheet" href="assets/gopal/css/pages/portfolio-v-gopal.css">
+
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">
+<link rel="stylesheet" href="assets/css/pages/page_contact.css"></head>
+
+<body>
+
+
+<div class="wrapper">
+
+
+    <!--=== Content Part ===-->
+    <div class="container content"> 
+
+
+
+
+<div class="wrapper">
+
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <h1 class="pull-left">Mes conditions de bonheur</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="mon_compte.php">Mon compte</a></li>
+                <li class="active">Mes conditions de bonheur</li>
+                <li><a href="#"> </a></li>
+            </ul>
+        </div>
+    </div><!--/breadcrumbs-->
+    <!--=== End Breadcrumbs ===-->
+ 
+
+    <!--=== Content Part ===-->
+    <div class="container content">   
+
+        <!-- Basic Form -->
+        <div class="panel panel-blue margin-bottom-40">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-tasks"></i> Mes conditions de bonheur</h3>
+            </div>
+            <div class="panel-body">
+                <form class="margin-bottom-40" role="form">
+
+                                                <div class="form-group">
+                                <label>Première condition de bonheur</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur1" placeholder="Écrivez votre première condition de bonheur. Exemple : Je respire, ça veut dire que je suis vivant.">
+                            </div>
+                                                <div class="form-group">
+                                <label>Deuxième condition de bonheur</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur2" placeholder="Écrivez votre deuxième condition de bonheur. Exemple : J'ai de bons yeux qui me permettent de voir toutes les merveilles de formes et de couleur">
+                            </div>
+                                                <div class="form-group">
+                                <label>Troisième condition de bonheur</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur3" placeholder="Écrivez votre troisième condition de bonheur. Exemple : J'ai suffisemment à manger pour aujourd'hui, même de quoi offrir...">
+                            </div>
+                                                <div class="form-group">
+                                <label>Quatrième condition de bonheur</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur4" placeholder="Écrivez votre quatrième condition de bonheur.">
+                            </div>
+                                                <div class="form-group">
+                                <label> condition de bonheur</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur5" placeholder="Écrivez votre  condition de bonheur.">
+                            </div>
+                                        <p id="result"></p>
+                    <!--<button type="submit" class="btn-u btn-u-blue">Besoin de plus de conditions de bonheur ?</button>-->
+                    
+                </form>
+            </div>
+        </div>
+        <!-- End Basic Form -->
+
+        
+
+    </div><!--/container-->    
+
+
+</div><!--/wrapper-->
+
+
+<script>
+// Load
+if(typeof(Storage) !== "undefined") {
+    if (typeof(localStorage.bonheur1) !== "undefined")
+    {
+        document.getElementById("bonheur1").value=localStorage.bonheur1;
+    }
+
+    if (typeof(localStorage.bonheur2) !== "undefined")
+    {
+        document.getElementById("bonheur2").value=localStorage.bonheur2;
+    }
+    if (typeof(localStorage.bonheur3) !== "undefined")
+    {
+        document.getElementById("bonheur3").value=localStorage.bonheur3;
+    }
+    if (typeof(localStorage.bonheur4) !== "undefined")
+    {
+        document.getElementById("bonheur4").value=localStorage.bonheur4;
+    }
+    if (typeof(localStorage.bonheur5) !== "undefined")
+    {
+        document.getElementById("bonheur5").value=localStorage.bonheur5;
+    }
+
+} else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+}
+
+
+function updateLocal() {
+     if(typeof(Storage) !== "undefined") {
+        localStorage.bonheur1 = document.getElementById("bonheur1").value;
+        localStorage.bonheur2 = document.getElementById("bonheur2").value;
+        localStorage.bonheur3 = document.getElementById("bonheur3").value;
+        localStorage.bonheur4 = document.getElementById("bonheur4").value;
+        localStorage.bonheur5 = document.getElementById("bonheur5").value;
+        document.getElementById("result").innerHTML = "Bonheur enregistré";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }   
+}
+
+
+</script>
+
+
+    </div>
+    <!-- End Content Part -->
+
+</div><!--/wrapper-->
+
+    <!-- JS Global Compulsory -->
+    <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.mixitup.min.js"></script>
+    <!-- JS Customization -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <!-- JS Page Level -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
+    <script type="text/javascript" src="assets/js/pages/page_portfolio.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            App.init();
+            StyleSwitcher.initStyleSwitcher();
+            PortfolioPage.init();
+
+        });
+    </script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/plugins/placeholder-IE-fixes.js"></script>
+    <![endif]-->
+
+</body>
+</html> 
+
+
