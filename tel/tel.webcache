@@ -1,5 +1,14 @@
 CACHE MANIFEST
 
+#APP
+mon_compte.html
+app_check.html
+app_conditions_de_bonheur.html
+app_citations.html
+app_encasde.html
+app_mementos.html
+
+
 # MEMENTOS
 trace_memento_intro.html
 trace_memento0.html
