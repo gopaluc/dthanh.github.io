@@ -13,7 +13,7 @@
   <meta name="author" content="">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- Web Fonts -->
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=cyrillic,latin">
@@ -76,6 +76,9 @@
 							<a href="#comptes">Comptes</a>
 						</li>
 						<li class="page-scroll">
+							<a href="#dev">Dev</a>
+						</li>
+						<li class="page-scroll">
 							<a href="#signets">Signets</a>
 						</li>
 						<li class="page-scroll">
@@ -110,7 +113,7 @@
     
     <section id="panneau">
         <div class="container-fluid with-bg-1" align="center">
-            http://france.wakeupschools.org est  PAR TERRE on September 15, 2016, 1:14 pm        </div>
+            http://france.wakeupschools.org est  PAR TERRE on September 19, 2016, 11:37 pm        </div>
     </section>
         
     <script src="js/jquery-3.1.0.js"></script>
@@ -313,7 +316,7 @@
             <!--from BDD-->
             <div class="row">
                 <!--Striped Rows-->
-                <div class="col-md-10">
+                <div class="col-md-offset-2 col-md-8">
                     <div class="panel panel-sea margin-bottom-40">
                         <div class="panel-heading">
                             <h3 class="panel-title"><i class="fa fa-edit"></i> COMPTES BDD</h3>
@@ -321,231 +324,580 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <td>Group</td>
+                                    <td>Grouping</td>
+                                    <td>Niveau sécurité</td>
                                     <td>Nom et URL</td>
                                     <td>Type login</td>
                                     <td>Profil</td>
-                                    <td>Niveau sécurité</td>
                                     <td>Commentaires</td>
                                 </tr>
                             </thead>
                             <tbody>
                                                                 <tr>
                                     <td>Banque</td>
+                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td><a target="_blank" href="https://www.credit-cooperatif.coop/portail/particuliers/login.do">Crédit Coopératif</a></td>
                                     <td>Code</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Banque</td>
+                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td><a target="_blank" href="https://www.mutavie.fr/portal/login">Mutavie</a></td>
                                     <td>Code</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Banque</td>
+                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td><a target="_blank" href="https://netbanking.netpnb.com/">Netbanking PNB</a></td>
                                     <td>Code</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td>Mdps avec $ et # pour Transaction Passwd</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Banque</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://www.paypal.com/signin/?country.x=CH&amp;locale.x=fr_CH">paypal.com</a></td>
                                     <td>Email</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
-                                    <td>lucbonameau@posteo.net</td>
+                                    <td>lucbonameau@posteo.net, mdp Aru... à changer</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Banque</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://account.skrill.com/login?locale=en">Skrill.com</a></td>
                                     <td>Email</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Banque</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://transferwise.com/en-us/">transferwise.com</a></td>
                                     <td>Email</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
-                                    <td>Ful... à changer</td>
+                                    <td>mdp Ful... à changer</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Cartographie</td>
+                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td><a target="_blank" href="https://www.google.fr/maps">Google Maps</a></td>
                                     <td>Email</td>
                                     <td>Grauit...</td>
-                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Communication</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://boutique.laposte.fr/authentification">boutique.laposte.fr</a></td>
                                     <td>Email</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Communications</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://login.skype.com/login?client_id=360605&amp;redirect_uri=https%3A%2F%2Fsecure.skype.com%2Fportal%2Flogin">Skype Gopaluc</a></td>
                                     <td>Pseudo</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Comptes</td>
+                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td><a target="_blank" href="https://lastpass.com/?ac=1&lpnorefresh=1">Lastpass</a></td>
                                     <td>Email</td>
                                     <td>Prospect Freemium</td>
-                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td>gopal@posteo.net</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Données</td>
+                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td><a target="_blank" href="https://www.dropbox.com/">dropbox.com</a></td>
                                     <td>Email</td>
                                     <td>Gratuit...</td>
-                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
-                                    <td>zoa changer</td>
+                                    <td>mdp zoa... changer</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Données</td>
+                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td><a target="_blank" href="https://framadrive.org/">framadrive.org</a></td>
                                     <td>Pseudo</td>
                                     <td>Association</td>
-                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td>ste... à changer</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Données</td>
+                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td><a target="_blank" href="https://posteo.de/en">posteo.de</a></td>
                                     <td>Pseudo</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-danger btn-xs">Niveau 1</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Email</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://www.icloud.com/#settings">Icloud</a></td>
                                     <td>Email</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Information</td>
+                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td><a target="_blank" href="https://feedly.com/i/welcome">Feedly</a></td>
                                     <td>Email</td>
                                     <td>Gratuit...</td>
-                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td>Via Google</td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Information</td>
+                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td><a target="_blank" href="https://getpocket.com/a/queue/">Pocket</a></td>
                                     <td>Email</td>
                                     <td>Gratuit...</td>
-                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Information</td>
+                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td><a target="_blank" href="http://www.youtube.com">Youtube</a></td>
                                     <td>Email</td>
                                     <td>Gratuit...</td>
-                                                                        <td><a class="btn btn-success btn-xs">Niveau 3</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Voyage</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://www.cleartrip.com/signin?popup=no">cleartrip.com</a></td>
                                     <td>Email</td>
                                     <td>Client</td>
-                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td></td>
                                 </tr>                                   
                                                                 <tr>
                                     <td>Voyage</td>
+                                                                        <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
                                     <td><a target="_blank" href="https://www.irctc.co.in/eticketing/loginHome.jsf">IRCTC Indian Railway</a></td>
                                     <td>Pseudo</td>
                                     <td>Client</td>
+                                    <td></td>
+                                </tr>                                   
+                                                                <tr>
+                                    <td>Webmaster</td>
                                                                         <td><a class="btn btn-warning btn-xs">Niveau 2</a></td>
+                                    <td><a target="_blank" href="https://openclassrooms.com/courses/debutez-dans-la-3d-avec-blender">openclassrooms.com</a></td>
+                                    <td>Email</td>
+                                    <td>Prospect</td>
                                     <td></td>
                                 </tr>                                   
                                                             </tbody>
                         </table>
                     </div>
                 </div>
-                <!--End Striped Rows-->
-
-
-                                <!--Hover Rows-->
-                <div class="col-md-6">
-                    <div class="panel panel-yellow margin-bottom-40">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-gear"></i> Dev</h3>
-                        </div>
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>En ligne (github)</th>
-                                    <th>Fichier local</th>
-                                    <th>Localhost html</th>
-                                    <th>Localhost php</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>RESPIRE</td>
-                                    <td><a target="_blank" href="http://gopaluc.github.io/index.html" class="btn btn-danger btn-xs">X</a></td>
-                                    <td><a target="_blank" href="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/htdocs/gopaluc.github.io/index.html" class="btn btn-danger btn-xs">X</a></td>
-                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/index.html" class="btn btn-danger btn-xs">X</a></td>
-                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/index.php" class="btn btn-danger btn-xs">X</a></td>
-                                </tr>
-                                <tr>
-                                    <td>TEL</td>
-                                    <td><a target="_blank" href="http://gopaluc.github.io/tel/index.html" class="btn btn-warning btn-xs">X</a></td>
-                                    <td><a target="_blank" href="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/htdocs/gopaluc.github.io/tel/index.html" class="btn btn-warning btn-xs">X</a></td>
-                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/index.html" class="btn btn-warning btn-xs">X</a></td>
-                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/index.php" class="btn btn-warning btn-xs">X</a></td>
-                                </tr>
-                                <tr>
-                                    <td>APPS</td>
-                                    <td><a target="_blank" href="http://gopaluc.github.io/tel/mon_compte.html" class="btn btn-info btn-xs">X</a></td>
-                                    <td><a target="_blank" href="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/htdocs/gopaluc.github.io/tel/mon_compte.html" class="btn btn-info btn-xs">X</a></td>
-                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/mon_compte.html" class="btn btn-info btn-xs">X</a></td>
-                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/mon_compte.php" class="btn btn-info btn-xs">X</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <!--End Hover Rows-->
+                <!--End Striped Rows-->     
             </div>
-            <!--End Striped and Hover Rows-->
 			
 		</div>
 	</section>
 	<!-- End Comptes -->
 
+	<!-- Dev -->
+	<section id="dev">
+		<div align="center" class="container-fluid with-bg-0">
+			<div class="g-heading-v10 g-mb-65">
+				<h2><strong>Dev </strong>effectués</h2>
+			</div>
+            
+
+            <div class="row">
+                                <!--Hover Rows-->
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="panel panel-yellow margin-bottom-40">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><i class="fa fa-gear"></i> Dev</h3>
+                        </div>
+                        <table class="table table-hover">
+
+                            <tbody>
+                                <tr>
+                                    <td><strong>RESPIRE</strong></td>
+                                    <td><a target="_blank" href="http://gopaluc.github.io/index.html" class="btn btn-danger btn-xs">ONLINE (HTML)</a></td>
+                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/index.html" class="btn btn-warning btn-xs">LOCALHOST HTML</a></td>
+                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/index.php" class="btn btn-warning btn-xs">LOCALHOST PHP</a></td>
+                                    <td><a target="_blank" href="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/htdocs/gopaluc.github.io/index.html" class="btn btn-success btn-xs">LOCAL (HTML)</a></td>
+                                </tr>
+                                <tr>
+                                    <td>TEL</td>
+                                    <td><a target="_blank" href="http://gopaluc.github.io/tel/index.html" class="btn btn-danger btn-xs">ONLINE (HTML)</a></td>
+                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/index.html" class="btn btn-warning btn-xs">LOCALHOST HTML</a></td>
+                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/index.php" class="btn btn-warning btn-xs">LOCALHOST PHP</a></td>
+                                    <td><a target="_blank" href="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/htdocs/gopaluc.github.io/tel/index.html" class="btn btn-success btn-xs">LOCAL (HTML)</a></td>
+                                </tr>
+                                <tr>
+                                    <td>APPS</td>
+                                    <td><a target="_blank" href="http://gopaluc.github.io/tel/mon_compte.html" class="btn btn-danger btn-xs">ONLINE (HTML)</a></td>
+                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/mon_compte.html" class="btn btn-warning btn-xs">LOCALHOST HTML</a></td>
+                                    <td><a target="_blank" href="http://localhost/gopaluc.github.io/tel/mon_compte.php" class="btn btn-warning btn-xs">LOCALHOST PHP</a></td>
+                                    <td><a target="_blank" href="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/htdocs/gopaluc.github.io/tel/mon_compte.html" class="btn btn-success btn-xs">LOCAL (HTML)</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--End Hover Rows-->                
+            </div>
+            
+		</div>
+	</section>
+	<!-- End Comptes -->                   
+                    
+    
 	<!-- Signets -->
 	<section id="signets">
 		<div align="center" class="container-fluid with-bg-0">
 			<div class="g-heading-v10 g-mb-65">
 				<h2><strong>Signets </strong>mémorisés</h2>
 			</div>
-            			<H1>Signets Safari</H1>
+            <H1>Firefox Septembre 2016</H1>
+
+<DL><p>
+    <DT><A HREF="https://www.transfernow.net/26iw4201hq2l?lng=fr" ADD_DATE="1448771459" LAST_MODIFIED="1448771459" ICON_URI="https://www.transfernow.net/img/icon/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABb0lEQVQ4jbWSMarCQBCGAyFVINgY28m2bsAyprLJ1slWFkIsNdUWbiNE0pjCFTxCjpAj7BE8Qo7gEeYVRonyVuHBG/iamX9+ZmbXsv4jlFILpdRFKaWVUvp8Pjen02n9tbGqKqjrWtd1jQa64/E4MxqUZdkeDgcccC3LUr/lbvv9/tVECDGSUnZSyrWUEqWUrRAChvXdbnfpayil7IQQo6fBdru9FEWBRVE0m83GuOtAh0/dcrmEPM/xwWq1WpgM0jQd5Xl+67WtZVmWxTmvOOc4oPl06CzLNOccsyzTz2SSJJoxhkmSXD81M8YqxhgOuE8xn88vcRxjHMcYRRGYDKIogoeu197XpZQuwjDEMAyRUtqaDKbT6ZpSWv2qC4JAE0KwpwWA5zMBwIgQ0hBCEABEEAQdALxOOh6PZ77v3yaTCQ7Qvu9f33Kd8Uiu6848z7t6nocGOtd1zV/5EbZtp47jNI7j6J7Gtu30a+Nf4gdzFMniWgiuMAAAAABJRU5ErkJggg==">Télécharger - TransferNow</A>
+    <DD>Télécharger vos fichiers dès maintenant avec TransferNow.net, le service simple et gratuit d&#39;envoi et de partage de gros fichiers.
+    <DT><A HREF="http://www.allaboutturkey.com/dervis.htm" ADD_DATE="1453031203" LAST_MODIFIED="1453031203">Whirling Dervishes - All About Turkey</A>
+    <DD>Whirling Dervishes of the Mevlevi sect originally come from Konya province and they continue to practice their 800 years-old mystic tradition even today.
+    <DT><A HREF="https://in.search.yahoo.com/yhs/errorhandler?hspart=gt&hsimp=yhse-gt&q=http%3A%2F%2Fy.bstatic.com%2Fimages%2Faffiliate%2F335616%2Fsbbg&type=571829" ADD_DATE="1453031220" LAST_MODIFIED="1453031220" ICON_URI="https://in.search.yahoo.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADA0lEQVQ4jV2RS0xcZRiG3/l7zn9Ku4F127hyqUFnzthTGFJoGaZOmCmkHVqKMdq68EKRAGFahVKSUsCApoPdcDOOYoSZJk2KXVgSKaVNmhiN2jQYoxvZGRftmnlcIFPjl7z57pc3n8LqJKIuwupaC6vnnK8PDlRrqHIHtcpW1epqVbWGKl/R0P6Ius+G1fVgu6cTRZUlpo9o0BRx+ymHQ5PEzCgxM0qtuUKtuVL2D4cmaVCOBk0R0zhRZVGgS8T1GcdDN/nzt78BSDsFUs4Sze7XpNxFUs4Sx20RSvD7L3+R1k0aNUegSyjQMEkt0eZ8x4ev32NHTtu7nLKrnLKrtHt3y/GBN++RMasktUSgYRToMsnQIm1mjdfchzz64Q8Apt59RId3nw7vPhNv/ATA52Pf0+E8pM2s8WroKwJdRoEGnqRMkZPOCu3uOmfssyvOeOt07F5/5tt12t11TjorpEyBQANPdFAXN5vMPK3ON2Tst7R5d5gdfgxAfvxXPnnrZ0olmB1+TJu3QsbeocVZpsnMc1AXNxVVdqPJzJN2i7TaW5zwlsnsuc1/pVSCzJ7bnPCWabW3SLkFmsw8UWU3FFV2I26mSboLpG2BFq9Ia0WxzBtg7MyPtFbcoMUrkLYFku6XxM309gBf/ZsNJkfCmSdp8zR7edIVC5x+vri9fatE5rlF0hULNHt5kjZPwpmjwVzDV/+mIup/WmcmaHSuE3enSdgZjnkzJPfOAbC1VSK5d45j3iwJO0PcnabRuU6dmSCi/qfy1UdNaIR68zFHnBxH7TXiNkfcmypTiHtTxG2OozbHESdHvZmkJjSCrz4UUQ+BhqgxI8R2jVLnjFHvjtNckS9TaN79BfXuGHXOGLFdo9SYqwQaIqIeFFY3UV0g0ACBGSQwgxxyB0nsmyx/ILFvkkPOYDkfaJCoLhBWNwqrC1+9+OrDVx/RUC++6SX6P/imdzv3b52vXsLqQmF1so3za2GdP+frnQPVer/yBb1dtaN37BfVuf8lvXf2ZXU+2On7B+kzEw3V663qAAAAAElFTkSuQmCC">DNS Solution Yahoo India error handler</A>
+    <DD>
+    <DT><A HREF="http://refugees.arte.tv/en/missions" ADD_DATE="1470457385" LAST_MODIFIED="1470457385" ICON_URI="http://download.www.arte.tv/permanent/u1/refugees/production/assets/favicon-b211f77d9cb059cdfbdce95d04c307a4.ico" ICON="data:image/png;base64,AAABAAEAEBAAAAAAAABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+ft/8QT/8QT/8QT/8QSP9Qf//////////Az/8fT/8QSP8QSP8QSP8vWP////////8fV/8AQP8AQP8AP/8AOP9QgP/w+P/////Az/8AOP8AOP8AOP8AOP8QR/////////8/b/8AP/8AQP8AP/8AP/8AOP8/b/+ft/+guP8AOP8AOP8AOP8AOP8QSP/////////A1/8PQP8AP/8AP/8AP/8AP/8AOP8AOP8AQP8AP/8AOP8AOP8AOP8QSP/////////////A1/9fh/8fV/8PQP8AP/8AMP8AN/8AOP8AOP8AOP8AOP8AOP8QR//////////////////////g7//Q3/+guP+fuP9vj/8fT/8AOP8AOP8AOP8AOP8QSP/////////P2P9Qf/9fgP9giP9gh/+/yP////////+wx/8AP/8AOP8AOP8AOP8QR//////////Q3/8AQP8AOP8AOP8AN/8AQP9vj/+PqP8/b/8AOP8AOP8AOP8AOP8QSP////////////+PqP8AOP8AP/8AP/8AP/8AOP8AOP8AOP8AOP8AOP8AOP8AMP9wkP//////////////+P+Pr/8PQP8AOP8AN/8AOP8AP/8AOP8AOP8AN/8AN/9AcP/g7//////////////////////Q3/+Ap/9fh/8gWP8QT/8fUP9AaP9vj/+vv//w+P////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">Refugees - Report from the ground</A>
+    <DD>
+    <DT><A HREF="http://sixrevisions.com/mobile/native-app-vs-mobile-web-app-comparison/" ADD_DATE="1470731133" LAST_MODIFIED="1470731133" ICON_URI="http://cdn.sixrevisions.com/ui/favicons/icon-96.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAAAAADH8yjkAAADFklEQVR42u3Yf0gUQRQH8Hd6l3d5VmZlUWqkVKIoaVZgiUSGhipgCiJBhRhGBf7EIMoMTCj6SYZCINWpYlZSpUmaYgmiWZFlkoWEaWqm2qnn7d2+Qma90zsF3Jm/3M+fC8x335u3M7AgkUgkEskiJJPbKZVKO4UNMCB3DTl5taymvr6+riL/dLS3A1DlHHu3Q8vjNF3vq3M7VPSWP9E8iRYGHkTYAw2KqDcGtEpbFmgLoq24MIxz6j3jCCI55nM4D658M4jikGfA+TVsABFs0nRoMva1pkSjKX3ZMYomlaKatLsHBXzX9VAXtUIuV6jXB2e9/kse9wWDCMpi09vne9uYb/2BkqGp2FxRcxT0B4mRFBXMpNpXrkVsdAUxLiNhOK8AC+rwi2e9QQynJiQanYEF3wEkUoGJiAnhTAgCJo4YhVn0AiYShIDh7YwrMCQAE5ETSNSuBhb8BpEwXHMABta0okBf6A70yW7gNP7DsTVAXWA/muib0r2UQJciD83x3Q+TfJYCTVve40zG3qo0f3ugZ38Xzmbsr073UwEtYR1oie97fHiDDOjwf86hFfqPWVspRTgltxvRCr4zYxVQIfPIfKtDK7iqnUApwjm2pNtaGZ1RMqDEzivpUbcBZ/sRAvQoPY8Wdc7uVasH0CTfGJ33hUNzN+VAl41bQu04mvQFAHUr4t/xOC0LGHDXcCioUQMDTvdQ8M0FWPBoQ6JvGzCRjcTvAGAiUs84YK+WBPzyBSbCdGw3GY4j0bAMWFAUIZEn5kBdGbhnLVjl/1O42uLEDPuzkZHmeBVYctAg0e4GC7Z06nPVFnpbNME+exKJSyI6FEcmsTPTdeYq7gU6JL77wIK5tSBh+Jyza7mQofLK+MQjoU9beAGyHDQz2HArJT4mNjYx56n57VzqCAtmmzyMMxk4jjOiubpNIII8pg3nxb/wBHG2Fgzh3MZurwex7EIrtGidsfWQCihQh2t6eLSga0l3AUqW+KQ+6Ro3CzGOtt056Aw0Kd1DT10prq7/r/J+bmLQOltm/5WVS2xBIpFIJJLF5x/0qf6fNy83jAAAAABJRU5ErkJggg==">Native App vs. Mobile Web App: A Quick Comparison</A>
+    <DD>
+    <DT><A HREF="http://www.appinventor.org/content/CourseInABox/Intro" ADD_DATE="1470733105" LAST_MODIFIED="1470733105" LAST_CHARSET="UTF-8">Course In A Box</A>
+    <DD>
+    <DT><A HREF="http://oblatesofshantivanam.yolasite.com/news.php" ADD_DATE="1472614805" LAST_MODIFIED="1472614805" ICON_URI="http://oblatesofshantivanam.yolasite.com/resources/shantivanam%201.JPG" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADgklEQVQ4jQXB/VPTdQDA8c9XZsDh2APjmTwoi+OXoi6vTqxT6EosQEo4Btu+3/GgAqJmcFdpWhadaBQpGvlA6PF0KIF3I9jYvt8NBsGAwQZTuLR/5d3rJV7PySQ3PY2MFDM5qSnkZaSSZTHT8aGFqdZ9jNdnM9DwFr8oVfR+2Uhni50rNRX8UF7MFx8UIrItZl5OtZBuNpGTlkKmxYQl2cidsniCToFmF4zJ6XTWVdDdJvP9qTouVZVx+ZPDnH3/TUSmyUi6yUCayYDFbOLVjGS+LjbgcezGJ0v4ZIFbTqDPVsDV5houNNm4UHmUb44covnAG4hMi4m87DQyLEYKMpMYtCYTOf0SPlmHqghURaDJgqBTMNKQzcX6ctorSun46CCNRYWIDLOeFKMJQ3wSPaWJLJ3QUbEvie9KEllukphzCB5azfxhzWRRFjxQcmmrPEpLcRGNB99BpBv1HMnX0/FeEotNOh5XJ3Dm3T0MVyfwxBbPlJLIsC2NGzW5uB270Zw6btfk0FleQHPpYURqcjL3j+0hfGoXmiwxVy8RPimx0BhHX00KV6uyeOQwsVQv0BQJVZEIKILRWj2NHxch8l/Jpq88gaBTIqBI+GWBT4nD5dTz0Gbi2/Isbtdl4HXqCDgEfmUXqkMwUmug5dMSxP78PG6VJaA5BH55F36nDq1Bx6BVT8/nFgYdJqadiXgVHVq9Dk0W+ByCgWoDxw68jRi9f4vJP7tx32jFL8fhP6nHfbMW79lsfHaJoFOgntDj6a0j0GzG44xnuq+Dybtd/N7bhfiqo5Vfr/+Ips7gvl7J7HGB/9xetNMWNJvAaxeozUa09tdwVwtmbzrwzLpwux6juicQA/29jD/qZzmksraisXKvCa8ch98mCDgFAaeE3y6YccSxOthGbCtIdD1IZH2ejfA8Yie2wlZkkfVVjbW1OZ7Flon4B1DP7cVnF6h2gf98HlH1LtuxEJsb80TCAaLhAFvr84iFBQ8+7xSRjSChVS+LyyrRzRDeS4dwWyVmrBLzP5UQjS6y8o+bcMjL6tIsG+sa0Q0/4uncOJu+cXaCE+wsTPA08IRYcJqp9v24PhO4jgtc5wsJ/X2P6NQdtj39PPc+4IU6xH++IcSLyR6eT3SzPX6NrbFrxGaGeRaaJzT2M+H+NjYHzrA02sW/yyqRv34jPHSRjaHLREausDXayf+etFDL+zujDgAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Oblates of Shantivanam</A>
+    <DD>
+    <DT><A HREF="http://localhost/phpMyAdmin/index.php?db=&table=&server=1&target=&token=a6cee01abf0215d534ebe45e8fbdecf1#PMAURL-0:index.php?db=&table=&server=1&target=&token=a36c3c3c46f17f22788614713e38f1ea" ADD_DATE="1473787859" LAST_MODIFIED="1473787859" ICON_URI="http://localhost/phpMyAdmin/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB6klEQVQ4jZWSTWsTURSGx4Ur3fgDFLt35WwVHFzooow7kRK30QuiFcTi6HYEQQxmI0NRLoQGRLqItjoyVBFbybTRirajFgIppLXpxOggiR+1ebq4zkRpjHpW57z35TkfXI1N0YbWCjSXYH0NvqxC/eVm28/QuqofXsH7p/AtgkoB3gzDWutfAG3VrbkMS4+hPgtTp6F8G+ZvwPr3vwBaNZi2OsbPi5Dvg8YcuKaapCdg+QlMnurUlQLkd8PqDEwMwOheaP/oAXh9HZ6d7dSPjsOdPVD11ASOBu9kD8DDIzB9UeXhc7i5DcYPweI9GNkFw1thZCd8fNsFUJ9VhoWcqgv7VEfvqFrt1nYo7Ffa/cNdAP4F9VgrQvgCnC2qnhiAmq/ysYMQOEqLyr8AvjZA7lCmsAQP+lXuaFA8D4159Z7vg08Lyr8yBVH5Dx/pP0IDMIxBhMhgmhaplE2sSemq7fwAXU9TrYYACJHBttWttChqYvafS4ixUdfTiUmIDLqeTmBxMwDN9wOMA2cQ6cukjl0iey2HPznD0JCDEBn84hzixBXEyasAmKZFEFQwTYtqNUST0sW2c/h+QBBUAJDSRUo3WS32SOlimlYygeeV0Gw7h+eVfjtMDIx3ldLFce5iGIPJHaR0yWZH2QCdI2obyVFyfwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">localhost / localhost | phpMyAdmin 4.4.10</A>
+    <DD>
+    <DT><A HREF="http://localhost/phpMyAdmin/sql.php?db=comptes&table=sites&token=eb0b8915f002662f2b3604cd75d1cebb&pos=0#PMAURL-25:tbl_replace.php?db=comptes&table=sites&server=1&target=&token=eb0b8915f002662f2b3604cd75d1cebb" ADD_DATE="1473924505" LAST_MODIFIED="1473924505" ICON_URI="http://localhost/phpMyAdmin/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB6klEQVQ4jZWSTWsTURSGx4Ur3fgDFLt35WwVHFzooow7kRK30QuiFcTi6HYEQQxmI0NRLoQGRLqItjoyVBFbybTRirajFgIppLXpxOggiR+1ebq4zkRpjHpW57z35TkfXI1N0YbWCjSXYH0NvqxC/eVm28/QuqofXsH7p/AtgkoB3gzDWutfAG3VrbkMS4+hPgtTp6F8G+ZvwPr3vwBaNZi2OsbPi5Dvg8YcuKaapCdg+QlMnurUlQLkd8PqDEwMwOheaP/oAXh9HZ6d7dSPjsOdPVD11ASOBu9kD8DDIzB9UeXhc7i5DcYPweI9GNkFw1thZCd8fNsFUJ9VhoWcqgv7VEfvqFrt1nYo7Ffa/cNdAP4F9VgrQvgCnC2qnhiAmq/ysYMQOEqLyr8AvjZA7lCmsAQP+lXuaFA8D4159Z7vg08Lyr8yBVH5Dx/pP0IDMIxBhMhgmhaplE2sSemq7fwAXU9TrYYACJHBttWttChqYvafS4ixUdfTiUmIDLqeTmBxMwDN9wOMA2cQ6cukjl0iey2HPznD0JCDEBn84hzixBXEyasAmKZFEFQwTYtqNUST0sW2c/h+QBBUAJDSRUo3WS32SOlimlYygeeV0Gw7h+eVfjtMDIx3ldLFce5iGIPJHaR0yWZH2QCdI2obyVFyfwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">localhost / localhost / comptes / sites | phpMyAdmin 4.4.10</A>
+    <DD>
+    <DT><H3 ADD_DATE="1350051375" LAST_MODIFIED="1474304419" PERSONAL_TOOLBAR_FOLDER="true">Barre personnelle</H3>
+    <DD>Ajoutez des marque-pages dans ce dossier pour les voir apparaître sur votre barre personnelle
+    <DL><p>
+        <DT><A HREF="https://lastpass.com/?ac=1&lpnorefresh=1" ADD_DATE="1432492011" LAST_MODIFIED="1432492011" ICON_URI="https://lastpass.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVQ4jcWTz2sTQRTH969o2pRkE7ObzU6yG0Mk8VA99dJLLjnUg1cFpYd66LEgCFIoYrEFQQgENEaK/4lIZmc3VatQBfvT7aGihyDy8bCbbb14qejAwPu+efOdx/f7RvMdi/Ns7Z8TqEoxit0SqlKMCJJkHP8Jj3OeqUcdJIcXBX7VPi2s2lHOiV4aYxXXbrdbZzoQBlKfROpTqLKJ71jIXBqpT6LsAr5bwitkkPoU8sI0w5kGxy838YSBpoRBUHc46jxh/9FDlGPhWXl279/jy9MuW1eayFyanVs3CPs93rXm8OsOYf8ZShhog8wEB+trjNfHxQXeX2snOOz3COoVfo5GAHwfBgwv1wmfJwQp9lZXkgs7t2+y3W4l+Kjbwa/a/Ph6AsC3168ImjXCfg9VNtFU2US5JfZWV/h8dxlPGHjFHJ+W7rC/9oCgUUPmp/lwfZ7Dxxu8mb2Kf8mNCIQRi1g2GWRjEWNXZD7NIJtCCSMS0cgyyKSQhQzDmQbh5otYxN9sFKfDktgYY/eMjVWbt3Oz5xwkK/cXR/m//sZfJopTtAuQqt8AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Mon Coffre-fort LastPass</A>
+        <DD>LastPass est un gestionnaire de mots de passe en ligne et un remplisseur de formulaires qui rend votre navigation plus facile et plus sûre.
+        <DT><H3 ADD_DATE="1470716574" LAST_MODIFIED="1474304386">dev</H3>
+        <DL><p>
+            <DT><H3 ADD_DATE="1470670267" LAST_MODIFIED="1471078973">ionic</H3>
+            <DL><p>
+                <DT><A HREF="https://apps.ionic.io/signup" ADD_DATE="1470670247" LAST_MODIFIED="1470670247">Sign up - Ionic.io: the hybrid app platform.</A>
+                <DD>Ionic makes it incredibly easy to build beautiful and interactive mobile apps using HTML5 and AngularJS.
+                <DT><A HREF="https://openclassrooms.com/courses/developpez-une-application-mobile-multi-plateforme-avec-ionic/installer-et-configurer-son-environnement" ADD_DATE="1470670395" LAST_MODIFIED="1470670395" ICON_URI="https://openclassrooms.com/favicon.ico?7fe860d" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC">OpenClassrooms - Installez et configurez votre environnement</A>
+                <DD>
+                <DT><A HREF="http://localhost:8100/#/tab/dash" ADD_DATE="1470670680" LAST_MODIFIED="1470670680">Dashboard</A>
+                <DD>
+                <DT><A HREF="https://openclassrooms.com/courses/developpez-une-application-mobile-multi-plateforme-avec-ionic/maitriser-la-ligne-de-commande" ADD_DATE="1470717176" LAST_MODIFIED="1470717176" ICON_URI="https://openclassrooms.com/favicon.ico?3ab9504" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC">OpenClassrooms - Maîtrisez la ligne de commande</A>
+                <DD>
+            </DL><p>
+            <DT><H3 ADD_DATE="1470419479" LAST_MODIFIED="1470419488">blender</H3>
+            <DL><p>
+                <DT><A HREF="https://openclassrooms.com/courses/debutez-dans-la-3d-avec-blender/generer-le-rendu-d-une-scene" ADD_DATE="1470394246" LAST_MODIFIED="1470394246" ICON_URI="https://openclassrooms.com/favicon.ico?1371361" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC">OpenClassrooms - Générer le rendu d&#39;une scène</A>
+                <DD>
+                <DT><A HREF="http://www.textures.com/" ADD_DATE="1470396342" LAST_MODIFIED="1470396342" ICON_URI="http://www.textures.com/images/favicon-64.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADH0lEQVR42u2bTWgTQRiGYxX8QRB6sBTxKiLePRXTxp/Uq1bxIOJVBRUqNIpGiEJ7UkrVg0LJpQqLsZIqWpWCVhDBi4oK4kHtxUOwqMVKjeP7STaEaZLdmZ3dzCQz8JySbvZ9OvPNhnwTizVgbEi9jIMCmAXnQFusFQaC9oLvgFXhGljVrMH7wFyN4Dx3QGezBD8IfvkMzvMMbDY1+FEwLxmc5y1ImBJ8APxWFJxnBhzSNfgFsBBScJ5vIK3FzoGbuAj+iIY4nfvEPhfmGY3XM3NsdPor2335nYyMqw3ZOfCh10FR5GYp4NT7WVZv0OuSIm6DjrBDt4Eb4K9ocPoviwx6P80SCRHTYJPq4MvAuMw0Fw3OD1omkiLeBN45cIEVYFL0w2k9F34uMJWDrhegThwQDb4aPFG9vlWNAHXiVN2dAy+2gxe6Bq9WJyRFXKHZzYd/GnZhC1OEZJ2YAmtdAb5C0zp092/dhmSdGPYUQHZVF7WoZHiEPwOW1xRAFzB91JgVI2AJXwMWT/k9fSyXGzdeAi3ZkoDz9XaARQLi8Z7/JJO7WD4/YVxwfrv02vtrCnBJbO9ljuMYu/YDC3Dp2ZZkY2M3tZvmXluhMgGVIhznljHPAMoFuHQndrJsNqv7fh+egLKI7gQbHBrS8YkvGgGVZDIZHb78NE6Ay9l0Wjp4gK+/+ghwGUilVD7CmifApb//ZOTBtRLgcuz4ifL6DlLYjBXgEtHvCFaAFWAFWAFWgBVgBVgBVoAVYAVYAVaAFeBXQBQSohQA1ggLCFtEhOH3gaXSAsoi9h5hXV1bTRHwCmz02xckdHESobEA6mhbKdoG91i0/0/FjFAY+gc1PARti1sHHsmKaJCAL2CH6sZIEvEwihkRIPhzsD7s1tjOICJCEEBt+KN1q3mIIibDECHQHn9Yh9Z4EvFApQiPv/sAtuh4OCKYiIo6UeU9xdKO1G7C8ZiOkoiiTCHjBNDBqkumHpAiEfclRXwE+5vliByJuCciolkPSfoW0ezHZEnE3XoiWuW8MImYqCYi1kqDevN5EbFWHCUReTo+r8P9/ANYHFbNvT4Q3AAAAABJRU5ErkJggg==">Textures for 3D, graphic design and Photoshop!</A>
+                <DD>Textures.com is a website that offers digital pictures of all sorts of materials. Sign up for free and download 15 free images every day!
+                <DT><A HREF="http://planetpixelemporium.com/earth.html" ADD_DATE="1470397013" LAST_MODIFIED="1470397013" ICON_URI="http://planetpixelemporium.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABPUlEQVQ4jY2TMYqEQBBFDYQBD+EVBK9gaCCiZ2gQDLzABCaCuYEgongG8wnGQNR4UiPRwDv8DZburR57drehsv6vfhW/NO3tAcDztaPuBxRVgzTLEcUMaZZj3U68/5eE63bi+drxGBcJ4Ho+9JsB/WagqBoAwEX8fO0XcXhvYQUJrCCBaTsCEsVMhvDO63YKcRQzScyLOpG6l/OBx7ggvLdS508A/WZ8u1i3E+V8gHUT6n5AmuW/QiigqBpovHvdD2DdBNZNeIwLiqpROqAQ1/OhlfMhHPCq+0G4iWIG1/OVANN21ADWTSiqRsoBh9ARTNv5GYGKw3srhLxcz5fyIEagS+RiXjSFUczUS6TRpQArSEQKP40gos2DVPeD0gFdojLSNMoUwgF/RplC6C3we6D20yy/iumj4/znnL8AErAjR6ow7LUAAAAASUVORK5CYII=">Planet Earth Texture Maps</A>
+                <DD>
+            </DL><p>
+            <DT><H3 ADD_DATE="1470716989" LAST_MODIFIED="1471322724">webapp template</H3>
+            <DL><p>
+                <DT><A HREF="http://preview.themeforest.net/item/first-mobile-first-web-app-theme/full_screen_preview/5002403?clickthrough_id=764944546&redirect_back=true&ref=simcoolus" ADD_DATE="1470716977" LAST_MODIFIED="1470716977">first - Mobile First Web App Theme Preview - ThemeForest</A>
+                <DD>&amp;lt;p&amp;gt;first is a mobile first web app / admin dashboard theme with flat ui based on &amp;lt;a href...
+                <DT><A HREF="http://myapptemplates.com/" ADD_DATE="1470717254" LAST_MODIFIED="1470717254">App Templates for iPhone and Android by MyAppTemplates</A>
+                <DD>Beautiful premium native iPhone and Android App templates for anyone that wants their App to stand out from the crowd
+            </DL><p>
+            <DT><H3 ADD_DATE="1470722981" LAST_MODIFIED="1471581424">android</H3>
+            <DL><p>
+                <DT><A HREF="http://www.appinventor.org/" ADD_DATE="1470722919" LAST_MODIFIED="1470722919">Learn to build Android apps | Appinventor</A>
+                <DD>
+                <DT><A HREF="http://www.appinventor.org/content/teaching-app-inventor/introduction/course-intro" ADD_DATE="1470733048" LAST_MODIFIED="1470733048" LAST_CHARSET="UTF-8">Course Introduction</A>
+                <DD>
+                <DT><A HREF="https://openclassrooms.com/courses/developpez-une-application-pour-android" ADD_DATE="1470733351" LAST_MODIFIED="1470733351" ICON_URI="https://openclassrooms.com/favicon.ico?5c171bd" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Développez une application pour Android</A>
+                <DD>
+            </DL><p>
+            <DT><H3 ADD_DATE="1470733389" LAST_MODIFIED="1471874910">java</H3>
+            <DL><p>
+                <DT><A HREF="https://openclassrooms.com/courses/apprenez-a-programmer-en-java" ADD_DATE="1470733380" LAST_MODIFIED="1470733380" ICON_URI="https://openclassrooms.com/favicon.ico?ab1430f" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Apprenez à programmer en Java</A>
+                <DD>
+            </DL><p>
+            <DT><H3 ADD_DATE="1471001878" LAST_MODIFIED="1471972437">cache</H3>
+            <DL><p>
+                <DT><A HREF="http://www.html5rocks.com/en/tutorials/appcache/beginner/" ADD_DATE="1471001868" LAST_MODIFIED="1471001868" ICON_URI="http://www.html5rocks.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACFElEQVQ4jZXTX0iTURgG8JcuLLoQKYwxBrVaEjSjaMbc2b9YtVXMizVsp1kiRQxm4GUULgyKLjJCRCikIkKCSsrsIoi2M8zRhGwkMr2owHC0HJQ6WdL3PV2MfXw1zXzguTgHzo/zHjhEROT192UPHR9cXE0PNw4UiKiCiIgc3rtpxgVWU9ex/hkqpf7AjTjjAo6mONynh/5Z58k4GBewH+0dVwCTrf0x4wKRzvdYKZ23x8C4gNl1/bUC7Ko718O4QOulJADgazaPxGhuyYYjSTAusIddfKgANbXBCOMCwbYhAMArMbXiGxj3hrsUYOt2d4hxgSMtUciyjKnpedx58nnJelqKwA5j4IIC6HRmH+MCNh7FYqGw7PyyJMHdHAXjAnrDwTMKsGnDNkvpaq0do2i7kiprLpfHz/wCGI+BcQGt1tSgAJVrqw0l4E0yg+nMHBzBmGrmGBbm8shkfih7mo36faRKpTVQPJAYyQAAbt5KwReKwxcSuNadgiz9wnh6RgGq1lVtUQNrXI0v5hkXeP7y0x8zy5KkrOPDX8C4gDUQBRGtVwNka3jwkXEB24kYzp5PoLdvAh/GskhPfMP9R5MIt7+FI1h8wP3+Z7P0dyzuruH//Qd2773JMmCzzuyrs0f6Hf6n35c96B+cNdk7Bgx6Z1MZoEqFtrrGurP21OV6T3fS4ul5Z9zdfFWjMTqp9H1V+Q0zjhWc7w4v/AAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">A Beginner&#39;s Guide to Using the Application Cache - HTML5 Rocks</A>
+                <DD>A step-by-step guide to taking your web app offline using the application cache APIs.
+            </DL><p>
+            <DT><A HREF="http://www.neowin.net/forum/topic/1165136-how-to-make-a-html5css3-website-multilingual-with-1-click/" ADD_DATE="1471322719" LAST_MODIFIED="1471322719" ICON_URI="http://www.neowin.net/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB1ElEQVQ4jYWTz2sTURDHB7SoUBCqkrK7b3ZbREEJKr0oPVgP/kga38xG9ijYS2492LI78xRKroIoGCPoP+A/IJ68efRWjTl4FS+CCLZCwaiHJSVZN3Fg4D2Y92HmO98HUIhKXaoBawdJe4ZkB1n30Grf2OzxQmPjXLF+LDAWNawDZP1TlobkN7I+hyQ5Ugo4Ye+eRNYvkwDDDK17OfZwMZGjoyMgy/dpAMPy1rPpMgAAeDW9EDU3Lo4C/dV7Vwzp7iRAwPI6iNOtedo8AyG7Z8evZl5xHM+my0j6rRygHUNuLbDuKaDVPqy0D5Zp4sfulCHZLgK8m+m1sCmrSNoDw/pjfwu3dNFnd3vhRnZ6n1KrHUKbORPrZ8M6CEm7AADzcXrZkO6CIdkBAIhYo6F4hnWANnsBSXt2tKOlVmtmeI5YV3JALB+WWq0Z32YP/1Vb3x9r3PcnjNdA0h4guSdzzfXAkHtXbh79NNdcD4oAQ24tJO1CpS5VP3aXDMnXKQ7cHvUKAEAQp1t4Xc7mt6Q9a1h+TnWglVeQJAdG1zzWElL25n8WRps+KNMjV/VO+3DA2jEsvyZbWAcRp+cnQgDyvxDG8git9pF1Lx9NPoak3UpdqsX6vxURGc2G9qj4AAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">How to make a HTML5/CSS3 website multilingual with 1 click?! - Web Design &amp; Programming - Neowin Forums</A>
+            <DD>
+Hello!
+ 
+I&#39;m not a webdesigner, noir a webdeveloper. But I&#39;m making a little website, where I have template website, made of HTML5 + CSS3. My webhost does n...
+            <DT><A HREF="http://www.w3schools.com/HTML/html5_webstorage.asp" ADD_DATE="1470458310" LAST_MODIFIED="1470458310" ICON_URI="http://www.w3schools.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZElEQVQ4jaWTS0sCYRiF54cFDfQXok3LklpIm1q4alHE0KKC7hFpUdANyqCIzCLJiVSsGRvsapJIajWKaFqZPS3CCcuF5YGzOC+8D3yH9xOEWtXvqZ+WZJH/uN9TPy38d7nkqgH2yx6yr0kA8oUMjruB6gE2xQTAbcrLwlkHF08uAOZUs14RsBK0YFVajbwatHCtHzF42mDMALzRVV1whsa98efzMsB78Y3g456Rd0JDRNNnRp5V2wFwhkZ0YVmzeAH8MTuSLHIYsQFQKL6wpHWxqHVS/Hgnkb2hz12HlnBQKL4SyZx8d3D88LVUkjsyhxrfNnIie82orxFJFlHjW+QKaR7zN79LnA+YmfQ3G3lGaWFWbSt7uySLjPmaADiNbVYu8ac3Lnvx36+XzXIfOqGkrzrA7u0wAPvhCaNUgIPwVHUASRYJJLbLerpKuf52iZIsYlVMrJ13Y1Pavk+55s9Uqz4BDFB+gAOkvEoAAAAASUVORK5CYII=">HTML5 Web Storage</A>
+            <DD>Well organized and easy to understand Web bulding tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.
+            <DT><A HREF="http://launchd.info/" ADD_DATE="1470046298" LAST_MODIFIED="1470046298">A launchd Tutorial</A>
+            <DD>A launchd primer covering configuration, administration and troubleshooting. Complete with examples.
+            <DT><A HREF="https://openclassrooms.com/courses" ADD_DATE="1471928263" LAST_MODIFIED="1471928263" ICON_URI="https://openclassrooms.com/favicon.ico?d2fcc11" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">Nos cours</A>
+            <DD>
+            <DT><A HREF="https://api.jquery.com/" ADD_DATE="1473169049" LAST_MODIFIED="1473169049" ICON_URI="https://api.jquery.com/jquery-wp-content/themes/api.jquery.com/i/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABzklEQVQ4jZVSPWtTYRQ+ShVBqG1NbJp7z/kFBcHFj8U6xE9EFxWEQl0uqcl7joMITmYQBF3cxKnYxvSeB7fqoouIg4v/QEG7CaKIoCjIdbhJuGkbg892uc95vniJRmGuNTaZYM9IXhGVgHIpWZkhIhL1i9zEpZFH1aRTIiKaCu1xVtyOGo/2EhGx+gMx3B16OD2/vDtWv1UJKBMRSUivieF9738UcEYMWRTa8ZYCrH5PzN/2vmPFHTFkRY4YnoohE0Uii48n6QJ2xgFHS8nKDLHiuyjW+uTgZ8WQxYbLRZFYcV/Uf7P5uqg/i9VvTIX2OIkhKyYgom2i/kUMWW+HPhaWdkUNHGZNZ4vxMjb/M+DWTE+JIWPF5yik+4ftJ4YaseKVGDIOWNywzfU8HTJRf8KanmNNZ6u6ekTUb7LiOYf0OEWK+S7pZ1xHVBSJ1I+J+eu+UM77xoY3YqjlrOThDjb86K78YatXN11f3ieGGjf9RPkqKpu65E65A5uvx+qnh/XuV2z6+WojPVDsXN8Q9cUmx7nWWBTSQ6x4yeadiYWliQHVWHGS1d8NCHV7i+FTcdR/hGttZ02viGKNFR/F8Kt7+JXNO3Fj9eCoev+Fv6qV4bX3fGKrAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">jQuery API Documentation</A>
+            <DD>jQuery: The Write Less, Do More, JavaScript Library
+            <DT><A HREF="http://lamidudeveloppeur.fr/php/lutilisation-de-modulo-en-php-pour-la-mise-en-page/" ADD_DATE="1471948747" LAST_MODIFIED="1471948747" LAST_CHARSET="UTF-8">L&#39;utilisation de modulo en php pour la mise en page - L&#39;ami du développeur</A>
+            <DD>
+            <DT><A HREF="https://secure.php.net/manual/fr/class.pdostatement.php" ADD_DATE="1473676431" LAST_MODIFIED="1473676431" ICON_URI="https://php.net/favicon.ico" ICON="data:image/png;base64,Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICA19fX19fX19fXwICAwICAwICAwICAwICAwICAwICA19fX19fX19fXwICAwICAwICA19fXAAAA19fXwICAwICAwICAwICAwICAwICAwICA19fXAAAA19fXwICAwICAwICA19fXAAAA19fX19fXwICAwICA19fXwICAwICA19fX19fXAAAA19fX19fXwICAwICA19fXAAAAAAAAAAAA19fX19fXAAAA19fX19fXAAAA19fXAAAAAAAAAAAA19fX19fX19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fX19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fX19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fX19fXAAAAAAAAAAAA19fX19fXAAAAAAAAAAAA19fX19fXAAAAAAAAAAAA19fX19fXwICA19fX19fX19fXwICA19fXAAAA19fX19fXwICAwICA19fX19fX19fXwICAwICAwICAwICAwICAwICAwICA19fXAAAA19fXwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICA19fX19fX19fXwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICA" LAST_CHARSET="UTF-8">PHP: PDOStatement - Manual</A>
+            <DD>
+            <DT><A HREF="http://www.phptherightway.com/pages/The-Basics.html" ADD_DATE="1474032780" LAST_MODIFIED="1474032780" ICON_URI="http://www.phptherightway.com/images/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiUlEQVQ4jb1TP0vDQBz9pUURXPRLCCIU/6A4+KeTaNu7JLTnJZe00Fq1OHdwsgEXQWqba2OKQysGUfoFXNwU/AiCX8DFwdnBczBDMC22Dj644bh7v3vv8Q7gf2BFCOlGvxeJDsixIn9+LbCRAEBKabW4nHUvlKzbQZrN+nN9eQsLeyNKtlVDtL6IaHOeFq8ENpqfinkuaNETiNllnxC2g1l9Tc21XuiuJ1KMLxHSjWLWIEl2PrmVrs5t71x+YMYffqqVFKU2oZhOg+56Qs22npPa2WpouNE81vauRUqzSyEFmPHHTL4tZMM5CGViWRHE+Akr3QrZaB4F8glM1/ldJt8W2HQqsY3yePBsZsYaxYy/yAa/70kGACket8Ywcyqk0BFqrvWKqC37HiUAgASpzSZodSoU2k9spk9jas590vdvBGb1NQAARPmyarrvsum8Jakz3U8FBFum5txDpPN1AACsNTAteoIUOgLp9op/pV/RejZQSul2Hulc/9VCQM6AnR943jAfaQh8AdMkhPO+QfHOAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">The Basics - PHP: The Right Way</A>
+            <DD>
+            <DT><A HREF="http://www.bootply.com/new" ADD_DATE="1474122632" LAST_MODIFIED="1474122632" ICON_URI="http://www.bootply.com/bootply_ico.jpg" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC9UlEQVQ4jX2SS0tyCxSG9y+IL8JEwi4gdFEpUVPUrWnet6XuUCuzQohq0qhBRFDTKILoMo4GQo0a2DgIbdCgJg3rD4RJglpG9pzB4ZPvcA5nwTt83rXWu5bQ2dmJSqWiu7ub3t5eNBoN/f39DA0NodVq0el06PV6RkZGMBqNmM1mRkdHsdlsOJ1OBJVKhVKppK2tjfb2dhQKBUqlEpVKhVqtRqPRYDAYMBqNmEwmLBZLCx4bG0NQKBQYjUaOjo5aOj4+5uTkhP39fbLZLHq9/j9hj8eD0NHRgSRJ/F8dHByg1+sRRRFRFHG5XHg8HrxeL4JSqSQUClGr1SiVSqyurpJMJkmn01xdXdFsNnl+fkYURRwOB263uwUHAgGErq4uIpEIX19flMtlDAYDnZ2d/Pr1i7m5OQBeXl5wOp24XC7Gx8fxer34/X4kSUJQq9VEo1EajQaVSoW9vT22trbY2dnh/v6eSqXC5uYmFosFr9fb6hwOh5mYmEDo6ekhHo/z+flJtVr91/6lUomNjQ3sdjvBYJBQKIQkSUxOThKLxRD6+vqQZZlGo8H7+zsrKytMTU2RTCbZ3d3l4+OD7+9vFhcXMZvNuFwuJEkiFoshyzKCRqMhkUjQaDQol8v4fD4GBwcxGo3odDoeHx9pNptcXFywvb3N6ekpqVSKWCxGIpFAGBgYIJlMUq/XeXt7I5PJEAwGkSSJ9fV1SqUS9Xqd19dXzs/Pub6+JpfL4ff7mZ2dRdBqta20f35+qNVqVKvVf+RRKBR4eHhgeXmZXC7H2dkZ4XCYTCaDMDw8jCzLFAoFbm9vKRaLFItF7u7uuLm54fDwkPn5eZ6ensjn8+TzedLpNDMzM38bWK1WrFYrJpMJq9WKzWbD4XDgdDpxu93YbDbW1ta4vLxEkiTi8TipVIpMJsPCwgKC3W5HFEXcbjc+n49AIEAoFCISiRCNRpFluaVUKkU6nW7B2WwW4c/f/m3w553j8TjJZJLp6enW2L/hpaUl/gJnekv1Kna1IwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Bootply - The Bootstrap Playground</A>
+            <DD>A free Bootstrap editor that also includes Bootstrap snippets, templates and examples using Javascript, CSS, HTML5 and jQuery.
+            <DT><H3 ADD_DATE="1473818268" LAST_MODIFIED="1473818354">JS</H3>
+            <DL><p>
+                <DT><H3 ADD_DATE="1471876298" LAST_MODIFIED="1471876313">Client side app</H3>
+                <DL><p>
+                    <DT><A HREF="https://unhosted.org/" ADD_DATE="1471581888" LAST_MODIFIED="1471581888" LAST_CHARSET="UTF-8">unhosted web apps</A>
+                    <DD>weekly handbook about unhosted web apps
+                    <DT><A HREF="https://5apps.com/deploy/home" ADD_DATE="1471874895" LAST_MODIFIED="1471874895" ICON_URI="https://5apps.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZUlEQVQ4jWNgYGBguOgmzv3YVz35sZ/6f6Kwr3ryRTdxbgYYIEkzkiEIA0jVDMVYDSAE6GcAxV6gSRj8/fIJvwFPI03///3yibIwwIXpZ8C3E3vI98LTSFPKApH8pExpZqIkOwMAI+heXNtddV8AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">5apps Deploy – HTML5 app deployment and hosting</A>
+                    <DD>Deployment and distribution tools for HTML5 app developers
+                    <DT><A HREF="https://remotestorage.io/" ADD_DATE="1471876281" LAST_MODIFIED="1471876281" ICON_URI="https://remotestorage.io/application_icon_x128.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACxUlEQVQ4jW2Tz2uURxjHn42NG2hjSLIm6b47z7y7WURMiNCFWroGlixNdt+ZefPLTW7SQ0XFmx68WigKLfQfEKG9CvUk2LttQAothZ66zbEQNYlRMc27OzPfHjasq+S5zA++z8wz33k+RD2BBh3rzpWYtpofe82/JrXczFGaI2Pv/NCw03wbsQS0hNcMxBJO852980PD3YOI+qh3gUo247S44g1vo1GA1/xzMi+mk4WJKW/kIzQK8Ia3bZT7CkSpt8kV+oCIyNaCBlby8IY3rRLx+5VZJWJvuIm1Arzh31AP5kCUIpQzgzbiH1s69ym+EFmUqL9bFVHfrcOxe6HOXcKitE7zFoqUJhQp7ZR8hqUQTonvUR0b73nasfvUY2x1bNxpvoPlEFZxE1N0nBDSgFW8CSNfYTkPH8vEKXEDRUp3E6fouIvEdW/kARoFOMM/vFnIfAyiPkKJ+q3m3bYSD5L57Glv+AnWJuGNbFoVKFvP1b3hv7E2Ca/5SWsh+8l/lYnQReI2yplBahYpbTX/i6UQzvDNnXMjJ6wOLngjn2E1D6zm4Y3ctoobO+dGTjjFN30s21bxC4Q0QCBKHUTBKW/kw47D8qlVuZXd0vCQM/y1U/Kb3dLwkK2LJW/kFi7kASMTp7mJCg0QyplBF4nrr2c/OtmuB3Pe8D9Yn4Q1ciOZH59OqhNnvOHHWJ+EN3KzVQ8+s0r8ZBXvoET9hCKlreIDvxge2Eh8+bycGXRKXPWxtFjJo9Mb0rtIXNuaoQ9tnS92tPy0841EqXYtV/Gx/KNjHv/VVmIWsxMnnea7Tst7rz8fH9uvZ8sw8s9Dg39v14Lqux1JlHIRX/ax3MNaAV7LB/vzWbE/NxrA8P1Df162InHlHQ7eBwPVYNRp/haLIWC4A9NiCKfEd6gGo0fC1N3sQTWp5Wa84V+85o3WQnD2KA0R0f8vznEl9UtyBQAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">remoteStorage ‒ An open protocol for per-user storage on the Web</A>
+                    <DD>
+                </DL><p>
+                <DT><H3 ADD_DATE="1472718602" LAST_MODIFIED="1473868010">JS IDE online</H3>
+                <DL><p>
+                    <DT><A HREF="https://jsfiddle.net/" ADD_DATE="1472718589" LAST_MODIFIED="1472718589" ICON_URI="https://jsfiddle.net/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQElEQVQ4jY1TS2sUQRCu7MaAhLyWJNNdu4JePHnRq6AiHgweVDAiKIKCQUNAUBCJBEYwj81OV2WXgAp6EMFDEneRBNEE4kFvevUHeJbN9GOXQBDGw8wk+MjqB32o19dfVVcDtIIfZcCP2mEhysJClAWI2lrm/xf8KLNbqA2GF7IwHGVThwjMECrjy/LmVJ7sXVT1fXHkDyW/OvpmNnokm1eS7QtPhdex3DyLbO8hmzXJ5vJfSboC2y+UviWVuSLJLomSGftdoldyg0hmTZQ2ziT9ZJKAPiDZvZNKP5BsnyLbGQAAGI7ilka+7AE/6gAA6J+yB5HscmLHKoQyE4LMaOvp7UCSfdnLm/u3HUi26pXcSQAAQeFxnN96nmfDPdPf+gAApArvFJ78eCbZjcS2Ywzcw5RtXLCZBz/qyBXrBVRmVfDmCUFuTLKtDQT6ApKexfnmkTzb15LC8z3Tuk8qXR0M9E1AcutQ/N4VkzVOC+Uq20MLGvcl2c+pLUhfRLZFAIDOychDcuuAZFfigfqZXg57kexygcxtSe6xx25ElMJrksx7JDcqWa8OBO5YukxIdgWQ7cdcsV5IbxmYbQjBbkIqewP8D+3JK53Ks3uEsxtH07zOyYYnyX4Cr2QuSbZvsbJ1OFepd4P/tSNNKlC0tz9pL0WuUu/2yu4QklkRKrwa98ZmCMvNKs7ZqiS7iKxryLqWJ72UZ7uIpKvIuibJLkmyVZxrvsFieC7h3FnJnF/vzlX+fXb0pLUtftiuSGp+Aq4jGWkhwiYQAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">Create a new fiddle - JSFiddle</A>
+                    <DD>Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
+                    <DT><A HREF="http://jsbin.com/jotihowede/edit?html,js,output" ADD_DATE="1472718619" LAST_MODIFIED="1472718619" ICON_URI="http://static.jsbin.com/images/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACuUlEQVQ4jYWSS0wTURiFL2tC6AIS0kfEgDuRmFCFFiHlUQMqryghJhIfiQviQhe+woZStgToimk7M1BLmXuBTmemBRFdsHKn4EYFeRjiqoTiBFpKO/d3UcFUY/onJ/lzkvPlLA5CCCGGIYUclvcmZiOUI3KaIzL9j9ITsxHKYXmPYUghOjmeF3UslvYn5+aBn1EoPxsGfkbJVsajk3PzwGJpn+dF3SmAYUghi+UoS5QjD5bi3ulggsVywitICa8gZf7pYILFUpwlyhGL5WhWAwDI6+sfslS2dkYr7DfUi+23f1bYr6uVrV3qhZZOteJqlhft6x+yAEDeST7zlJQXm6rr4lYnB13vfoD56TAYL9eByWIDi5PNeM+GwXipNo5KyouzsgghpD9vNp1rbjvoXt6lvZ8BOsLrtNTaQMub2+it5egf70rTQZm93YT+vjJ7j6nU0nBY83IUOpQvtOrRAJRabHC2thFqXoycemdqbIdl9p4swO8aBUUGi03VV1k1Q3V9Sm+uTZusjWmjtTGtN9emDdX1KYPZqhktDSpCBUVZWZ9vMZ8JiEtOlzc56HIfO8aYlMPlTjlGx1OOMSY16HKnHGPjqUGX+9jp8iaZgLjk8y3mZ+2AJ0oyIC2BX1zQ/OJr8IsLp3oVXARf8A34gouaP/QWeKIk/9kBR+RdfiZMWSylWSxRFocoi0PUI8j00/sndGf1Dv2+ci+9vfKQBoLTu8+ZjewlckSOTcxGgCOyxhEZOBICjoTAIyiws9oLx1tNcLTZosU32gGL/tjdgS1dDoAEHJHAixXY/ngf4t9a4GC9TVPXboIQnIo9HviYC5Bp4BVk2PzwAA7Wr4G61qHtf+3OAEZyAjINWCzDVFAAQfSDIE5pWBKAJ6HYyIiYC3AiCbxCGDxCBDxCRGPJArBYjvE8r0MIoV+HgyEf2bqN9wAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">JS Bin - Collaborative JavaScript Debugging</A>
+                    <DD>A live pastebin for HTML, CSS &amp; JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more...
+                    <DT><A HREF="https://codepen.io/#" ADD_DATE="1472718651" LAST_MODIFIED="1472718651" ICON_URI="https://codepen.io/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABOUlEQVQ4jaWTMW4CMRREf4FScoRNwUre9cwYi0uEijMgqhwhtOEUQI5BxQWQKLkFaaCgQCCxKWCjhQBBybS238z3/9/shtI0AckZyVmSJP7WvWuqeZ/1Q+A2xlDEGIoQuAXwZma1uy+PrphL3AP5gMSUxBTIBxL3JOZpmuCuK8lFnj+3zMxITEhMzMzy/LlFchECt95n/e80l65m9lRSq4CTnn6kkbghcQBcpxoJSF8kLiUunWu0z89ch8RB4sZiDIXEncS1c65nZnUAYxKHMsHRAGMzqzvnehLXEncxhsJiDIX3/hXAqKRKXGdZ1i0dsyzrnh6d0mLkvX89A0gaVgCrK4BVCZA0PAM8UkII+Lhawq1PdK7RlrhsNvV59xMv2vj+QBvfrw3V3wepqv+MclV/X6afaX5f5y/Jlrsq5tNXpgAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">CodePen - Front End Developer Playground &amp; Code Editor in the Browser</A>
+                    <DD>
+                </DL><p>
+                <DT><A HREF="https://jsfiddle.net/hungerpain/eK8X5/7/" ADD_DATE="1473818337" LAST_MODIFIED="1473818353" ICON_URI="https://jsfiddle.net/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQElEQVQ4jY1TS2sUQRCu7MaAhLyWJNNdu4JePHnRq6AiHgweVDAiKIKCQUNAUBCJBEYwj81OV2WXgAp6EMFDEneRBNEE4kFvevUHeJbN9GOXQBDGw8wk+MjqB32o19dfVVcDtIIfZcCP2mEhysJClAWI2lrm/xf8KLNbqA2GF7IwHGVThwjMECrjy/LmVJ7sXVT1fXHkDyW/OvpmNnokm1eS7QtPhdex3DyLbO8hmzXJ5vJfSboC2y+UviWVuSLJLomSGftdoldyg0hmTZQ2ziT9ZJKAPiDZvZNKP5BsnyLbGQAAGI7ilka+7AE/6gAA6J+yB5HscmLHKoQyE4LMaOvp7UCSfdnLm/u3HUi26pXcSQAAQeFxnN96nmfDPdPf+gAApArvFJ78eCbZjcS2Ywzcw5RtXLCZBz/qyBXrBVRmVfDmCUFuTLKtDQT6ApKexfnmkTzb15LC8z3Tuk8qXR0M9E1AcutQ/N4VkzVOC+Uq20MLGvcl2c+pLUhfRLZFAIDOychDcuuAZFfigfqZXg57kexygcxtSe6xx25ElMJrksx7JDcqWa8OBO5YukxIdgWQ7cdcsV5IbxmYbQjBbkIqewP8D+3JK53Ks3uEsxtH07zOyYYnyX4Cr2QuSbZvsbJ1OFepd4P/tSNNKlC0tz9pL0WuUu/2yu4QklkRKrwa98ZmCMvNKs7ZqiS7iKxryLqWJ72UZ7uIpKvIuibJLkmyVZxrvsFieC7h3FnJnF/vzlX+fXb0pLUtftiuSGp+Aq4jGWkhwiYQAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">Collape / Expand</A>
+                <DD>Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
+            </DL><p>
+        </DL><p>
+        <DT><H3 ADD_DATE="1471078973" LAST_MODIFIED="1474108644">divers</H3>
+        <DL><p>
+            <DT><A HREF="https://chrome.google.com/webstore/category/app/105-religion" ADD_DATE="1471078963" LAST_MODIFIED="1471078983" ICON_URI="https://ssl.gstatic.com/chrome/webstore/images/icon_144px.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADCElEQVQ4jaWTzWscdRzG55CTUL2ox/4NWl9ijMWJ2SSFptY6Y152a41vwdJzTx66pbSgiGgRK7UBCykSxIta9BBRF4QabEto4maz2WTh9/t+Z2an85t9mZ3uZmZ+j4dYvYngA5/bw8Pn8hjG/w0z7w+CwBZCWMxsSSltZraIaJqIZv5iWghhSSltIYQlhLCCILBrtdp+o9FozAFAu91Gp9NBFEWI4xiu68JxHDAzHMdBt9tFp9NBu91Gs9lElmVwHGfOcF13NgzDhIh6zNxrtVoJM5eKxeLAfctisThARKX7PSLqKaUSIpo1mDkfhqFm5oSZM8/zNBGFRLREQlwjIa5JKZeIKHRdVxNRRkSJUkozc95g5kIYhmDmlJk1SQmHCN0oQhTHiOIYnXYbDhGkECAiTUSpUgrMXDCEEAWlFIg5ZZIZOQ6cZkuz5yVyq5qI6mbCnpdws6WJGSREJonSIAgghCj8bUBSpk4QaKrXUVu4hPKp17E++yLWZ46gfPI1bF3+BHJnG3w30CTEPwa+7xfuxV2oOE79O6u6NjeFzZEnUT00jOqkierh51GdGMKm+RhqJ47BX7utVRyncRTB9/29gX6SoLW9ndanJ3V17BnUXh5HZWIYW+YBVM0DKJtDqORewMbg46geGteNci3tJbtQnlcwfN/PIwNOf/th+svkoBZHc6jkBuG+MwN55RJo8TN0F/JQHz0L9ekEwvef0M0f3k3vpUDLd/MGon6emw29b+mtdP6snXkHn9J8el5/91uoX70KHP8CuL7W1BAngbWDwEYOuDOe9SPWqpXmDfjdt38Uq9kDn7/Se3jxzd3lqeeSrW9KyehFpOYZlZjFMDHPI62s/5rg5nCS/T62i5Wn+1l4I6s38IYB0bSui5vYt5jHg1/P49jlWaz8vI3cReDIx3uMfADcruwA9TFgYwIoDwGtEv7YwUsGij8NXFn5fvSRqyfsRxeOWw8tTFlfLpfso+/F9ui5YI8Lsb26umyntwat/o0RK71l2ncrX42aRQz821H/U/4EiGm2EikqVmMAAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Chrome Web Store</A>
+            <DD>Découvrez des applications, jeux, extensions et thèmes exceptionnels pour Google Chrome.
+            <DT><A HREF="https://tosdr.org/" ADD_DATE="1471580624" LAST_MODIFIED="1471580624" ICON_URI="https://tosdr.org/application_icon_x128.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jY3PT2yLcQDG8YdmbUKcSHaSSGZhWsRqrb2rrXubd6/WOrv0gGSti6S7SiRtJxZDJP5upn1/rbd51/9viw0XFpEwEiM2I85OuDkwf26PC4llVr7J5/48kA25STXVY0peifsKvlhPoacuX8EXU/JKXDXVY7IhN0EpKu/8N/1UTZX7qvv+i2qq9N/0Uykq79BTUL723Q2wd9LP4O0A+1YQ/KXvdoCBW34GpgJUisoXtOT2O+y1/uOOUjCxrRyMO0oHEvVsKwbjUtF/RjWVc3JebgUHsZGncJSnMcgRRHkKg381gihHEOVZRNmPTfjdt6vW9zRspG4ls7b6dCs5YePiuPXj7Pi69cPDWI3vYw2LzNrIjJW8bqsvYyUNG3+MNSx+HsYGAACvw0EDMWYxRAMJGhhaQYIGEsxhiLfQAgAEVqG01tf40N55aNouRe5v7QhP26XI3+2NTNulyL0Wz8BTpxR93L7LBwB44nG+fyvv4Suvi6+73f+04HVxwevmM08bH0mtMh57di++kSXOe9u50C0t86pb4lzXHs51uTnX5ebLThfnOt2c73Jzpr21Fy9amhzz25uPz+5oTrxwbI7P7mhO/On5zi0nZiTnhRnP7oszkvPikw7n+Wd72y4/6mg9DAA48+BB49jknYOj5o3wlUptYNQ0w5dMM3ylUhm4WqsduTA1paJeQkt9KBUKzE9MsJDLLZEzDFYrFaaTyRgBSzUUslYBCwFLFbAAADRN+2QYBnVdZzabXSKTybBcLlMIcRIAQqGQZdmCVCrl0nV9VNO0VCqVSgohkkKIpKZp14QQIp1ODwkh1qz04CeUxN1iK7XaegAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Terms of Service; Didn&#39;t Read</A>
+            <DD>Terms of Service; Didn&#39;t Read (ToS;DR) is an active project to fix the biggest lie on the web. We help you understand the Terms and Conditions and Privacy Policies of websites.
+            <DT><A HREF="http://www.submarinecablemap.com/#/" ADD_DATE="1471581420" LAST_MODIFIED="1471581420" ICON_URI="http://www.submarinecablemap.com/images/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwpJREFUeNpsU8lKY0EUPXnvJc5D1DgikkZ9SBQVkRZE7YBDK0aUILpxYWuv/AZxJb0SV7ppMELcOaIoKDRk44QuHIISHIIizjFxRu2k+lZBhEAX1KOod++pe865V4PQpXR0dHSenZ1ZfT6fUavV6lNSUnBxceGNi4tzZ2ZmTo6Ojtoo7m8wQRM8tLa2qg8PD0NbW1vfKFFubm6G1+tFdHQ0FEXByMgIcnNz/ampqY6YmJieiYkJF8+T+cdqtaoHBweTy8vLX8vKyqSioiI4HA7c3Nzg4+MDaWlp2N3dxcnJiXR0dPQlKirKXF5e/mdvb8+jUL7W4/EMb29vm4qLi8H36uoqKioq0NXVhZeXF+zv78Pv93/y3NjYMBG1YTp+1+Tn5/+oq6v7nZ2dLZWWluL+/l6UnpOTg/X1dYyPj+Pq6go7OzuQJEkABAIBEI1AQ0PDT4UC2+rr66XY2FgkJibCaDSKF10uF5aWlrC5uSkAg8l88fPj46N0enraJhFHY15eHt7e3nB7e4vz83NkZWXBbreLV0lYREZG4n/L7XYbJVmW4+/u7kBUkJycLED6+/sREREBEgsZGRlob28HxYnSg5vfp6enxyu87OvrayQlJXFe4FTW1tZQUlKCvr4+8Y87wt2gXgBZLGytra2FwWCAQiX7CgoKDMQJY2NjGBgYwOXlJagf4HQ6kZCQIDjr9XrxQGFhIXp7e7GysgKy3cdfWiS+jK/u7m5G1JhGoxGbn/kmEEa2MmoktrCwwIgCm52dZdXV1YsyIeteX18tpIEmPDxcIPNqgmoTkOiFp6cnNDU1wWKxgNQHAQTo/pdE3WR/fn528EsupM1mw+DgIHhPcLFEvxMIxYB6RbjFnTo+PnZMT0/bRQD1gVpZWemcmZlhJBYje9jc3BwLCwv7pEL/GVnKeIzZbHZSJWrIMDU2Nqrv7+9DVVVV30wmk6yqKmpqakCTKdTm5ZP6fv6yTqfrmZ+fd4UABMe5paWlk8q10gAZDw8P9dwJGi4vTaWbKpqcmpoKGed/AgwASVJ3c4iIv50AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Submarine Cable Map</A>
+            <DD>TeleGeography&#39;s comprehensive and regularly updated interactive map of the world&#39;s major submarine cable systems and landing stations.
+            <DT><A HREF="https://www.telegeography.com/telecom-resources/map-gallery/index.html" ADD_DATE="1471581486" LAST_MODIFIED="1471581486" ICON_URI="https://www.telegeography.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwpJREFUeNpsU8lKY0EUPXnvJc5D1DgikkZ9SBQVkRZE7YBDK0aUILpxYWuv/AZxJb0SV7ppMELcOaIoKDRk44QuHIISHIIizjFxRu2k+lZBhEAX1KOod++pe865V4PQpXR0dHSenZ1ZfT6fUavV6lNSUnBxceGNi4tzZ2ZmTo6Ojtoo7m8wQRM8tLa2qg8PD0NbW1vfKFFubm6G1+tFdHQ0FEXByMgIcnNz/ampqY6YmJieiYkJF8+T+cdqtaoHBweTy8vLX8vKyqSioiI4HA7c3Nzg4+MDaWlp2N3dxcnJiXR0dPQlKirKXF5e/mdvb8+jUL7W4/EMb29vm4qLi8H36uoqKioq0NXVhZeXF+zv78Pv93/y3NjYMBG1YTp+1+Tn5/+oq6v7nZ2dLZWWluL+/l6UnpOTg/X1dYyPj+Pq6go7OzuQJEkABAIBEI1AQ0PDT4UC2+rr66XY2FgkJibCaDSKF10uF5aWlrC5uSkAg8l88fPj46N0enraJhFHY15eHt7e3nB7e4vz83NkZWXBbreLV0lYREZG4n/L7XYbJVmW4+/u7kBUkJycLED6+/sREREBEgsZGRlob28HxYnSg5vfp6enxyu87OvrayQlJXFe4FTW1tZQUlKCvr4+8Y87wt2gXgBZLGytra2FwWCAQiX7CgoKDMQJY2NjGBgYwOXlJagf4HQ6kZCQIDjr9XrxQGFhIXp7e7GysgKy3cdfWiS+jK/u7m5G1JhGoxGbn/kmEEa2MmoktrCwwIgCm52dZdXV1YsyIeteX18tpIEmPDxcIPNqgmoTkOiFp6cnNDU1wWKxgNQHAQTo/pdE3WR/fn528EsupM1mw+DgIHhPcLFEvxMIxYB6RbjFnTo+PnZMT0/bRQD1gVpZWemcmZlhJBYje9jc3BwLCwv7pEL/GVnKeIzZbHZSJWrIMDU2Nqrv7+9DVVVV30wmk6yqKmpqakCTKdTm5ZP6fv6yTqfrmZ+fd4UABMe5paWlk8q10gAZDw8P9dwJGi4vTaWbKpqcmpoKGed/AgwASVJ3c4iIv50AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Map Gallery</A>
+            <DD>Free telecommunications market data, infographics, and news, from TeleGeography.
+            <DT><A HREF="https://degooglisons-internet.org/" ADD_DATE="1471597815" LAST_MODIFIED="1471597815" ICON_URI="https://framasoft.org/nav/img/icons/favicon-violet.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAR9QAAEfUBGrzVywAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGjSURBVDiNrZPNS1RhGMV/596+nLRVm4qgQGZT9OFk4KIQIpLJhW2aMtq5cgSxRTj9AU5bweYPKAgT3GVuQoIWQTgRFhUlEYYxIUNEyGUyOS3qxsXmCkFn+7zn977Ped5Htklq6FI5a6vfJieRA7CpSlQl352YLL1NnlcMkFCxUB62NQa00FyR5Bu37pXGbfwHIKHBizfvA/kU40Y9qEyN9to4ACgWysNA/kD7HvqudNPVfYQgDDYD5H97ULEwlrX1PH62JK4Onmfv/t1M357j3aulNEgk+Vhgqz/Zs23uVGZoNNYYuNbHtu1b0wAtti4H9q+kk7LNk7kFWtsy9FzoSu3D5kQQj2qjXjxbxIZDHe2pAIlcalKr3yLWf6zTtiuTCgAIbKppxZXPX8js3EFrCsSmGkjpgEez84RbQk6dPd60LjEfnjx85hNoAPgr7qX3NTCcPtdBfeUrteV6shxJHgqfvnxYn51+vArqaXbL4uuPvFn4wNHOLAez+6gt1/neWEPy9YnJ0sz/+co2rkyN9koeAaJNjJHkkdgMiW2M9a/r/BMn5r3bh/XdDwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Dégooglisons Internet - Accueil - Framasoft</A>
+            <DD>
+            <DT><A HREF="https://www.comment-supprimer.com/un-compte-cdiscount/" ADD_DATE="1470368854" LAST_MODIFIED="1470368854" ICON_URI="https://www.comment-supprimer.com/wp-content/themes/comment-supprimer/images/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADUUlEQVQ4jW2SXUyTdxTGn7e04o1eDGa8WeJHdVmmSypxfoy2LmsZJM6EDTANiDElNbihs9UpuGwvimzCcGLLSjuKzEWFmjLXwdAWrZFWbcVK1RmTaUAcihgd2Uqh7fv+zy5gS9bwXJ2TnF/OyXMeIEWx/vQ9iScaw4271LBssaLilWXp2jI/DnuGDo9QkjQA4PP5pP+DCOAAkt0NmnQTAWky/ngVXTqfR2veUlKNu2CqY3gnkUAUCA+eqznhXZsCEwfQ3O6f2489jzTR89E+IRYdF/8c+ZD9frtBDA1foc6BauHCDYv4YuwvCvlvsmAkogcA4nnJv9vnOr2BcOzZLXYzfC8ZCl5ll71BpjXkMSwE032RzQ61Z1Gz883Yvft36My1yRYAcJIzDSDiAEBRNXLqGw9jgchQ4nroDuv2/Mr09Vtpx9Fydr4nQKGBv8VPDxYnfnAqWE71tQoA2MDzUqDQmQYA2ur7x3S2KPHn4nFHn8D4jqdksg1TER+mJfmtTLbuW4YVlmRR5ecU/CWjDQCIwGEDP+1obs1D4/aTMVbXNZGw+2Ks3PqA1uzqpcz804RVXxGXbWaZeQ1skWFg0tJa1jZ2BgqAOPA8SQDgg7qHOn3LS6p1RwX75SnR6Bii96v8tLz0J5qjbqQ0pZllbGyhrF3eiS2NkRUv2pFjMGTJAJ6XAEB+3aB6m32U1bqjzO6LMaNjkDT7+mhpiYukyuOUlm0WM/NPs9W7veOllj8yZp7IAZg2cdPRx3J985OpWvcE2S5NiqbWIdLu95O8pJNkKgtJVBbh1Y86aK3R+8D5G81JDSDe+cw/T297Ovp1d5xZL8ZE04lB0lT6SV7sIpm6iUlUFmFB4Vlab/QEiKavThFJyuzP+o/0CMzaOynsbXvEtPsDtLTYRVLVd8Qpm5ILN3cypclzdjaYA4DtjrGuei8J5gvRxN62RyynMsDkJS4mU1sZ1jXGXyvtEnIP9DYBAGbMn65nmoJDPV/awkTf+xntOzki5lRdFZcUd4qcslmUvttC6sogvbetfieA//KTqnlbDjhsR1yR8aofh2nTwX5aqXdTZp6VXi8wv1Tklh8HMH82MEXpy1drdEVvb6z45A3V1o8Xr1QXzgfks03+A3spy4ePpnCKAAAAAElFTkSuQmCC">Supprimer un compte Cdiscount - Comment Supprimer ?</A>
+            <DD>Comment supprimer un compte Cdiscount. Nous vous expliquons dans ce guide tout ce qu&#39;il faut faire pour que vos données soient définitivement supprimées.
+            <DT><A HREF="https://framasoft.org/rubrique2.html" ADD_DATE="1471972555" LAST_MODIFIED="1471972555" ICON_URI="https://framasoft.org/nav/img/icons/favicon-bleu.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAR9QAAEfUBGrzVywAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGjSURBVDiNrZNNSNNxHMY/z39i6LIXSwJ7oRcxBKFi7RDUYR2iRrdOc2GjQ3TbTchd2zrXIbpGqXjJS3XMKKhDjRYSURiIVEJQwcSmqHu6NFljf0HwuT4vfJ/f7/uVbeqx7cpwr6sasBUTjgEYFSUXFXi0fL/wuV6vWoAkRdO5rHABaKM5KkbDCyP52/5nlG0kqeNy7rHtZIjxP0h6Ov8wf9G2A4BoOpe1nTzb38P1c6c40LVz3QDbyWg6lwVQx+CNXq+qVBv72MFu7l27xPMPX7g18Yzyn8WwnIoiPh64qoH6zu9nvnP17jip0yeYGMqsN0ibV5QKbMUamY9ffzD+qkS8Zz9n+g6FV5FOBrWvasTk1DQCMol4aIBwLAgjp2bnADja3RVeAgiMis2Ib7/KlCtLdG5tDzUbFQPJTQMAXn+aYd/uHST6jzTlZb8NFHgUqDQTDN4Z4830LDdTF9jbub2RrqjFY5Gl0sufhUeTC4LzjYrl1SojL97R2hIhk4jTvqV17W2MhuYf5J9saJUP79nF3O8yi8sra6u8OcdUj42e8190c8zsEITBXAAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Logiciels Libres - Framasoft</A>
+            <DD>
+            <DT><A HREF="https://framadate.org/" ADD_DATE="1472039008" LAST_MODIFIED="1472039008" ICON_URI="https://framasoft.org/nav/img/icons/favicon-vert.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAR9QAAEfUBGrzVywAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGoSURBVDiNrZO/a1NxFMU/9xscqrXIQ6kYJ4UgiFrJDxF1FDUUBzeLY00XJXRQTP+AWBwEwcFmdHBxrHWUgogY+iSIHVr8gViDUsSS8vIy2BwHE3wteRHBM37vPed77vl+r0kiisLUiVRCjAmlgXTn2DfM3zAeVcqvlqP91hUwMyuUMkWTlYEBeiOUaapye+GeOkSThJnZxK3cE1A+hrgF9nRmujoqSQ6gUMoUQfnDqZNcunCdI4dO/0VA+d8csKulXMpJta7tHduHmLhyh1Yr4PHsXVZ/fIlTCdtmIy4hxqIzB80GDx7eYN/wAYrj9/vZGDC1L7tO2pvQbK3z8vUcu70k2ZFz8UlgGcefp9qEdx9rAOSOne/nIu3iKitflwHh7RruJ4AD/F6FoNlgPVhj56CHWew9vjOspwBAbXGeoUGPXEwOQguJ42eSdYNxYNvWhrdLL9jj7edU9iLvP71hrbEaLYcydy3hP1/5PvusEhjWM63a4jz1bx/IHj1Lcu9BPteX2Gj/RKablXJ17v98ZUmama6OyjQJhH2YoUyTXTJEtrGLf13nXy2dvQaHZJ5gAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">Organiser des rendez-vous simplement, librement. - Framadate</A>
+            <DD>
+            <DT><A HREF="http://icalshare.com/" ADD_DATE="1472118131" LAST_MODIFIED="1472118131" ICON_URI="http://icalshare.com/images/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABCUExURZzI8uNbRz6Xy/+7ua32hmC8TlytstWBV3vCx+Czj7L/grD5eLX8grH/gf+8u/+8uq37haz1h6f1i7L9gf+8vP///wZHcvQAAAAWdFJOU////////////////////////////wAB0sDkAAAAoklEQVR42mIQZYIBUTAACCAGJgYYgIgABBCGAEAAYQgABBBIgA0CmFhZgQIAAQQUYOOAACYWQaAIQAAxIGxhYWEBCgAEEIOoKCs3jzAXFxevgBBIACCAQAIscAAUAAggqAAjDIgCBBBEgJETAtiZGQECCCggysrKyA4BzHyMAAHEAHYNowgzFDACBBBUgB8uABBAUAFmuABAAEEERBG2AAQYAFBpCF7koSkBAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">Welcome to iCalShare</A>
+            <DD>iCalShare is the largest directory of iCalendar files on the web, with over 3000 calendars
+            <DT><A HREF="http://www.calendrier-365.fr/calendrier-2016.html" ADD_DATE="1472119080" LAST_MODIFIED="1472119080" ICON_URI="http://www.calendrier-365.fr/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACVklEQVQ4jY3TW0jTcRTA8Z9IJVq2vKZMM62XXpIo6aWHHuohSFSwRA0F6WbS0vJG2WVqamMbpph5yZGQGjTJaZbSxcAC85KyiVObhTEtShJ1qdD/20M5Vkl64MPhnAM/Dgd+AkCS4MeCDeunL6ifjrP/9ighqmECCszIC8xsLTITVjpCZtN7TBYri3PTSJIEgJAAaX6WntEJDlaY8VYakecbCS40EfJbcKGJwOsmvJVGQrWD6Ls+sDAzhSRJCGnxOwOWSfZojfhc6SM4v/+//JVvCcrrR981xuLcNOLb1FeiKo14XOwiSNlN0LUVKLvZnPOG0KJeBswWxP3XFryyOgnIeUXg5dWTZXSSWd+DiK/qRZb2HHl2B0shz+6wc+w5hk9GB7vzOhC7cl/gmfYEv/R2O+CP/HffL70d3wvt+Ke3IbZlPcZT0Yxvaov9dd/UlhVrn9QWPM8aENszDMiS9XinNNoBy2bHuVdKIx7JDxBhlwy4JdXhearBDlg2O85lJxvwO30PcabiGU6xd9iUVGtfUZZUa+dYO85dEmrZe16HeNk3hHtCNa7HqnBPrF6VDQnVrImtJEtbg5iZ+oyivBURcRO3uHLWr4KILmOfooxWw0PE4sI8o8NDROfVI8I1rI0uwTWmFNeYkn+4HC1BRBaz80QxOt1drB/HEQC22RmM/X0kq+vYeESDOKxCRKhxjtTgHKXBKVKDCFezLkrFAYWWGp2OsXcjv37j0mFstjks5kHq9M0kXK0k9LiWLfEqAuJusCNRxaFzanK1t2h71MTkhNV+0J/syrDs/RMf+wAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Calendrier 2016</A>
+            <DD>Calendrier 2016. Le calendrier annuel de 2016, les dates paraissent chaque mois et vous trouverez y compris les numerous de semaine. Regardez ici online calendrier 2016.
+            <DT><A HREF="http://oblatesofshantivanam.yolasite.com/" ADD_DATE="1472614790" LAST_MODIFIED="1472614790" ICON_URI="http://oblatesofshantivanam.yolasite.com/resources/shantivanam%201.JPG" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADgklEQVQ4jQXB/VPTdQDA8c9XZsDh2APjmTwoi+OXoi6vTqxT6EosQEo4Btu+3/GgAqJmcFdpWhadaBQpGvlA6PF0KIF3I9jYvt8NBsGAwQZTuLR/5d3rJV7PySQ3PY2MFDM5qSnkZaSSZTHT8aGFqdZ9jNdnM9DwFr8oVfR+2Uhni50rNRX8UF7MFx8UIrItZl5OtZBuNpGTlkKmxYQl2cidsniCToFmF4zJ6XTWVdDdJvP9qTouVZVx+ZPDnH3/TUSmyUi6yUCayYDFbOLVjGS+LjbgcezGJ0v4ZIFbTqDPVsDV5houNNm4UHmUb44covnAG4hMi4m87DQyLEYKMpMYtCYTOf0SPlmHqghURaDJgqBTMNKQzcX6ctorSun46CCNRYWIDLOeFKMJQ3wSPaWJLJ3QUbEvie9KEllukphzCB5azfxhzWRRFjxQcmmrPEpLcRGNB99BpBv1HMnX0/FeEotNOh5XJ3Dm3T0MVyfwxBbPlJLIsC2NGzW5uB270Zw6btfk0FleQHPpYURqcjL3j+0hfGoXmiwxVy8RPimx0BhHX00KV6uyeOQwsVQv0BQJVZEIKILRWj2NHxch8l/Jpq88gaBTIqBI+GWBT4nD5dTz0Gbi2/Isbtdl4HXqCDgEfmUXqkMwUmug5dMSxP78PG6VJaA5BH55F36nDq1Bx6BVT8/nFgYdJqadiXgVHVq9Dk0W+ByCgWoDxw68jRi9f4vJP7tx32jFL8fhP6nHfbMW79lsfHaJoFOgntDj6a0j0GzG44xnuq+Dybtd/N7bhfiqo5Vfr/+Ips7gvl7J7HGB/9xetNMWNJvAaxeozUa09tdwVwtmbzrwzLpwux6juicQA/29jD/qZzmksraisXKvCa8ch98mCDgFAaeE3y6YccSxOthGbCtIdD1IZH2ejfA8Yie2wlZkkfVVjbW1OZ7Flon4B1DP7cVnF6h2gf98HlH1LtuxEJsb80TCAaLhAFvr84iFBQ8+7xSRjSChVS+LyyrRzRDeS4dwWyVmrBLzP5UQjS6y8o+bcMjL6tIsG+sa0Q0/4uncOJu+cXaCE+wsTPA08IRYcJqp9v24PhO4jgtc5wsJ/X2P6NQdtj39PPc+4IU6xH++IcSLyR6eT3SzPX6NrbFrxGaGeRaaJzT2M+H+NjYHzrA02sW/yyqRv34jPHSRjaHLREausDXayf+etFDL+zujDgAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Oblates of Shantivanam</A>
+            <DD>
+            <DT><A HREF="http://oblatesofshantivanam.yolasite.com/latest-news-and-updates.php" ADD_DATE="1472614811" LAST_MODIFIED="1472614811" ICON_URI="http://oblatesofshantivanam.yolasite.com/resources/shantivanam%201.JPG" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADgklEQVQ4jQXB/VPTdQDA8c9XZsDh2APjmTwoi+OXoi6vTqxT6EosQEo4Btu+3/GgAqJmcFdpWhadaBQpGvlA6PF0KIF3I9jYvt8NBsGAwQZTuLR/5d3rJV7PySQ3PY2MFDM5qSnkZaSSZTHT8aGFqdZ9jNdnM9DwFr8oVfR+2Uhni50rNRX8UF7MFx8UIrItZl5OtZBuNpGTlkKmxYQl2cidsniCToFmF4zJ6XTWVdDdJvP9qTouVZVx+ZPDnH3/TUSmyUi6yUCayYDFbOLVjGS+LjbgcezGJ0v4ZIFbTqDPVsDV5houNNm4UHmUb44covnAG4hMi4m87DQyLEYKMpMYtCYTOf0SPlmHqghURaDJgqBTMNKQzcX6ctorSun46CCNRYWIDLOeFKMJQ3wSPaWJLJ3QUbEvie9KEllukphzCB5azfxhzWRRFjxQcmmrPEpLcRGNB99BpBv1HMnX0/FeEotNOh5XJ3Dm3T0MVyfwxBbPlJLIsC2NGzW5uB270Zw6btfk0FleQHPpYURqcjL3j+0hfGoXmiwxVy8RPimx0BhHX00KV6uyeOQwsVQv0BQJVZEIKILRWj2NHxch8l/Jpq88gaBTIqBI+GWBT4nD5dTz0Gbi2/Isbtdl4HXqCDgEfmUXqkMwUmug5dMSxP78PG6VJaA5BH55F36nDq1Bx6BVT8/nFgYdJqadiXgVHVq9Dk0W+ByCgWoDxw68jRi9f4vJP7tx32jFL8fhP6nHfbMW79lsfHaJoFOgntDj6a0j0GzG44xnuq+Dybtd/N7bhfiqo5Vfr/+Ips7gvl7J7HGB/9xetNMWNJvAaxeozUa09tdwVwtmbzrwzLpwux6juicQA/29jD/qZzmksraisXKvCa8ch98mCDgFAaeE3y6YccSxOthGbCtIdD1IZH2ejfA8Yie2wlZkkfVVjbW1OZ7Flon4B1DP7cVnF6h2gf98HlH1LtuxEJsb80TCAaLhAFvr84iFBQ8+7xSRjSChVS+LyyrRzRDeS4dwWyVmrBLzP5UQjS6y8o+bcMjL6tIsG+sa0Q0/4uncOJu+cXaCE+wsTPA08IRYcJqp9v24PhO4jgtc5wsJ/X2P6NQdtj39PPc+4IU6xH++IcSLyR6eT3SzPX6NrbFrxGaGeRaaJzT2M+H+NjYHzrA02sW/yyqRv34jPHSRjaHLREausDXayf+etFDL+zujDgAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Oblates of Shantivanam</A>
+            <DD>
+            <DT><A HREF="http://www.facetts.com/fr/" ADD_DATE="1473157822" LAST_MODIFIED="1473157822" ICON_URI="http://www.facetts.com/fr/img/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACaElEQVQ4jWWTzU8TURTF5x8xxkQlMcQQAjSiIERQkK514cKYCDEmBqKUiAhEoA0fBiqEROlGMLqwFjB8DAUqlNIQARUWxr9C6Jedacvcn4vO1CJv+d4995573jmKoigKYAe+AlEEwxARgIxxJJlMRgBERBAxgKhZa1fywGnMc2QYAMQ1jQeL0zRvfSGR0o+9mScN2BVg37owDEMA4rom97zvpHB8SC6pH6V5NySJlC4AJjtr4L4CxAExxARrSbk75aFgoIvy18NcX/RyeWWalu0g/zURIK4AhmFSiyWTcmdijLNdDmwveylxu6j+/IH61VnKl3207GzkNwEwFEuwaCIht18NcfrJQ4p72ilyPqd48AVVvimuqV7qlqcp9/to3g7yJ6VnKYiIIiBJXeeWe5BTjxop6nRwsbuNot5nFPd3U+WbpEb1UrP0ifrV2ew6uxvo6TQCogCi6Rr3376Rgr4ObMNOSkZclI72UzY+RO3yDHUhlRvBBRpCKpXrczi21kTXNERAEXOFWDQmTZMTnO/rwDbiosTtonRsgNqVGepDKg0bKhXr8zjCAWKHh1lvWAwsEaORCE2THgqcHZSZTGr8PuxhPxXrczjCAaIHB5BVHqwGIkJOzEiExikPha5ObKMD3FybozI4T2s4QMQCi1jERfn3rciRaaTFvW+c62ql+r2Hq5sqrZurx8D8a2DkjGSuIoAs7f/gQs9Trvh9tG2tEfmdBzZr842Us7LJQAJ73+WM2yntOyGJHRxK/mQTeMzKuTCZ7mLj108eL8yQiMVygpmUT4bpRJzB0FK6pJLJ/Bhbk0/E+S8HoF6Xn9DO2AAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Facetts Messenger - Be your many you(s)</A>
+            <DD>Communiquez sans contrainte, gérez vos multiples identités numériques. Pseudonymes et surnoms bienvenus ;) Ce qui arrive dans une Facett...
+            <DT><A HREF="https://getpocket.com/a/queue/" ADD_DATE="1470630331" LAST_MODIFIED="1470630331" ICON_URI="https://getpocket.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACRklEQVQ4jZ1SPU8bQRAdpYeCkiaiShlFkUCOjX27ewIlEhbEvtndQ9T0/A3KVCn5P/SEEiwnBrNzvk/L8p0nxflQIqFEyUhPmp2Zt3qaNwAAwHunm27v4z+B9043AQCAeniVKONI4BNJdCT1X4COBD4lyjjq4RXM/ZATZf4Lcz9kiKQuSeCKBK5I6vIZTe0PvUjqEkjq5rHKfcu5bzlRhp3UFQnNJJCd1FWiDOeq7kdrDkm9gub3QtkVCf3VeYEmieOFH7ITuHQCl3M/ZJI4dt0Bkhd8yZVdNcqBBFYksCxUyJPu5z4AwEPn5G2q9G3hh1woy6nSd4/dwTsAgGlvcFQoyySwJIEVkNRMUpepslWuzN2PzrEHAPD9w6fXM4HfYqlvx+3+GwCAaef4far0XaZstd4HAwk9J4HsBFaFspwpGz90Bj4AwGT3aGeye7RTqxr4mTSUK8uuVs0k9BxIBNeFH1YksSSBy0QazpSJJ/tDBeuY7A9VrswsraUvSWJZ+GFFIrgGJ4KLhX/KTgTLSODKCSxTZThVJqYe2sfuABNp4lQZdgLLeiZYrjkXMG33N5wIbuqtB8vGtlgZzpTlVBmOZWMrck0O2YngZtrubwAAgOudtHLfxnktcUFSVy9C4GJ9C7HrnbQAAIABXgEAjDrHXibtiA/OOJGG1+40ZE6kYT4440za0WjtVMN9Tu7b/e2Zh5eR0ONI6jKrXeFI6jISejzz8PK+3d/+jdzEr4VR63Br5qFP3vCcvOH5zEN/1Drcemn2J05cDHvh4qd8AAAAAElFTkSuQmCC">Pocket: Ma liste</A>
+            <DD>When you find something you want to view later, put it in Pocket.
+            <DT><H3 ADD_DATE="1470634792" LAST_MODIFIED="1470634798">Apple support</H3>
+            <DL><p>
+                <DT><A HREF="https://ara.apple.com/GetRemoteAdvisor.action" ADD_DATE="1470633559" LAST_MODIFIED="1470633559">Share your screen with Apple Support</A>
+                <DD>
+                <DT><A HREF="https://getsupport.apple.com/" ADD_DATE="1470633577" LAST_MODIFIED="1470633577">Apple - Support - Solutions</A>
+                <DD>Contact Customer Support
+            </DL><p>
+            <DT><A HREF="https://www.skrill.com/fr/fees/" ADD_DATE="1473657289" LAST_MODIFIED="1473657289" ICON_URI="https://www.skrill.com/fileadmin/templates/images/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAAQAAAAEABcxq3DAAABt0lEQVQoz2P8+fMnAwy8uPX45PLd909f//zq/Z+fv9k42XnFBMWUpRXNNHU8LLgFeRkYGFjgqo8v2bW9c8n////hIj++fP/x5fvre8+u7j7NyMRkFu7MwMDABJF7evX+9i4U1bgA1Ia9U9b+/wdVzcbNYRbuLCwn/v3j1/dPXz88e/PV3afoGp5duw8Xsor1cM4JRjb1w/O3v779gLChTvr78zdc+s7RS0+v3Pv1HREYApLCYsrSEDYjJJTmJrQ+OHMD2VRGJkYRBUk5QzW7FF8hWTGEOETDnWOXF6Z1YfUlMyuzW1GEVawHipNUrHQDm1PZuNgxNfz9/XdH17I7x69A9dfW1kJYkpryxoH2vCL8zKysDIwMP798h4cbAwPDt/ef9X2sEU7CBF/ff54RXvfh2RsIl1uQt+LwNIST3j1+iRZrnPzcHLxciODnYEOJh80tC59ffyirr8IvKcwvIfT7x6/bhy++uPkIrkFWTwVFAwMDw9d3n27sP4fVeayc7C55IegacAFuIb6ApmRheQkUDaahTgKSws9vPPr8+sOvr99/ff/JxsUhJCumZmdgneDJwYPwDACD3bAYSowdkAAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Frais | Skrill</A>
+            <DD>
+            <DT><H3 ADD_DATE="1470454636" LAST_MODIFIED="1471001872">job</H3>
+            <DL><p>
+                <DT><A HREF="http://timesofindia.indiatimes.com/home/education/news/Foreign-teachers-add-value-to-international-schools/articleshow/19686466.cms" ADD_DATE="1470454622" LAST_MODIFIED="1470454622">Foreign teachers add value to international schools - Times of India</A>
+                <DD>Canadian Sebastien Pellepier was teaching French back home till last August, when he got a call from Trio World School here in Bangalore.It wanted him to join as deputy head master.
+                <DT><A HREF="http://www.goabroad.com/providers/knowledge-must/programs/teaching-programs-all-over-india-94334" ADD_DATE="1470454900" LAST_MODIFIED="1470454900">Teaching Programs All Over India</A>
+                <DD>Teaching positions are an excellent way to become more engaged with the local culture while at the same time providing direct and personal...
+            </DL><p>
+            <DT><H3 ADD_DATE="1471971851" LAST_MODIFIED="1473742219">Vie privée</H3>
+            <DL><p>
+                <DT><A HREF="https://www.eff.org/https-everywhere" ADD_DATE="1471971823" LAST_MODIFIED="1471971823" ICON_URI="https://www.eff.org/sites/all/themes/frontier/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVQ4jWNgGP7gGgPDf3RMlmYYwGbIf3wY2QBcLkHWgNPZ6C5ANoRoA3CFB1FewIWHkBewuYDkdEBxYiJZM10AAMKI4pMwBO8fAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">HTTPS Everywhere | Electronic Frontier Foundation</A>
+                <DD>HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure. Encrypt the web: Install HTTPS Everywhere today.
+                <DT><A HREF="https://tails.boum.org/" ADD_DATE="1471972432" LAST_MODIFIED="1471972432" ICON_URI="https://tails.boum.org/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAL0lEQVQ4jWNgGAXDArBw/IdjXHxkGpsaDEl0MVxqcEpS1QW4XIQiRqwBuMJphAMANywpuef4fOEAAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Tails - Confidentialité et anonymat, pour tous et partout</A>
+                <DD>
+                <DT><A HREF="http://www.lemonde.fr/pixels/article/2015/12/22/signal-une-application-de-chiffrement-pour-telephoner-de-maniere-securisee_4836564_4408996.html" ADD_DATE="1471973893" LAST_MODIFIED="1471973893" ICON_URI="http://s1.lemde.fr/medias/web/1.2.694/ico/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABu0lEQVQ4jaWTu84pYRSGvzlU8ks0ouQGFBrF9BQKCYJCKSMhIcFkMs4ZhWi5B+7AFWiJxhVINDTTOmSeXeyMsFHs/MWbrKx868m7vrWWEELwS/0NJElCCIGiKKiqiiRJyLKMLMuPvKIo3wHPkP+SV6RpGrZtUygUGI1GRCIR0uk0yWQSRVEoFotkMhlUVeXn5+fVgaqqrNdrHMfBcRwAttstx+ORy+XCYrHgfD4DsNlsyGazz44FsiwTj8cJhUJYlsX1emU8HtNutwGYTCZEo1FOpxPL5RKv5u0PhBB0u10Ams0m5XIZ13VpNptomsb9fseyLDzXLwBFUZAkiV6vh+u6GIZBpVIBwDRNqtUqAMPh8PH+4xg9QKfTQdd1AAzDQNd1XNdlMBh8BngJy7IAyOVy1Gq1hxsP5jl4a0EIgd/vZzab0Wg0EELQ7/e53W6Ypomu69zvdwzDeHcQCAQwTZP9fo/ruhwOB1qtFrZtA9BoNKjVagDsdjtisdjrGFOpFKVSiXA4zHw+ZzqdEgwGqdfrTKdTfD4fiUSC1WpFPp/H5/N9XuV/9WX3P9+CLMuPSTwtyUv8Bfq7c/4DCKGu3jHzzZwAAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Signal, une application pour téléphoner de manière sécurisée</A>
+                <DD>La société américaine propose une application gratuite pour smartphones permettant de chiffrer les appels téléphoniques et les SMS.
+                <DT><A HREF="https://desgeeksetdeslettres.com/hardware/difference-proxy-vpn-anonyme" ADD_DATE="1471974166" LAST_MODIFIED="1471974166" ICON_URI="https://desgeeksetdeslettres.com/wp-content/uploads/2014/02/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABrUlEQVQ4jb2T7UtTcRTH97dNjbvrw2ZMQZ3G5hNSoZHmE628tJHpmGhPhKVkRS+F7ryTyZ0KrWm75VUjyxdl+kbrhZRarO1+epEsfmANEnzxe3O+53z4ne85x2ZXJY7zbH8TpKlSHr1/8v+Aung9+z8PKFRlIV454+FUpCQ/oDbuA6BG9+ZinQu97Bx8RpoqEwHOaTfJ7UXOP7+QExyak6yVpXn+HHZVomn+LN8zPxheuXV0CyOrt8lYGe6vjefEd7vr1Oo+iiLFfPy6wcyW/m8PFCPIXnqPiUPzfLPN2FWJ1kQ7kx+eURQpzm9iRaxa+EXeKVxK9hDdjBFeHsH/UqF38Qr+lEJbogNZc1IaPU1rop3+pRCDZphBM8ydN/d4sPaQM/EGbB7di/llWaAWqA6upq5hWRbpbJqLL7qE0RWoDja+faJhruV3CzdX71IWdQsQj+5lwAzzeP0phRFxF2TNxejbsT8eyJqLkDkkJPUvhZA1F3XxeroWLgta8PUNyqcrRRPdsSr6jAB9RgB/SqFxriVX0JHsRjGCBF5dRzGCeGeb8m/isY/pxAC/ABwHdK0BajMWAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">La différence entre un proxy et un VPN</A>
+                <DD>Les proxies et les VPN permettent tous les deux à l’internaute de surfer de manière anonyme sur internet, voyons quelles sont les différences qui les séparent.
+            </DL><p>
+            <DT><H3 ADD_DATE="1470634766" LAST_MODIFIED="1470634782">next Bento </H3>
+            <DL><p>
+                <DT><A HREF="http://alternativeto.net/software/bento/" ADD_DATE="1470634418" LAST_MODIFIED="1470634418">Bento Alternatives and Similar Software - AlternativeTo.net</A>
+                <DD>Popular Alternatives to Bento for Windows, Mac, Web / Cloud, iPhone, iPad and more. Explore 12 apps like Bento, all suggested and ranked by the AlternativeTo user community.
+                <DT><A HREF="http://giowck.github.io/symphytum/" ADD_DATE="1470634654" LAST_MODIFIED="1470634654">Symphytum by giowck</A>
+                <DD>
+            </DL><p>
+            <DT><A HREF="http://www.in.ckgs.us/visa/tourist-visa-getstarted" ADD_DATE="1473929010" LAST_MODIFIED="1473929028" ICON_URI="http://www.in.ckgs.us/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADB0lEQVQ4jUVSTWhdZRD9UNSNKxcu+t6933w3r6/E1CKatv4EtWprTDGUasBFqBaJqLULtRsJyZ1575nWhX+IkCCVVkSkYEGy8gfBghRBbTdRS0ykkSYFqfJy78x7ER/Hxb3BgYEZ5nDm54zLuTqs7OeVaU2FVpVpTZmuGdO3Kv6sCl019kvWqu9yzjnlaFTZLyjHCyphwhn7JZMAFVrNJexdbyVDxmHRmHom9K9JAuOQ5c36IzodvaDsVy31l4wrTy6wu9GZhF4BShaVoy1nxtz1mfTt0WZtVCWcKmrUMQnnjL1pGn+fT1Vvd5tmQgWBJL8ZV6rM7jrlaMvfk8Er00xRC10TWjYJ0DReWJ+q3PM/AYeNcswl41q1zQO3mCTfKIcrJsm6SQLl0M4afU9pGs8bB1ga/5JNRvc755zTNHpPObRNyLSRfGYSzhgHNQ4dE1o2TjZMKM9b9adzjsc1jf8wSWBpdEmnq485lXhCma4Yh55xuGxCvxYjJ11lf16FLhqHnjKtmYSvVegn48270Tmn7NfKFS5rKxnMuO9WZTpddKffSzIo+ws5hx2dVr83CUdVwlQu9JozTrJNFaxVrywerd10rbU9Wm9u25a93r89Z/+WSrhqEv5RoZ+V6WTO9Ey7mWwtVSgOZZwstpv9W1VoRjnMK4evVMKXeaM2njPdoRKOGNMnJrRS/EhYMY5POJNQEAgtt48P1DKObzMJH5sElApcUKbTeSN55Ye5u27QRn2nSVjZlNfpdOWUpXFm7Lua0heaxh8Y+++MvRlTT8X/ZSltaBr/qUyzxv4jTX3bUp9pGn3uuhfP1m1u/1hndmTG3hk6bu/vO2YzO3Z3Th58Nj8xcKg7OzLc+fDAeOfdByft7aE39M1drc7c/imbHT248eOn/Q7AAQA7AQyXPgrgZgDPAYgB3FtiHgUwBuDxMt8D4LADsA/AIIAHAAyVTgDuAxAA7AawF8DDAO4EcHcZPwRgxAGYAPA8gMMADgFIAbxYxoMAXgVwDMDLAMZL3BMAXgJw5D/EvGVkEmlh5AAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Indian Visa | USA</A>
+            <DD>CKGS USA provides Indian visa application services. Find out more information about Cox &amp; Kings Global Services with application service centers located in Washington, New York, Chicago, Houston, San Francisco &amp; Atlanta.
+            <DT><A HREF="http://www.fakenamegenerator.com/gen-random-fr-fr.php" ADD_DATE="1474108639" LAST_MODIFIED="1474108639" ICON_URI="http://www.fakenamegenerator.com/favicon-16x16.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABm1BMVEXtDRXtDRXtDRXpChLnCBDnCBDnCBDnCBDpChLtDRXtDRXtDRXoDRXkS1Hlc3fkcnbkcnblc3fkS1HoDRXtDRXtDRXiDBTqoqX////////////////////qo6XhDBTtDRXtDRXgDBTooqX+/f38+Pj8+Pj8+Pj8+Pj9/Pzon6HhDBTgDBTooqXuzs/QUlbXTVLXTVLXTVLYTlPdNTvoDRXtDRXru7zRDBPgBQ3gBg7gBg7hBg7oChLtDRXtDRX04ODjj5LojI/ojI/ojZDog4fjJCvsCxTtDRX67u7cOT/rChLtDRX9+vr47u/57u757u757+/13t/dNjzrChLtDRXsycrNPULWOD3WOD7WOD7aNTvjFRzsDBTtDRXtvL7aEBfqChLqChLqChLqChLsDBTtDRXuvb7dExrtDRXtDRXtDRXtDRXtDRXgDBTooqXtvb7dExrtDRXtDRXhDBTpoqXuvb7eExrtDRXtDRXnDRTeSU/dcHTccHTeVFnlDxftDRXtDRXtDRXsDRXnChLiCA/iCA/mCRHsDRXtDRX+jdCtAAAAAWJLR0QYm2mFHgAAAAd0SU1FB98FHBY5I0nbQAcAAADLSURBVBjTY2BgZGJmYWUDAlZ2Dk5GBgYubh5ePn4BIOAXFBIW4WLgEhUTl5CUkpaRkZGQlZMHCigoKklIKKuoqqlraGqBBbR1JCR09fQNDI2MTUxhAmbmFpZW1ja2dgxQAXsHRydnF1c3d5gAGHh4ennDBHx8/fwDAoOCQ2ACoWHhEZFR0TGxMIG4+ITEpOSUVC6YQFp6RmZWdg6QDxTIzZOQyC8oBHoDDLiKikskJErLyuECFZVV1TW1dfUNUAGGxqbmlta29g4oFwC80Cv02CWrOAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNS0wNS0yOFQyMjo1NzozNSswMjowMMxSDC8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTUtMDUtMjhUMjI6NTc6MzUrMDI6MDC9D7STAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Generate a Random Name - Random, French, France - Fake Name Generator</A>
+            <DD>
+        </DL><p>
+        <DT><H3 ADD_DATE="1471581132" LAST_MODIFIED="1472718623">hébergement</H3>
+        <DL><p>
+            <DT><A HREF="http://www.gresille.org/services/hebergement_web/" ADD_DATE="1471581125" LAST_MODIFIED="1471581143" ICON_URI="https://www.gresille.org/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHsSURBVFiF5ZfPjtMwEMa/GbsKJ3iZvgUIcdiHaCVeoJU4skIcOIIQB54BdnmQ3vsS3HBrz+xlHTlpEsdupEXakXKJ7G9+zvzxhFQVT2n8pN7/BwA78K5Zr9f/VBXxKTUiaveKCIjIHQ6HF3MBoKodkQhBREUQUSuEMLruAuB4PLbk5/MZqupE5EJ4yjEzY7VaQUSaYoBIraowxvy9/fbm1aTHCdtv77PAo0lYG//UjDH1ABHiGpuTM4MhGBJgtvjw/s9FYg45IqJOElYD9G2sOvogqXMRmYQoBlBVnE4nAOhUR1qqxhgYYyAiTU5zNkB6aiJyn76/zYrvNnedcFwFEC0nmBozt3sWAYhC1loAcCPLmnR9DrYqCUMIzW5zB2Zuk1JEwMzu49fXJZLL3IYRwnt/8T5nxTkgIvDew3sPZoa1FsycvXQWAwAAZnZfft40AEBksNv8KropO1qlG/qJFeu+FqCqDPtVQETZnrAYwGPGN/vtfXvyOS13EYAQQtoNW4fJ8LIMwFg8Qwjw3ren7UM8huZ6gCEI1YDPP97l9IpzYRIg9vJaq25E8fNaawlgV1piyVzQ5Ea7yaA5517ut787tT8HJq4XkbqBpJ/tc6/gdBLqjfZlAN57hBA6vb00DOkAY4wZh372f8cPQoFJAkiTa0UAAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Hébergement de sites web Grésille</A>
+            <DD>
+            <DT><A HREF="https://indiehosters.net/page/home" ADD_DATE="1471582417" LAST_MODIFIED="1471582417" LAST_CHARSET="UTF-8">home | IndieHosters</A>
+            <DD>We are hosting your free software, and we respect your privacy. We are an alternative to host your data and services online.
+            <DT><A HREF="http://www.hebergeurslibres.net/wakka.php?wiki=ListeHebergeurs" ADD_DATE="1432295876" LAST_MODIFIED="1432295877" ICON_URI="http://www.hebergeurslibres.net/tools/templates/themes/yeswiki/images/favicon.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC8ElEQVQ4jY1Ta0iTYRR+vl3MWekMCi8opl+JlmJOV0bZRxndNE1dV02xMqmsBqEmFC/dVKgkS2NRaZqkKwLLpmuudbGI1JrWbLpk6rIgCvoTRKmnH2LokOj5c36c23Oecw4wBs7J/oWhXeHx2JaQ/qA7OlZvi1ITkcg55p9gxERGWxxrtkZdb+wO+cTYFAWWnymbHaM+L1txrDw6q6I2cJwNYxABxOms4cYma6TeZE9e8uTDVr9JyQRwgbmnrUEHT5XEsUvZimPnwyaOY+iNC2m08r+beiI0+h6l+llf0jZgAgs+t8w9Mv9sYYi6qCr4cHFbmqbGmwRIiEhs7ElSGvqiOnTWsB8AiaecMankqnIpu7gvVF1ywSfnxHf//Scdi4+euyIwTcGdjpw9Lx1rw4222FLbIB+0Tpc7TdOeLQUjEYgmC04At7yw1Js/VGTxOXDmiDyTycd9De83Jue3Xt7s3Jy/+c0dADiVaoELBEECADuKyqNT1PmHACBbo5CqtCoxIxIF1juKPasHylY2Di2N1X+J9a9zHF/VMLR68soASW/awg1d28NUAEAaSKHVigES+dZ/zHC99ZVcKgd/Tq/9bJ9T67g0q6Y/BfZMwbVzZ0SGRbVgFkCitjVz7pgTfOPvKxRu44XV96p3hd/uLd1i/B7kUzeU6HHDnu9W1X/VvbrfAgDo3C0sMafyZy0r3a6/E2TUsd7vyQBbVECmgIyfD0Pm/Wj2uUaAFADklXZ58G1HXlardeayxgFPmNd4KdtXzbz/OtG/uGuFyy9zctAmYiYJvYiRDRvnp4/qXAdJN+MtQFJmGtNJ1fI5VKFplwIAzPFeylfCjLtvEvzK21L4LGelqck9mh5JaNgUnDrFFYyvkriu9MhMc06MLwEiABzRmJP0nvGjD71fjxq8ng63zE0lU4ArY2zSP3AEcBat1mXiTQDAbwMvjDyNyBtpCdg70uxRMfyIz6K2uED8L8gUIQdIPKKTlY42yZ9PFfMH9xkv/iHljEAAAAAASUVORK5CYII=" LAST_CHARSET="windows-1252">WikiHebergeursLibres:ListeHebergeurs</A>
+            <DD>
+        </DL><p>
+        <DT><H3 ADD_DATE="1473740303" LAST_MODIFIED="1474270290">openClassrooms</H3>
+        <DL><p>
+            <DT><A HREF="https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/variables-superglobales-sessions-et-cookies" ADD_DATE="1473481856" LAST_MODIFIED="1473481856" ICON_URI="https://openclassrooms.com/favicon.ico?984ca66" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Variables superglobales, sessions et cookies</A>
+            <DD>
+            <DT><A HREF="https://openclassrooms.com/courses/trouvez-un-job-qui-vous-correspond-2" ADD_DATE="1473868007" LAST_MODIFIED="1473868007" ICON_URI="https://openclassrooms.com/favicon.ico?3c1a8d6" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Trouvez un job qui vous correspond ! #2</A>
+            <DD>
+            <DT><A HREF="https://openclassrooms.com/courses/prenez-en-main-bootstrap" ADD_DATE="1473868060" LAST_MODIFIED="1473868060" ICON_URI="https://openclassrooms.com/favicon.ico?d2fcc11" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Prenez en main Bootstrap</A>
+            <DD>
+            <DT><A HREF="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3" ADD_DATE="1473868037" LAST_MODIFIED="1473868037" ICON_URI="https://openclassrooms.com/favicon.ico?14121ec" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Apprenez à créer votre site web avec HTML5 et CSS3</A>
+            <DD>
+            <DT><A HREF="https://getbootstrap.com/getting-started/#template" ADD_DATE="1473869177" LAST_MODIFIED="1473869177" ICON_URI="https://getbootstrap.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACR0lEQVQ4jX3OSU9TARiF4fsf+kOk84ASTMRO0BYoBtCFW6QjLZQCxQIbVMToCnZGadTEJroxkaUG1KAYw6AUDCBlqNIgtYS7oHldXG6xxbB4duc73xFy6ZxiNPYkea1mQGy52E+J6n5aqmM0l2m9FBdH+hLJXDqnEEb6EskrF3ppOl+uB7essgd3ZRR3ZZRGmSnKnehEUmiujomnw/876KbR1E1DUYSmqh5RKA+/mfzM2spWieXFDV49n+K6bZB6Y4R6Y5fE0IXQaCptTy38ACD7a5+N1Qw7m1mOjgoAfJr+isvQWeTUhxEaTBEajJJ6Y6RY8GDoGS5DFy5DJ7d6HgGw/zuPUx/GqQ/j0Idw6EMI8hw5LBfcH3paDI/EJgCYn/2OQxeiTtch0XYguAydOI/nOPVhUgvr0re9PJmtLLuZPQqFAgf5Qzwtt6nVBovsmgCCPMWhkyzNSwVzsyu8fvGOyZfvSS1Kq9LrP3FXRbBr/Ng0fmxqP8LJHKlVLrg3kMCuCWDXBKjTBdlO7wIwHH2ITe3DqvZhVXkRarVB7NpAMbw0vwbAaDyBTe3DpvbhNHaQ2c4CcPfmYywqLxaVB4vKg2A/niLx8e24YHV5k5mpBT5OL7KzJR0f5A+5au7FrGwvEqQp0hyrysuXmRQH+cMS+3t/+PB2jvbWYczKdi5X3CgS7Fq/aFF5sCg9mJWekvbysKymoo2aijYsKo8oDIbGkyfhMw7OnRYPjiWFdDqniAfHk1a1Vzwr/C+LyiPGg2PJdDqn+Avv8mz0O1/EtQAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">Getting started · Bootstrap</A>
+            <DD>Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+            <DT><A HREF="https://openclassrooms.com/courses/decouvrez-le-framework-php-laravel-1/presentation-generale-14" ADD_DATE="1474025676" LAST_MODIFIED="1474025676" ICON_URI="https://openclassrooms.com/favicon.ico?d2fcc11" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC0ElEQVQ4jWNgoCY4LGJkfFjYcGGBgIDAKgNpg5eBqgte+CvpEtRYJS0aViYiInVYwFB/P7e2BAMDA9MFZyW1F4Eqc58Eqch8muFh+a7L3XYzgxQXhuYsUQaeaimRxgpJEeMP07yVGBgYGGqkRDbWSAtn/rqfa/HjXqb615lem15WuR48LGz0Z4KE7PRaGWFzDIO+zPQs+zLDy4OBgYGhUko4IJSBgfnPw7z7vx/k9dVIi2xdG2NS9fNa5pnXs3w3HEg0WlklJZIC1eg17/YkT/bPM73Sd8UarKqUEPV67qui/SJI9cS7NkfrI5JG0X368lsONDt3/b6eue/zLO+VpxJMl3ZKSe3ZbymjwvBhspsizBU1UiKbq6VFMh77yEg/D1SeftpE3fqwsOHC8wEOCt/2xkl/neW9+nWK7pkbFtr7jogY/X/mpzqdgYGBgeFloErdM18FjYYGBqbP093EGBgYGKqlRYqqpUTfhDIwMMMsCGVgYH7R47rr+87IrX8e5n6okxc7xsDAwMDw3FfZ81mgvObX6Z6pX2d5/ft1M8PsSKZZytZw/RnoYXXF1XrKvSibRe9qbXZcKLRaw7BXwFD+iIjh7YPCRpqvJ7tK/dgX0/fhQsrau032jR+meuzcnWbMD9P8Kkub54Kl+frrTqZrnweoXnva7rwBbnKaFANXjbRo2/4GB4lqKWH/GmnR/yu8NNS+zPQ69ybHyOl1hoHD11lex3/fzTnz+XDqviMiRv8bpMSa4AacmWnMuiNSS7tGUrilWlo09G6j47TP09wbX0ZoHfm2JXz5+2WRa04omRxZEWa4Zl+u1bJ3ne7bZxqriaD4r6GBgalSSsSvWlI49nWdXc/rMss51z2U9r2YH7TkydSwlTtEdPbNMFJYuSVEd+6nWd5WeBI3A8NLP0XxR/7K1TVSItd2iujt3SKqfbpaSuTq3SbHIlhMDQ4AACoAFiMIKy8VAAAAAElFTkSuQmCC" LAST_CHARSET="UTF-8">OpenClassrooms - Présentation générale</A>
+            <DD>
+        </DL><p>
+        <DT><A HREF="http://localhost/phpMyAdmin/index.php?db=&table=&server=1&target=&token=a6cee01abf0215d534ebe45e8fbdecf1" ADD_DATE="1473787866" LAST_MODIFIED="1473787882" ICON_URI="http://localhost/phpMyAdmin/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB6klEQVQ4jZWSTWsTURSGx4Ur3fgDFLt35WwVHFzooow7kRK30QuiFcTi6HYEQQxmI0NRLoQGRLqItjoyVBFbybTRirajFgIppLXpxOggiR+1ebq4zkRpjHpW57z35TkfXI1N0YbWCjSXYH0NvqxC/eVm28/QuqofXsH7p/AtgkoB3gzDWutfAG3VrbkMS4+hPgtTp6F8G+ZvwPr3vwBaNZi2OsbPi5Dvg8YcuKaapCdg+QlMnurUlQLkd8PqDEwMwOheaP/oAXh9HZ6d7dSPjsOdPVD11ASOBu9kD8DDIzB9UeXhc7i5DcYPweI9GNkFw1thZCd8fNsFUJ9VhoWcqgv7VEfvqFrt1nYo7Ffa/cNdAP4F9VgrQvgCnC2qnhiAmq/ysYMQOEqLyr8AvjZA7lCmsAQP+lXuaFA8D4159Z7vg08Lyr8yBVH5Dx/pP0IDMIxBhMhgmhaplE2sSemq7fwAXU9TrYYACJHBttWttChqYvafS4ixUdfTiUmIDLqeTmBxMwDN9wOMA2cQ6cukjl0iey2HPznD0JCDEBn84hzixBXEyasAmKZFEFQwTYtqNUST0sW2c/h+QBBUAJDSRUo3WS32SOlimlYygeeV0Gw7h+eVfjtMDIx3ldLFce5iGIPJHaR0yWZH2QCdI2obyVFyfwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">phpMyAdmin4</A>
+        <DD>
+        <DT><A HREF="https://convertdb.com/sqlite/mysql" ADD_DATE="1473818970" LAST_MODIFIED="1473818970" ICON_URI="https://convertdb.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABrklEQVQ4jc1Qv0sbURz/RNNFYoZw6t1XWjp0KEVwDBRr7t5DEEqHDoVCS+cOpUNdgovp5OKolNP74SZm0D8hoLgF47uLbcK9B1LUwaVLCybLdbgm5Jdz/cAbvt/3+fUecP/gB9vwggb8s024Zwt4Ux4fRWuapH1/oRn9W7s6AT+8hh/G3eMFAbzwPUqlsV6qtPQPUT6XHUgXyz3CNjzxp8dsD3b1AQBEXH+m2OzHEfVDJxGLK3giD6f2sq+NW58HAMno8IepPx5RX1zCD37BEXMAAPeU4Ik2/OA3/PNVAKmLwvRrxYyjUelLSUrtXWf1amVDyzqnX2FXHyUfN6lJTj8lo0/DBl64g91gHwCifC4bcWP1wpqpn5tTGQAoAWOKUVlyat1Vvw63QU1zUlOMGopTLDndysXcQwBQTF9TnGLF6RhAqt/AEctww5WkJj2VjNr/yLFixrrkht2ZpUWfh+u7QRF2daIzSj7zVjLjpmvCKVZ8NpacWtKcetIv/iam4dWeD3o2TdIUo2LnOYpTLBmdDKdvVTIoVdLDFwkqJtKRpRckMw4iy/hyF+//4S8CCNMy1m7WfgAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">SQLite to MySQL Migration and Sync</A>
+        <DD>SQLite to MySQL Migration and sync. Convert and synchronize data between databases in both directions.
+        <DT><A HREF="https://dbconvert.com/sqlite/mysql/" ADD_DATE="1473819016" LAST_MODIFIED="1473819016" ICON_URI="https://dbconvert.com/favicon.ico?" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABu0lEQVQ4jc2SUUsUURiGn4ZxZWfGmcadHYZZp4JgyVa7iIoVbJESkiATbCOWFFmIQEHUFpZmSewyoYgISpAEt6uIIolAG6Sf0UW/ICREulqC44XMckak23rhuziH93m/73wc+N+kNLC2qhgvL9A5Cmh/deu6lzj3opaaiiviWsXZm6FrPU/HpSNwNV24eitxcw99VQ6Ia/1YVixgvQPM2GtcHJ/FPt0n89oKmd2m4opXOD8HSVXKaIty0F30ZQCOe6eyUy++AUqbLpK6HcMenAXoAieGV8j8yqMOAooz8XRbL5YXEuPXMDfWcFqFA1N7qc/IfB9HWzTABdAH7tRy9c0/iQUa4K7htEZJH6QahmsOVZe8meYPQG1vLegv9dQ3W07lyZdE9xE6ZxtYW4CiBv2l3INPu0EYiSCMBIbhAmAHff78h50gjES6MFyReeURVmTDCQBr+P5yDAdhJMyh6pJ+7tqkP/9xJwgj4dc29pD/hw9nRtCmpUCzu/z4fc/Dr0IOiqv7Rv1NYvwBUmPyO2N15HqL9s3GW7/2+bccoJ48fyVhzIJ3GD4kI5W/PGZfn3vtTD7fPqrZv9U+xSWNh0s6LgEAAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Convert / Sync from SQLite to MySQL</A>
+        <DD>SQLite to MySQL Migration and sync. Convert and synchronize data between databases in both directions.
+    </DL><p>
+    <DT><H3 ADD_DATE="1350051375" LAST_MODIFIED="1436615532" UNFILED_BOOKMARKS_FOLDER="true">Autres marque-pages</H3>
+    <DL><p>
+        <DT><A HREF="http://dotepub.com/" ADD_DATE="1432122552" LAST_MODIFIED="1432122552" ICON_URI="http://dotepub.com/i/xfavicon.png.pagespeed.ic.-bP8OiIiwq.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAGZQTFRF////hbolhbolhbolhbolhbolhbolhbolhbol////hbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolapF6lgAAACF0Uk5TAAYMDRkaICUsLjM0TFNfZWdyc4aSmZqfoK3AzNPa5fP54Ul89wAAAGlJREFUGNNlj9cOgDAIRal71D1arVr5/5+0oqkmnAcClw1AxEkiyMnJFv2k1CADeLPVYtFhuuypas2JxDFGVL++sVPqu2u26DGpm7DhDymg2P9CE3CBtbChfC07jJ8OUPaT1oMM4cO/DxcdYRL4xAu0NwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">dotEPUB — download any webpage as an e-book</A>
+        <DD>Tool for automatic conversion to the main e-book formats: bookmarklet, Chrome and Firefox extension, widget and API
+        <DT><A HREF="https://www.hostpapa.fr/commandes/hebergement/Completed/" ADD_DATE="1436615532" LAST_MODIFIED="1436615532" ICON_URI="https://www.hostpapa.fr/themes/hostpapa/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADOUlEQVQ4jXWTXUybdRSH/15o4oWaeOmtiTPRZHw4YIUWjJKRRadbWHR+ZIkjMk0muGnGoFtbkKlzotEgy2Bh4gh0AwYICoWVroUOS3HMlRUGAQqv1I5+veUtvODg8WIJxoDn6lyc58k5OfkJsUWF56fzgyNXLbOulrapiVFzIBj+UZblJ7ea3Qz7/vg82FmEv6UA3+UjzLQWc/eW846qqs9IkpQfj8ef2gRFo9GkWCz2rKqq2wK9Z5CaCwh0nEC16sF2nKjtq6DP56uekyRkWc7ZJPD7/cfm5v2BiRHH8JLlOFHrae7bTiI7viF04wLLXUeRbltZWlljfHy8cZNAkqQSOa4SGu0heu0zluIKoZvNhKfc+IMRlOtfcM9eibKyhsc7OTEHj/5H4JPmL8pLfxP1/IIyVMP52p+o+aECe3crr+Ye4Pemcpbtp5m+PcCE5Vx85s5QTyQifySEEEJWlHdmvcMNvltWpBuNxPsr2Pfmu7zxWjY99Wd5LlmDo/oIa85SJi8fZbI+n+mBRo+iKNuFEEL8FQhUeJoMeC99gNRWxLqzjPqvP+bKl4dYvm6i73whka5i1h1G6DcS7vwUv3eg9t+3hcNP+IY6WhfaP4F+Iyt9p4hZSsBZCg4jDJZxr7OYcFcJOExg1xO0f6+oqvr0hiTotTXftxaBw8SiRc+f7Q/6dbsRBkqJdutZunYKnCbW7QZiPQYWIwtZD2h4aMHV4MF2gjW7EZyl3KwrJNqth8EyVJuBC6aD1BgOotoM4DKy/FtVbHV1NWFjg8iM+7t1WzEMl+O6WED2yy+Su2cXhYf28ta+HFJ2ZpCYoiHvwCt0fJuH+Vz5Yktbx69CCCFCodDjY3cny0bbz6z0VR1m966XSNVo0WRoSUxJJ2GHBq0uE11mJqkaLQkvpPL89kR6e3vLhRBCuN3uh9vafr6SpkknMXkHaekZaHU6klPTeX13Nsfy9pKWriU5ZSeJSUlkZmVhNpsbgEc2TgAea2pqqs3dv1/V6nRoMzR8+HYO4+ZCcOpxVb9P5cn3qKuruzQ1NZX7v0mMxWLbxsbG9oy4HGdDA1WzymDlfMRdN7LouWpfDUv5WzH/APFBSXxmqm5yAAAAAElFTkSuQmCC">HostPapa : Fournisseur de services d’hébergement Web 100 % énergie verte</A>
+        <DD>Hébergement web français et enregistrement de nom de domaine français. Lancez votre site web avec HostPapa. Soutien 24/7.
+    </DL><p>
+</DL>
+		<H1>Signets Firefox 1</H1>
+
+		<DL><p>
+		</DL><p>
+	    <DT><A HREF="http://www.hebergeurslibres.net/wakka.php?wiki=ListeHebergeurs" ADD_DATE="1432295876" LAST_MODIFIED="1432295877" LAST_CHARSET="windows-1252">WikiHebergeursLibres:ListeHebergeurs</A>
+	    <DD>
+	    <DT><A HREF="http://www.spamgourmet.com/index.pl?printpage=faq.html" ADD_DATE="1433237138" LAST_MODIFIED="1433237139" ICON_URI="http://www.spamgourmet.com/favicon.ico" ICON="data:image/png;base64,AAABAAEAICAEAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAA//////////////8AAAAAAHd3d3d3d3//////AAAAAAAAd3d3d3d3/////wAAAAAAAP////////////8AAAAAAAB3d3d3f///////AAAAAAAAB3d3d3f//////wAAAAAAAA////////////8AAAAAAAAP////////////AAAAAAAA////////maqZ/wAAAAAAAP///////5mqmf8AAAAAAAD///////+qzKr/AAAAAAD/////////qsyq/wAAAAAP/////////5mqmf8AAAAAd3////////+Zqpn/AAAAD////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////+AAAADgAAAA8AAAAPgAAAD8AAAA/gAAAP8AAAD/gAAA/4AAAP+AAAD/gAAA/4AAAP8AAAD+AAAA/AAAAPgAAADwAAAA4AAAAOAAAADgAAAA/////////////////////////////////////w==" LAST_CHARSET="UTF-8">delete</A>
+	    <DD>
+	    <DT><A HREF="https://www.transfernow.net/26iw4201hq2l?lng=fr" ADD_DATE="1448771459" LAST_MODIFIED="1448771459" ICON_URI="https://www.transfernow.net/img/icon/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABb0lEQVQ4jbWSMarCQBCGAyFVINgY28m2bsAyprLJ1slWFkIsNdUWbiNE0pjCFTxCjpAj7BE8Qo7gEeYVRonyVuHBG/iamX9+ZmbXsv4jlFILpdRFKaWVUvp8Pjen02n9tbGqKqjrWtd1jQa64/E4MxqUZdkeDgcccC3LUr/lbvv9/tVECDGSUnZSyrWUEqWUrRAChvXdbnfpayil7IQQo6fBdru9FEWBRVE0m83GuOtAh0/dcrmEPM/xwWq1WpgM0jQd5Xl+67WtZVmWxTmvOOc4oPl06CzLNOccsyzTz2SSJJoxhkmSXD81M8YqxhgOuE8xn88vcRxjHMcYRRGYDKIogoeu197XpZQuwjDEMAyRUtqaDKbT6ZpSWv2qC4JAE0KwpwWA5zMBwIgQ0hBCEABEEAQdALxOOh6PZ77v3yaTCQ7Qvu9f33Kd8Uiu6848z7t6nocGOtd1zV/5EbZtp47jNI7j6J7Gtu30a+Nf4gdzFMniWgiuMAAAAABJRU5ErkJggg==">Télécharger - TransferNow</A>
+	    <DD>Télécharger vos fichiers dès maintenant avec TransferNow.net, le service simple et gratuit d&#39;envoi et de partage de gros fichiers.
+	    <DT><A HREF="http://www.allaboutturkey.com/dervis.htm" ADD_DATE="1453031203" LAST_MODIFIED="1453031203">Whirling Dervishes - All About Turkey</A>
+	    <DD>Whirling Dervishes of the Mevlevi sect originally come from Konya province and they continue to practice their 800 years-old mystic tradition even today.
+
+	    <DD>
+	    <DT><H3 ADD_DATE="1468811854" LAST_MODIFIED="1468811861">hackintosch</H3>
+	    <DL><p>
+
+	        <DT><A HREF="http://www.hackintosh.com/" ADD_DATE="1468811854" LAST_MODIFIED="1468811854"></A>
+	    </DL><p>
+
+
+	    <DL><p>
+	        <DT><H3 ADD_DATE="1459238312" LAST_MODIFIED="1459238346">VISA India</H3>
+	        <DL><p>
+	            <DT><A HREF="http://ivsvisalanka.com/ApplicationSamples.aspx" ADD_DATE="1459238326" LAST_MODIFIED="1459238326" ICON_URI="http://ivsvisalanka.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVQ4jWNgQANvdJUD3ukr73+jqxyATwwneKev/P6dvsr/d/rK+/GJ4TFA5T+mAZhiowaMGjD8DVC+jyUzYYjhBK+0FQze6qk0vNJWMMAnBgMAXUDIwcQiI24AAAAASUVORK5CYII=">IVS Lanka</A>
+	            <DD>
+	            <DT><A HREF="https://indianvisaonline.gov.in/visa/info1.jsp" ADD_DATE="1459238342" LAST_MODIFIED="1459238342" ICON_URI="https://indianvisaonline.gov.in/favicon.ico" ICON="data:image/png;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAACQVQ+NVQ6QVQ2QVQ+QVQ2NVQ6PVA6SVQuPVA6NVA+PVAyPVQ2NVQ6QVQ2PVQ2PVQ2PVAyRVg6NVQ6PVQ2SVQuQVA6OUw2NVQ6QVguOUw2QVQ+RVAqQVQ2QVQ2PVA6PVQ2PVA6OVAyOVg+QVguQVQ+PVAyQVQ+PVQ2RUwyPVA6QVQ2LVA+PVA6PVA6PVQ2QVguQVQ2RVg6NVA+OVAyQVguMVA2PVQ2PVQ2PVQ2QVguPVQ2RVg6PVQ2PVA6PVA+QVQ2PVQ2PVQ2NVQ6QVguNVA+QVQ+QVQ2PVA6PVA6QVQ2QVQ+PVA6QVQ2QVguNVQ6NVQ6NVA+jdDzk1cLj1cOeay3Kqobk1MPi1sTMtZXl1sO3lGildjnVv6P////KqoaQVQ2QVQ2rf0n///7+/v6yilr8/f///v////zm1cL7/v/Uv6T9///////////FqYaNVQ6PVQ2sgEr+/v7////39PD///7////9///j1cP///7///z9///79e6daiyPVA6QVguPVQ2qgUr+/v7////+//39//////79///j1cL///////7///738+6WYR6NVQ6PVQ2PVQ2pf0r///7///v//v/AoHf///7///7k1cL8/v/Tv6b28+/////+/f/Mq4SNVA+QVgujdDzj1cPj1cO9nnejdTvj1cPj1cPMtJbk1sO3lmmjdjnUv6Pj1cO3lGiQVguQVQ2OVg+OVAyRVhCPVQ2NVQ6PVA6PVguQVg6QVQ2NVQ6TVwuSVQuOVAyOVg+PVQ2RVg6PVQqOVg+QVQ2OVAyQVQ2QVQ2NVg2PVA6PVQqPVA6PVQ2PVQ2QVQ+MVA2PVQ2PVA6QVQ2NVQ6QVguTVgyNVA+PVQ2RVg6NVQ6QVguQVguMVRCNVQ6QVguQVwySVgqNVA+PVA6RVg6PVQ2PVAySVQuPVQ2PVQ2PVAyPVA6SVQuPVA6QVguPVQ2NVA+QVg6SVA2QVguOUw2QVQ+NVA+PVA6QVQ2NVQ6PVQ2PVQ2QVg6NVQ6PVQ2RVwyNVQ6NVQ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">Online Indian Visa Form</A>
+	            <DD>
+	        </DL><p>
+	        <DT><A HREF="https://lastpass.com/?ac=1&lpnorefresh=1" ADD_DATE="1432492011" LAST_MODIFIED="1432492011" ICON_URI="https://lastpass.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVQ4jcWTz2sTQRTH969o2pRkE7ObzU6yG0Mk8VA99dJLLjnUg1cFpYd66LEgCFIoYrEFQQgENEaK/4lIZmc3VatQBfvT7aGihyDy8bCbbb14qejAwPu+efOdx/f7RvMdi/Ns7Z8TqEoxit0SqlKMCJJkHP8Jj3OeqUcdJIcXBX7VPi2s2lHOiV4aYxXXbrdbZzoQBlKfROpTqLKJ71jIXBqpT6LsAr5bwitkkPoU8sI0w5kGxy838YSBpoRBUHc46jxh/9FDlGPhWXl279/jy9MuW1eayFyanVs3CPs93rXm8OsOYf8ZShhog8wEB+trjNfHxQXeX2snOOz3COoVfo5GAHwfBgwv1wmfJwQp9lZXkgs7t2+y3W4l+Kjbwa/a/Ph6AsC3168ImjXCfg9VNtFU2US5JfZWV/h8dxlPGHjFHJ+W7rC/9oCgUUPmp/lwfZ7Dxxu8mb2Kf8mNCIQRi1g2GWRjEWNXZD7NIJtCCSMS0cgyyKSQhQzDmQbh5otYxN9sFKfDktgYY/eMjVWbt3Oz5xwkK/cXR/m//sZfJopTtAuQqt8AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Mon Coffre-fort LastPass</A>
+	        <DD>LastPass est un gestionnaire de mots de passe en ligne et un remplisseur de formulaires qui rend votre navigation plus facile et plus sûre.
+	        <DT><A HREF="https://delicious.com/jesuischezmoi" ADD_DATE="1433165033" LAST_MODIFIED="1433165033" ICON_URI="https://delicious.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAy0lEQVQ4je3OQWrDMBBGYV3IIGGtbCwvfcO2KW0KvVY3hSiElEqOEoWSLuZ1kaxk0RNk4GN2j19RObn9/AtuDfoR7AraCnUPoESEGhBOF2F8A/ME9vkaKf2/4AL9KzQP14iuUDlnSqec+TlnvuYz07vQvQhuLQwVyjlHaRxH+r5nmiY+Prfsvo9s9hG/nxeU1pqSMYamaei6jt3Wk4+JwxxIc1xQ1lpqjDE459h4zyElQgiEGBdU27aUrLVorRmGAe896RaIMS7cA5E/+osJhaaEyj4AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">@jesuischezmoi – Delicious</A>
+	        <DD>Keep, share, and discover the best of the Web using Delicious, the world&#39;s leading social bookmarking service.
+	        <DT><A HREF="javascript:(function(e,t){var%20n=e.document;setTimeout(function(){function%20a(e){if(e.data===%22destroy_bookmarklet%22){var%20r=n.getElementById(t);if(r){n.body.removeChild(r);r=null}}}var%20t=%22DELI_bookmarklet_iframe%22,r=n.getElementById(t);if(r){return}var%20i=%22https://delicious.com/save?source=bookmarklet&%22,s=n.createElement(%22iframe%22);s.id=t;s.src=i+%22url=%22+encodeURIComponent(e.location.href)+%22&title=%22+encodeURIComponent(n.title)+%22&note=%22+encodeURIComponent(%22%22+(e.getSelection?e.getSelection():n.getSelection?n.getSelection():n.selection.createRange().text))+%22&v=1.1%22;s.style.position=%22fixed%22;s.style.top=%220%22;s.style.left=%220%22;s.style.height=%22100%25%22;s.style.width=%22100%25%22;s.style.zIndex=%2216777270%22;s.style.border=%22none%22;s.style.visibility=%22hidden%22;s.onload=function(){this.style.visibility=%22visible%22};n.body.appendChild(s);var%20o=e.addEventListener?%22addEventListener%22:%22attachEvent%22;var%20u=o==%22attachEvent%22?%22onmessage%22:%22message%22;e[o](u,a,false)},1)})(window)" ADD_DATE="1441201595" LAST_MODIFIED="1441201595">✚ Add to Delicious</A>
+	        <DT><H3 ADD_DATE="1458114611" LAST_MODIFIED="1462295162">[Nom du dossier]</H3>
+	        <DL><p>
+	            <DT><A HREF="file:///Users/lucbonameau/Library/Mobile%20Documents/com~apple~CloudDocs/OM%20Breathe,%20you%20are%20online.html" ADD_DATE="1458114611" LAST_MODIFIED="1458114611"></A>
+	            <DT><A HREF="https://lastpass.com/?ac=1&lpnorefresh=1" ADD_DATE="1458114611" LAST_MODIFIED="1458114611" ICON_URI="https://lastpass.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVQ4jcWTz2sTQRTH969o2pRkE7ObzU6yG0Mk8VA99dJLLjnUg1cFpYd66LEgCFIoYrEFQQgENEaK/4lIZmc3VatQBfvT7aGihyDy8bCbbb14qejAwPu+efOdx/f7RvMdi/Ns7Z8TqEoxit0SqlKMCJJkHP8Jj3OeqUcdJIcXBX7VPi2s2lHOiV4aYxXXbrdbZzoQBlKfROpTqLKJ71jIXBqpT6LsAr5bwitkkPoU8sI0w5kGxy838YSBpoRBUHc46jxh/9FDlGPhWXl279/jy9MuW1eayFyanVs3CPs93rXm8OsOYf8ZShhog8wEB+trjNfHxQXeX2snOOz3COoVfo5GAHwfBgwv1wmfJwQp9lZXkgs7t2+y3W4l+Kjbwa/a/Ph6AsC3168ImjXCfg9VNtFU2US5JfZWV/h8dxlPGHjFHJ+W7rC/9oCgUUPmp/lwfZ7Dxxu8mb2Kf8mNCIQRi1g2GWRjEWNXZD7NIJtCCSMS0cgyyKSQhQzDmQbh5otYxN9sFKfDktgYY/eMjVWbt3Oz5xwkK/cXR/m//sZfJopTtAuQqt8AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Mon Coffre-fort LastPass</A>
+	            <DT><A HREF="https://transferwise.com/transferFlow#/enterpayment?amount=1000&sourceCountry=EU&targetCountry=IN&fixedTarget=false&guaranteedFixedTarget=false" ADD_DATE="1458114611" LAST_MODIFIED="1458114611"></A>
+	            <DT><A HREF="http://www.basebio.com/88-cereales-sacs-25-kg" ADD_DATE="1458114611" LAST_MODIFIED="1458114611"></A>
+	            <DT><A HREF="https://pages.github.com/" ADD_DATE="1460963811" LAST_MODIFIED="1460963811" ICON_URI="https://pages.github.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABrElEQVQ4jY2Sv2pUURDGv7vZ4p77J2dmvnO42ihaK1gEXSKEPIDgC/gC9mJvYW1noliF9OIjbGGeISsSSGUhkRhw12Dg2Oxd7l5114Fpzpnv45sfA/SqqqodVd0jOaHZBc0uSE5Uda+qqp3+fLc2KHLQxJhWNUUOAGz8ITazo3Xits3saMmEIodNjMlExs65+wBe1HX9mWbHNDsO5AzAMwAPTGQ8T3IIAHDOjVpnVd1vUQAoumgAZACgqvvtvHNuhO7eRVFsrYI0h7y7xCOYnTQxJppd5nl+a51Bnuc3A/mziTEFsxMEctbEmEierhMvmJGnTYwpkDMEcjo3OAcw+A/9gGbf5wZTkJy0O4nI43Xquq4fLRiQnxDN3sUQEoAr2dz8VTv38J9i57YD+aVzD29RluU9X/sE4BLA2WAwSFmWTZ1zo1Y4HA53syz72j8oVb0LAAghvGliTBVwpyzLJ76ux977261BURRbItK/xldL8UxkTLNvqnoDgPTTB/LHYnfV93/dkeRrml3R7AzA9c7XtUVs71+upKzePzezjwCsffPeK0U+qOrT/vxvewCKQLKaviEAAAAASUVORK5CYII=">GitHub Pages - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.</A>
+	            <DD>Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.
+	            <DT><A HREF="http://le-camping-car-pour-les-nuls.blogspot.fr/2013/05/le-chauffage-par-carburant-moteur.html" ADD_DATE="1454598599" LAST_MODIFIED="1454598599">Le camping car pour les nuls: Le chauffage par carburant moteur WEBASTO</A>
+	            <DD>
+	        </DL><p>
+	        <DT><A HREF="http://lucbonameau.github.io/" ADD_DATE="1462202047" LAST_MODIFIED="1462202063" ICON_URI="http://lucbonameau.github.io/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACwklEQVQ4jWWSXWiWBRTHf8/rx1hkRlEphZ8VgouiFTrTNXBtbrfhVRCBlehNVFBE0Md9BVr0AQVJjSgiLfN93+fdstqne7dcc2uttqlBRRFU7qLc9j7n18U+sPrDgXNx/uecP/xgQUKy2E8cpur8Eep+beP+n9u4L32BWmDFJXNLs/9SAyyf/pjHZlPGs45lF+26XlOcK/HXH8c5/dVr7P+fafHy2BusnSnQ4yn0c7SIDu8Ie28Ii2gn2oPfvEkBuNrnyAEJStL7KNUzJzhlH5oyY0pmujz8rjEsbw7zRKRULDFrGfsO0Q6s1IUo08d40n6MlBlLuTAlLFWF3zfpwNawkISlFZqS2c6snfjyQR4B4PjDXDaT57xfklmiYnuV9m8Ny7foWL2O7tLB27V3Q1gkspSKvUT/K4wD1Zx7h4asQGaRsEBYXBYO3aFnWxeqRSf2aOcGLeaMPOFnxI/vUdl4DfX89j4PeXJlOHRb5khd5uhOHWuYN04269QenWqe/2SiORzZFg7V+ucnq6K+hn381MY+e9aEA1syR+7M4kydDm/Xc63z5rMtOtmkZ+4yBmv0dE1m97X+/lEStTfzIF+8xK65PBULCxHyOR24VSea5z+YbNJvd2v3Jv0UsxOEJ4nJI2TXraaRvXVUXzjGhF1JZkolSsu178awa5OO7tSvt2vXRu1ZH1HMmRWTin344TOcB64AoHyYxxcZiDQJC2ipKmKq1Shv0TxhEbOUsIPKxRT37uTpeRLniaoef4suy2jKXFYks5CEY3eH5Zsi8kSlkGS2E/bhi/sZBFYtgpQISe161g68So9daDfakejwNu28SjvQPvw7xUMHGATWLaG8oMWm6u0neGrgdSZ/+SBXmc6v8sJR/OFdsqPPc+6BRp4FLv+veWnJEtuwumYd99y7gwO7azm4eQ0twJWXRF4y/wMdnwMSzJ3egQAAAABJRU5ErkJggg==">lucbonameau.github.io</A>
+	        <DD>
+	        <DT><A HREF="https://www.amazon.fr/mn/dcw/myx.html?openid.assoc_handle=framazon&aToken=Atza%7CIwEBIHbGlyR0pfWaOmvFnbKz5HWe82H4dYnfJxnC4HTlv-oLBtm8bT2M_nrzmJSw2vecn9_yaWJ0an3AhD2S5Zu9XTbu7olZCXNCauankdWRjKydRuTCApMA-ITjoysDo0ZknU9ZYVeH7TTFOyvok47QrXrLvnWUnr-9JlQJkF21rmDikPtOxBLryViv4-pIgoP4vdUbhgwVr3dJSnJpFUp6F7iQH-rcpHb41po1lNnsfAVFdBoBEo8zz-ZiEPii4XBaUIKxf9E14k7_UmzTvrNs7lYSJ4IjO8LZLIuRbcBLjAgQ9F81ekDM6friPpJXz92DYxmxHgRwrtOrv2c4ICVaXPvw&openid.claimed_id=https%3A%2F%2Fwww.amazon.fr%2Fap%2Fid%2Famzn1.account.AHK3ZGZWEINHOYKBZGTAELEFBZYA&openid.identity=https%3A%2F%2Fwww.amazon.fr%2Fap%2Fid%2Famzn1.account.AHK3ZGZWEINHOYKBZGTAELEFBZYA&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.fr%2Fap%2Fsignin&openid.response_nonce=2016-07-14T11%3A25%3A18Z2671187812669941156&openid.return_to=https%3A%2F%2Fwww.amazon.fr%2Fmn%2Fdcw%2Fmyx.html&openid.signed=assoc_handle%2CaToken%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.auth_time=2016-07-14T11%3A25%3A18Z&openid.sig=ZFSIB3vaCuHnA%2FYYH%2BxEc4Q94Wa9TEjqvUd2VdVtdMM%3D&serial=&#/home/content/booksAll/dateDsc/" ADD_DATE="1468495570" LAST_MODIFIED="1468495570">Amazon.fr : Gérer votre contenu et vos appareils</A>
+	        <DD>
+	        <DT><A HREF="http://timeline.knightlab.com/" ADD_DATE="1469183178" LAST_MODIFIED="1469183178">Timeline JS3 - Beautifully crafted timelines that are easy, and intuitive to use.</A>
+	        <DD>Beautifully crafted timelines that are easy, and intuitive to use.
+	        <DT><A HREF="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/Unify%20Template%20v1.9.3/HTML/index.html" ADD_DATE="1469588079" LAST_MODIFIED="1469614635" ICON_URI="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/Unify%20Template%20v1.9.3/HTML/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAAgAAAAIACH+pydAAABmUlEQVRYw+2XPUtCURjHf4pUhih4hwYvteii4lBDDoUYZBiN9QWkXCNy6CO4tWfU0hK5tBQV9DIIOuQQ5FAugQ4ODoqkg1CDL/mS994IO0P+4QznOec8z+8+55x776OLJNwfDFePzRYHbnoH9UMODjAHhIFr4B6w/zVAp3xAClgQBQBgBc5bmRAB0II4FAkAje1YEgkAsC4aYFk0wLRogDHDT2ZLEzJ7s5ddtmg6SLGWU1wXdsVwWLzt/sXbPnf5I0DsLRgBjABGACOAfwRgHZfFAkwazIoApd84Nyo4B5BNTsU5eiCvNdh7vdxn6/zKfSe1cT3woBWgWi+Tq2S6bB5pRfHpV2d2VAHiWgEAnopXfUHCrhiyydm2GQ1m/LYQ255TVX8G4LaZBZ8WgGQhzvzUBtLE18l2WLwDgxVrOVKFs4GZaN2CTTQexmq9zMnLrupfEECukiGW2eK1lFTMAEAWWKNRsVi1OI6mg/htIWSTC48U6MtSvvJMsqC+u7pIwt3ZtwPHdNRuw1bviygLLAIB4IBGWT1UfQKvnl6TUY/jfQAAACJ6VFh0U29mdHdhcmUAAHjac0zJT0pV8MxNTE8NSk1MqQQAL5wF1K4MqU0AAAAASUVORK5CYII=">Unify Template</A>
+	        <DD>
+	    </DL><p>
+	    <DT><H3 ADD_DATE="1350051375" LAST_MODIFIED="1436615532" UNFILED_BOOKMARKS_FOLDER="true">Marque-pages non classés</H3>
+	    <DL><p>
+	        <DT><A HREF="http://dotepub.com/" ADD_DATE="1432122552" LAST_MODIFIED="1432122552" ICON_URI="http://dotepub.com/i/xfavicon.png.pagespeed.ic.-bP8OiIiwq.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAGZQTFRF////hbolhbolhbolhbolhbolhbolhbolhbol////hbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolapF6lgAAACF0Uk5TAAYMDRkaICUsLjM0TFNfZWdyc4aSmZqfoK3AzNPa5fP54Ul89wAAAGlJREFUGNNlj9cOgDAIRal71D1arVr5/5+0oqkmnAcClw1AxEkiyMnJFv2k1CADeLPVYtFhuuypas2JxDFGVL++sVPqu2u26DGpm7DhDymg2P9CE3CBtbChfC07jJ8OUPaT1oMM4cO/DxcdYRL4xAu0NwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">dotEPUB — download any webpage as an e-book</A>
+	        <DD>Tool for automatic conversion to the main e-book formats: bookmarklet, Chrome and Firefox extension, widget and API
+	        <DT><A HREF="https://www.hostpapa.fr/commandes/hebergement/Completed/" ADD_DATE="1436615532" LAST_MODIFIED="1436615532">HostPapa : Fournisseur de services d’hébergement Web 100 % énergie verte</A>
+	        <DD>Hébergement web français et enregistrement de nom de domaine français. Lancez votre site web avec HostPapa. Soutien 24/7.
+	    </DL><p>
+		</DL>        <H1>Delicious Bookmarks</H1>
+		<DL><p>
+		<DT><A HREF="https://www.drivy.com/" ADD_DATE="1456833542" PRIVATE="0" TAGS="location,voiture,carsharing,sharing,locationvoiture">Location Voiture Particulier - Drivy</A>
+		<DT><A HREF="https://transferwise.com/" ADD_DATE="1456833520" PRIVATE="0" TAGS="money,exchange,transfer,payments,moneytransfer">TransferWise</A>
+		<DT><A HREF="http://goindia.about.com/od/spiritualplaces/tp/Top-10-Rishikesh-Ashrams.htm" ADD_DATE="1448875658" PRIVATE="0" TAGS="ashrams,rishikesh">11 Top Rishikesh Ashrams for Yoga and Meditation</A>
+		<DT><A HREF="http://www.lonelyplanet.com/india/mumbai-bombay/activities/private-luxury/private-tour-kanheri-caves-elephanta-caves-karla-bhaja-caves-mumbai/item-v-5353BOMPVTCAVE-id" ADD_DATE="1448861245" PRIVATE="0" TAGS="caves">Private Tour: Kanheri Caves, Elephanta Caves or Karla and Bhaja Caves from Mumbai - Lonely Planet</A>
+		<DT><A HREF="http://mumbai-pushpa.blogspot.in/2007/01/foreigners-registration-office.html" ADD_DATE="1448860800" PRIVATE="0" TAGS="FFRO,india">Welcome to Mumbai..!: Foreigners Registration Office</A>
+		<DT><A HREF="http://indiancitizenshiponline.nic.in/" ADD_DATE="1448860795" PRIVATE="0" TAGS="india,immigration">indian citizenship ministry of home affairs</A>
+		<DT><A HREF="http://www.docteurclic.com/sympto-check/" ADD_DATE="1448614920" PRIVATE="0" TAGS="symptome,docteur">analyse de symptomes Sympto-Check - docteurclic.com</A>
+		<DT><A HREF="https://fr.ifixit.com/" ADD_DATE="1448508614" PRIVATE="0" TAGS="">iFixit : Le manuel de réparation gratuit</A>
+		<DT><A HREF="http://www.gurusfeet.com/" ADD_DATE="1448341530" PRIVATE="0" TAGS="">Gurusfeet.com | A meeting place for spiritual gurus and spiritual communities</A>
+		<DT><A HREF="http://www.site-magister.com/paggenr.htm#episto" ADD_DATE="1448291073" PRIVATE="0" TAGS="">LES GENRES LITTÉRAIRES</A>
+		<DT><A HREF="http://sanskritdictionary.org/" ADD_DATE="1445424417" PRIVATE="0" TAGS="sankrit,dictionary">Sanskrit Dictionary -- -- Sanskrit Dictionary</A>
+		<DT><A HREF="http://www.seat61.com/India.htm#routes" ADD_DATE="1445404800" PRIVATE="0" TAGS="">Train travel in India - a beginner's guide |  How to buy tickets online</A>
+		<DT><A HREF="http://www.le-monde-du-guerisseur.com/recettes-dhier-a-daujourdhui.html" ADD_DATE="1444680853" PRIVATE="0" TAGS="guérisseur,maladie">Recettes d'hier & d'aujourd'hui</A>
+		<DT><A HREF="http://www.bahmanpanahi.com/gallery.html" ADD_DATE="1444125867" PRIVATE="0" TAGS="">Gallery</A>
+		<DT><A HREF="https://www.youtube.com/watch?feature=player_embedded&v=Y-xrMh1D0Ps" ADD_DATE="1444043412" PRIVATE="0" TAGS="">16th batch Vedanta Course - 1st Anniversary programme - YouTube</A>
+		<DT><A HREF="http://yogadelaconnaissance.com/" ADD_DATE="1443907685" PRIVATE="0" TAGS="vedanta">Accueil - Yoga de la Connaissance - Enseignement en ligne</A>
+		<DT><A HREF="https://thepiratebay.vg/" ADD_DATE="1443903519" PRIVATE="0" TAGS="torrent">Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</A>
+		<DT><A HREF="http://thegoodretreatguide.com/" ADD_DATE="1443902867" PRIVATE="0" TAGS="">The Good Retreat Guide</A>
+		<DT><A HREF="http://www.chinmayamission.com/" ADD_DATE="1443902589" PRIVATE="0" TAGS="vedanta">Chinmaya Mission Worldwide - Official site of Chinmaya Mission created and managed by Central Chinmaya Mission Trust, MumbaiChinmaya Mission Worldwide | Official site of Chinmaya Mission created and managed by Central Chinmaya Mission Trust, Mumbai</A>
+		<DT><A HREF="http://www.les-renseignements-genereux.org/" ADD_DATE="1443902340" PRIVATE="0" TAGS="">Présentation - Les renseignements généreux</A>
+		<DT><A HREF="http://www.centre-vedantique.fr/" ADD_DATE="1443902023" PRIVATE="0" TAGS="vedanta">Centre Védantique Ramakrishna - Paris</A>
+		<DT><A HREF="http://everytimezone.com/" ADD_DATE="1443901629" PRIVATE="0" TAGS="">Time Zones</A>
+		<DT><A HREF="https://www.epub2mobi.com/" ADD_DATE="1443901609" PRIVATE="0" TAGS="">EPUB to MOBI</A>
+		<DT><A HREF="https://www.changedetection.com/" ADD_DATE="1443901595" PRIVATE="0" TAGS="">ChangeDetection - Know when any web page changes</A>
+		<DT><A HREF="http://www.ahalmaas.com/" ADD_DATE="1443901227" PRIVATE="0" TAGS="">Home - A.H. Almaas</A>
+		<DT><A HREF="http://www.rggweb.fr/" ADD_DATE="1443900489" PRIVATE="0" TAGS="vedanta,radio">1ère Radio Védantique - Radio Gandharva Gana</A>
+		<DT><A HREF="http://www.truetorahjews.org/our_mission" ADD_DATE="1443900213" PRIVATE="0" TAGS="">Our Mission | True Torah Jews</A>
+		<DT><A HREF="http://www.jiva.com/" ADD_DATE="1443900031" PRIVATE="0" TAGS="">Jiva Ayurveda</A>
+		<DT><A HREF="http://liveanddare.com/neo-advaita/2/" ADD_DATE="1443631071" PRIVATE="0" TAGS="advaita,vedanta">Neo-Advaita x True Nonduality - an indepth analysis</A>
+		<DT><A HREF="http://www.arte.tv/sites/fr/webdocs/" ADD_DATE="1442945560" PRIVATE="0" TAGS="">ARTE - PROGRAMMES INTERACTIFS</A>
+		<DT><A HREF="http://www.ekuthuleni-retreat.blogspot.ch/" ADD_DATE="1442945320" PRIVATE="0" TAGS="retreat">Ekuthuleni Retreat Place</A>
+		<DT><A HREF="http://framasoft.org/" ADD_DATE="1442944907" PRIVATE="0" TAGS="">Framasoft - Logiciels Libres</A>
+		<DT><A HREF="http://www.quandpartir.com/" ADD_DATE="1442944875" PRIVATE="0" TAGS="">Quand et où partir ? À chaque saison sa destination...</A>
+		<DT><A HREF="http://www.le-message.org/" ADD_DATE="1442926053" PRIVATE="0" TAGS="">Le Message | Comprenez le, diffusez le, reprenez le pouvoir.</A>
+		<DT><A HREF="http://www.le-message.org/?lang=fr" ADD_DATE="1442926010" PRIVATE="0" TAGS="Chouard,politique">www.le-message.org</A>
+		<DT><A HREF="http://www.trailfinders.com/" ADD_DATE="1442842395" PRIVATE="0" TAGS="bucket shop">Trailfinders - The Travel Experts</A>
+		<DT><A HREF="http://northfieldshostel.com/" ADD_DATE="1442842383" PRIVATE="0" TAGS="hotel,london">OFFICIAL WEBSITE Northfields Hostel - ideal base for travelling into London - Hostel accommodation London</A>
+		<DT><A HREF="http://covoiturage-libre.fr/" ADD_DATE="1442842259" PRIVATE="0" TAGS="">Covoiturage-libre.fr - Le site du covoiturage libre et gratuit !</A>
+		<DT><A HREF="https://www.comment-supprimer.com/" ADD_DATE="1434319105" PRIVATE="0" TAGS="supprimer,comptes">Comment Supprimer ? Nettoyez votre ordinateur !</A>
+		<DT><A HREF="http://www.ouigo.com/fr" ADD_DATE="1433416942" PRIVATE="0" TAGS="">OUIGO par SNCF : TGV low cost à partir de 10 €</A>
+		<DT><A HREF="http://www.ratp.fr/plan-interactif/" ADD_DATE="1433164872" PRIVATE="0" TAGS="map metro paris,plan">Plan Interactif des transports en Ile-de-France</A>
+		<DT><A HREF="http://cgires.free.fr/FrameBase.php?Domaine=PorteVoixPublic&GroupeTables=portevoix&Cols=162&Rows=135" ADD_DATE="1433154942" PRIVATE="0" TAGS="Christophe Gires">'La Compagnie du Porte-Voix'</A>
+		<DT><A HREF="http://www.hebergeurslibres.net/wakka.php?wiki=ListeHebergeurs" ADD_DATE="1432667987" PRIVATE="0" TAGS="hébergeurs,site,liste,éthique,libres">WikiHebergeursLibres:ListeHebergeurs</A>
+		<DT><A HREF="http://www.visaeurope.com/lost-your-card" ADD_DATE="1432667413" PRIVATE="0" TAGS="visa lost">Lost your card?</A>
+		<DT><A HREF="https://sites.google.com/site/wakeupschoolsfrance/" ADD_DATE="1432666668" PRIVATE="0" TAGS="">Cultiver la pleine conscience dans l'éducation</A>
+		<DT><A HREF="http://www.prxbx.com/email/" ADD_DATE="1432666399" PRIVATE="0" TAGS="">Privacy-Conscious Email Services</A>
+		</DL><p>			<H1>Signets Safari</H1>
 			<DT><H3 FOLDED>Favoris</H3>
 			<DL><p>
 				<DT><A HREF="https://delicious.com/jesuischezmoi">@jesuischezmoi – Delicious</A>
@@ -1332,9 +1684,7 @@
 				<DT><A HREF="http://mrmonkeymind.wordpress.com/">Mr. Monkey Mind</A>
 				<DT><A HREF="http://www.plumvillageasia.org/index.php/list-of-events/cat.listevents/2014/06/24/-">List of Events</A>
 				<DT><A HREF="http://192.168.137.1/info">http://192.168.137.1/info</A>
-			</DL><p>
-
-		<br><br><br>
+			</DL><p>		<br><br><br>
 		<H1>Signets Pearltrees</H1>
 		<DL><p>
 		<DT><H3 FOLDED ADD_DATE="1350307834">lucbonameau</H3>
@@ -2128,121 +2478,6 @@
 		 <DT><A HREF="http://www.getsomeheadspace.com/News/headspace-blog.aspx" ADD_DATE="1398493251">Headspace Blog Archive</A>
 		</DL><p>
 
-		</DL><p>
-
-
-		<H1>Signets Firefox</H1>
-
-		<DL><p>
-		</DL><p>
-	    <DT><A HREF="http://www.hebergeurslibres.net/wakka.php?wiki=ListeHebergeurs" ADD_DATE="1432295876" LAST_MODIFIED="1432295877" LAST_CHARSET="windows-1252">WikiHebergeursLibres:ListeHebergeurs</A>
-	    <DD>
-	    <DT><A HREF="http://www.spamgourmet.com/index.pl?printpage=faq.html" ADD_DATE="1433237138" LAST_MODIFIED="1433237139" ICON_URI="http://www.spamgourmet.com/favicon.ico" ICON="data:image/png;base64,AAABAAEAICAEAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAA//////////////8AAAAAAHd3d3d3d3//////AAAAAAAAd3d3d3d3/////wAAAAAAAP////////////8AAAAAAAB3d3d3f///////AAAAAAAAB3d3d3f//////wAAAAAAAA////////////8AAAAAAAAP////////////AAAAAAAA////////maqZ/wAAAAAAAP///////5mqmf8AAAAAAAD///////+qzKr/AAAAAAD/////////qsyq/wAAAAAP/////////5mqmf8AAAAAd3////////+Zqpn/AAAAD////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////+AAAADgAAAA8AAAAPgAAAD8AAAA/gAAAP8AAAD/gAAA/4AAAP+AAAD/gAAA/4AAAP8AAAD+AAAA/AAAAPgAAADwAAAA4AAAAOAAAADgAAAA/////////////////////////////////////w==" LAST_CHARSET="UTF-8">delete</A>
-	    <DD>
-	    <DT><A HREF="https://www.transfernow.net/26iw4201hq2l?lng=fr" ADD_DATE="1448771459" LAST_MODIFIED="1448771459" ICON_URI="https://www.transfernow.net/img/icon/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABb0lEQVQ4jbWSMarCQBCGAyFVINgY28m2bsAyprLJ1slWFkIsNdUWbiNE0pjCFTxCjpAj7BE8Qo7gEeYVRonyVuHBG/iamX9+ZmbXsv4jlFILpdRFKaWVUvp8Pjen02n9tbGqKqjrWtd1jQa64/E4MxqUZdkeDgcccC3LUr/lbvv9/tVECDGSUnZSyrWUEqWUrRAChvXdbnfpayil7IQQo6fBdru9FEWBRVE0m83GuOtAh0/dcrmEPM/xwWq1WpgM0jQd5Xl+67WtZVmWxTmvOOc4oPl06CzLNOccsyzTz2SSJJoxhkmSXD81M8YqxhgOuE8xn88vcRxjHMcYRRGYDKIogoeu197XpZQuwjDEMAyRUtqaDKbT6ZpSWv2qC4JAE0KwpwWA5zMBwIgQ0hBCEABEEAQdALxOOh6PZ77v3yaTCQ7Qvu9f33Kd8Uiu6848z7t6nocGOtd1zV/5EbZtp47jNI7j6J7Gtu30a+Nf4gdzFMniWgiuMAAAAABJRU5ErkJggg==">Télécharger - TransferNow</A>
-	    <DD>Télécharger vos fichiers dès maintenant avec TransferNow.net, le service simple et gratuit d&#39;envoi et de partage de gros fichiers.
-	    <DT><A HREF="http://www.allaboutturkey.com/dervis.htm" ADD_DATE="1453031203" LAST_MODIFIED="1453031203">Whirling Dervishes - All About Turkey</A>
-	    <DD>Whirling Dervishes of the Mevlevi sect originally come from Konya province and they continue to practice their 800 years-old mystic tradition even today.
-
-	    <DD>
-	    <DT><H3 ADD_DATE="1468811854" LAST_MODIFIED="1468811861">hackintosch</H3>
-	    <DL><p>
-
-	        <DT><A HREF="http://www.hackintosh.com/" ADD_DATE="1468811854" LAST_MODIFIED="1468811854"></A>
-	    </DL><p>
-
-
-	    <DL><p>
-	        <DT><H3 ADD_DATE="1459238312" LAST_MODIFIED="1459238346">VISA India</H3>
-	        <DL><p>
-	            <DT><A HREF="http://ivsvisalanka.com/ApplicationSamples.aspx" ADD_DATE="1459238326" LAST_MODIFIED="1459238326" ICON_URI="http://ivsvisalanka.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVQ4jWNgQANvdJUD3ukr73+jqxyATwwneKev/P6dvsr/d/rK+/GJ4TFA5T+mAZhiowaMGjD8DVC+jyUzYYjhBK+0FQze6qk0vNJWMMAnBgMAXUDIwcQiI24AAAAASUVORK5CYII=">IVS Lanka</A>
-	            <DD>
-	            <DT><A HREF="https://indianvisaonline.gov.in/visa/info1.jsp" ADD_DATE="1459238342" LAST_MODIFIED="1459238342" ICON_URI="https://indianvisaonline.gov.in/favicon.ico" ICON="data:image/png;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAACQVQ+NVQ6QVQ2QVQ+QVQ2NVQ6PVA6SVQuPVA6NVA+PVAyPVQ2NVQ6QVQ2PVQ2PVQ2PVAyRVg6NVQ6PVQ2SVQuQVA6OUw2NVQ6QVguOUw2QVQ+RVAqQVQ2QVQ2PVA6PVQ2PVA6OVAyOVg+QVguQVQ+PVAyQVQ+PVQ2RUwyPVA6QVQ2LVA+PVA6PVA6PVQ2QVguQVQ2RVg6NVA+OVAyQVguMVA2PVQ2PVQ2PVQ2QVguPVQ2RVg6PVQ2PVA6PVA+QVQ2PVQ2PVQ2NVQ6QVguNVA+QVQ+QVQ2PVA6PVA6QVQ2QVQ+PVA6QVQ2QVguNVQ6NVQ6NVA+jdDzk1cLj1cOeay3Kqobk1MPi1sTMtZXl1sO3lGildjnVv6P////KqoaQVQ2QVQ2rf0n///7+/v6yilr8/f///v////zm1cL7/v/Uv6T9///////////FqYaNVQ6PVQ2sgEr+/v7////39PD///7////9///j1cP///7///z9///79e6daiyPVA6QVguPVQ2qgUr+/v7////+//39//////79///j1cL///////7///738+6WYR6NVQ6PVQ2PVQ2pf0r///7///v//v/AoHf///7///7k1cL8/v/Tv6b28+/////+/f/Mq4SNVA+QVgujdDzj1cPj1cO9nnejdTvj1cPj1cPMtJbk1sO3lmmjdjnUv6Pj1cO3lGiQVguQVQ2OVg+OVAyRVhCPVQ2NVQ6PVA6PVguQVg6QVQ2NVQ6TVwuSVQuOVAyOVg+PVQ2RVg6PVQqOVg+QVQ2OVAyQVQ2QVQ2NVg2PVA6PVQqPVA6PVQ2PVQ2QVQ+MVA2PVQ2PVA6QVQ2NVQ6QVguTVgyNVA+PVQ2RVg6NVQ6QVguQVguMVRCNVQ6QVguQVwySVgqNVA+PVA6RVg6PVQ2PVAySVQuPVQ2PVQ2PVAyPVA6SVQuPVA6QVguPVQ2NVA+QVg6SVA2QVguOUw2QVQ+NVA+PVA6QVQ2NVQ6PVQ2PVQ2QVg6NVQ6PVQ2RVwyNVQ6NVQ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">Online Indian Visa Form</A>
-	            <DD>
-	        </DL><p>
-	        <DT><A HREF="https://lastpass.com/?ac=1&lpnorefresh=1" ADD_DATE="1432492011" LAST_MODIFIED="1432492011" ICON_URI="https://lastpass.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVQ4jcWTz2sTQRTH969o2pRkE7ObzU6yG0Mk8VA99dJLLjnUg1cFpYd66LEgCFIoYrEFQQgENEaK/4lIZmc3VatQBfvT7aGihyDy8bCbbb14qejAwPu+efOdx/f7RvMdi/Ns7Z8TqEoxit0SqlKMCJJkHP8Jj3OeqUcdJIcXBX7VPi2s2lHOiV4aYxXXbrdbZzoQBlKfROpTqLKJ71jIXBqpT6LsAr5bwitkkPoU8sI0w5kGxy838YSBpoRBUHc46jxh/9FDlGPhWXl279/jy9MuW1eayFyanVs3CPs93rXm8OsOYf8ZShhog8wEB+trjNfHxQXeX2snOOz3COoVfo5GAHwfBgwv1wmfJwQp9lZXkgs7t2+y3W4l+Kjbwa/a/Ph6AsC3168ImjXCfg9VNtFU2US5JfZWV/h8dxlPGHjFHJ+W7rC/9oCgUUPmp/lwfZ7Dxxu8mb2Kf8mNCIQRi1g2GWRjEWNXZD7NIJtCCSMS0cgyyKSQhQzDmQbh5otYxN9sFKfDktgYY/eMjVWbt3Oz5xwkK/cXR/m//sZfJopTtAuQqt8AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Mon Coffre-fort LastPass</A>
-	        <DD>LastPass est un gestionnaire de mots de passe en ligne et un remplisseur de formulaires qui rend votre navigation plus facile et plus sûre.
-	        <DT><A HREF="https://delicious.com/jesuischezmoi" ADD_DATE="1433165033" LAST_MODIFIED="1433165033" ICON_URI="https://delicious.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAy0lEQVQ4je3OQWrDMBBGYV3IIGGtbCwvfcO2KW0KvVY3hSiElEqOEoWSLuZ1kaxk0RNk4GN2j19RObn9/AtuDfoR7AraCnUPoESEGhBOF2F8A/ME9vkaKf2/4AL9KzQP14iuUDlnSqec+TlnvuYz07vQvQhuLQwVyjlHaRxH+r5nmiY+Prfsvo9s9hG/nxeU1pqSMYamaei6jt3Wk4+JwxxIc1xQ1lpqjDE459h4zyElQgiEGBdU27aUrLVorRmGAe896RaIMS7cA5E/+osJhaaEyj4AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">@jesuischezmoi – Delicious</A>
-	        <DD>Keep, share, and discover the best of the Web using Delicious, the world&#39;s leading social bookmarking service.
-	        <DT><A HREF="javascript:(function(e,t){var%20n=e.document;setTimeout(function(){function%20a(e){if(e.data===%22destroy_bookmarklet%22){var%20r=n.getElementById(t);if(r){n.body.removeChild(r);r=null}}}var%20t=%22DELI_bookmarklet_iframe%22,r=n.getElementById(t);if(r){return}var%20i=%22https://delicious.com/save?source=bookmarklet&%22,s=n.createElement(%22iframe%22);s.id=t;s.src=i+%22url=%22+encodeURIComponent(e.location.href)+%22&title=%22+encodeURIComponent(n.title)+%22&note=%22+encodeURIComponent(%22%22+(e.getSelection?e.getSelection():n.getSelection?n.getSelection():n.selection.createRange().text))+%22&v=1.1%22;s.style.position=%22fixed%22;s.style.top=%220%22;s.style.left=%220%22;s.style.height=%22100%25%22;s.style.width=%22100%25%22;s.style.zIndex=%2216777270%22;s.style.border=%22none%22;s.style.visibility=%22hidden%22;s.onload=function(){this.style.visibility=%22visible%22};n.body.appendChild(s);var%20o=e.addEventListener?%22addEventListener%22:%22attachEvent%22;var%20u=o==%22attachEvent%22?%22onmessage%22:%22message%22;e[o](u,a,false)},1)})(window)" ADD_DATE="1441201595" LAST_MODIFIED="1441201595">✚ Add to Delicious</A>
-	        <DT><H3 ADD_DATE="1458114611" LAST_MODIFIED="1462295162">[Nom du dossier]</H3>
-	        <DL><p>
-	            <DT><A HREF="file:///Users/lucbonameau/Library/Mobile%20Documents/com~apple~CloudDocs/OM%20Breathe,%20you%20are%20online.html" ADD_DATE="1458114611" LAST_MODIFIED="1458114611"></A>
-	            <DT><A HREF="https://lastpass.com/?ac=1&lpnorefresh=1" ADD_DATE="1458114611" LAST_MODIFIED="1458114611" ICON_URI="https://lastpass.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVQ4jcWTz2sTQRTH969o2pRkE7ObzU6yG0Mk8VA99dJLLjnUg1cFpYd66LEgCFIoYrEFQQgENEaK/4lIZmc3VatQBfvT7aGihyDy8bCbbb14qejAwPu+efOdx/f7RvMdi/Ns7Z8TqEoxit0SqlKMCJJkHP8Jj3OeqUcdJIcXBX7VPi2s2lHOiV4aYxXXbrdbZzoQBlKfROpTqLKJ71jIXBqpT6LsAr5bwitkkPoU8sI0w5kGxy838YSBpoRBUHc46jxh/9FDlGPhWXl279/jy9MuW1eayFyanVs3CPs93rXm8OsOYf8ZShhog8wEB+trjNfHxQXeX2snOOz3COoVfo5GAHwfBgwv1wmfJwQp9lZXkgs7t2+y3W4l+Kjbwa/a/Ph6AsC3168ImjXCfg9VNtFU2US5JfZWV/h8dxlPGHjFHJ+W7rC/9oCgUUPmp/lwfZ7Dxxu8mb2Kf8mNCIQRi1g2GWRjEWNXZD7NIJtCCSMS0cgyyKSQhQzDmQbh5otYxN9sFKfDktgYY/eMjVWbt3Oz5xwkK/cXR/m//sZfJopTtAuQqt8AAAAASUVORK5CYII=" LAST_CHARSET="UTF-8">Mon Coffre-fort LastPass</A>
-	            <DT><A HREF="https://transferwise.com/transferFlow#/enterpayment?amount=1000&sourceCountry=EU&targetCountry=IN&fixedTarget=false&guaranteedFixedTarget=false" ADD_DATE="1458114611" LAST_MODIFIED="1458114611"></A>
-	            <DT><A HREF="http://www.basebio.com/88-cereales-sacs-25-kg" ADD_DATE="1458114611" LAST_MODIFIED="1458114611"></A>
-	            <DT><A HREF="https://pages.github.com/" ADD_DATE="1460963811" LAST_MODIFIED="1460963811" ICON_URI="https://pages.github.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABrElEQVQ4jY2Sv2pUURDGv7vZ4p77J2dmvnO42ihaK1gEXSKEPIDgC/gC9mJvYW1noliF9OIjbGGeISsSSGUhkRhw12Dg2Oxd7l5114Fpzpnv45sfA/SqqqodVd0jOaHZBc0uSE5Uda+qqp3+fLc2KHLQxJhWNUUOAGz8ITazo3Xits3saMmEIodNjMlExs65+wBe1HX9mWbHNDsO5AzAMwAPTGQ8T3IIAHDOjVpnVd1vUQAoumgAZACgqvvtvHNuhO7eRVFsrYI0h7y7xCOYnTQxJppd5nl+a51Bnuc3A/mziTEFsxMEctbEmEierhMvmJGnTYwpkDMEcjo3OAcw+A/9gGbf5wZTkJy0O4nI43Xquq4fLRiQnxDN3sUQEoAr2dz8VTv38J9i57YD+aVzD29RluU9X/sE4BLA2WAwSFmWTZ1zo1Y4HA53syz72j8oVb0LAAghvGliTBVwpyzLJ76ux977261BURRbItK/xldL8UxkTLNvqnoDgPTTB/LHYnfV93/dkeRrml3R7AzA9c7XtUVs71+upKzePzezjwCsffPeK0U+qOrT/vxvewCKQLKaviEAAAAASUVORK5CYII=">GitHub Pages - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.</A>
-	            <DD>Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.
-	            <DT><A HREF="http://le-camping-car-pour-les-nuls.blogspot.fr/2013/05/le-chauffage-par-carburant-moteur.html" ADD_DATE="1454598599" LAST_MODIFIED="1454598599">Le camping car pour les nuls: Le chauffage par carburant moteur WEBASTO</A>
-	            <DD>
-	        </DL><p>
-	        <DT><A HREF="http://lucbonameau.github.io/" ADD_DATE="1462202047" LAST_MODIFIED="1462202063" ICON_URI="http://lucbonameau.github.io/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACwklEQVQ4jWWSXWiWBRTHf8/rx1hkRlEphZ8VgouiFTrTNXBtbrfhVRCBlehNVFBE0Md9BVr0AQVJjSgiLfN93+fdstqne7dcc2uttqlBRRFU7qLc9j7n18U+sPrDgXNx/uecP/xgQUKy2E8cpur8Eep+beP+n9u4L32BWmDFJXNLs/9SAyyf/pjHZlPGs45lF+26XlOcK/HXH8c5/dVr7P+fafHy2BusnSnQ4yn0c7SIDu8Ie28Ii2gn2oPfvEkBuNrnyAEJStL7KNUzJzhlH5oyY0pmujz8rjEsbw7zRKRULDFrGfsO0Q6s1IUo08d40n6MlBlLuTAlLFWF3zfpwNawkISlFZqS2c6snfjyQR4B4PjDXDaT57xfklmiYnuV9m8Ny7foWL2O7tLB27V3Q1gkspSKvUT/K4wD1Zx7h4asQGaRsEBYXBYO3aFnWxeqRSf2aOcGLeaMPOFnxI/vUdl4DfX89j4PeXJlOHRb5khd5uhOHWuYN04269QenWqe/2SiORzZFg7V+ucnq6K+hn381MY+e9aEA1syR+7M4kydDm/Xc63z5rMtOtmkZ+4yBmv0dE1m97X+/lEStTfzIF+8xK65PBULCxHyOR24VSea5z+YbNJvd2v3Jv0UsxOEJ4nJI2TXraaRvXVUXzjGhF1JZkolSsu178awa5OO7tSvt2vXRu1ZH1HMmRWTin344TOcB64AoHyYxxcZiDQJC2ipKmKq1Shv0TxhEbOUsIPKxRT37uTpeRLniaoef4suy2jKXFYks5CEY3eH5Zsi8kSlkGS2E/bhi/sZBFYtgpQISe161g68So9daDfakejwNu28SjvQPvw7xUMHGATWLaG8oMWm6u0neGrgdSZ/+SBXmc6v8sJR/OFdsqPPc+6BRp4FLv+veWnJEtuwumYd99y7gwO7azm4eQ0twJWXRF4y/wMdnwMSzJ3egQAAAABJRU5ErkJggg==">lucbonameau.github.io</A>
-	        <DD>
-	        <DT><A HREF="https://www.amazon.fr/mn/dcw/myx.html?openid.assoc_handle=framazon&aToken=Atza%7CIwEBIHbGlyR0pfWaOmvFnbKz5HWe82H4dYnfJxnC4HTlv-oLBtm8bT2M_nrzmJSw2vecn9_yaWJ0an3AhD2S5Zu9XTbu7olZCXNCauankdWRjKydRuTCApMA-ITjoysDo0ZknU9ZYVeH7TTFOyvok47QrXrLvnWUnr-9JlQJkF21rmDikPtOxBLryViv4-pIgoP4vdUbhgwVr3dJSnJpFUp6F7iQH-rcpHb41po1lNnsfAVFdBoBEo8zz-ZiEPii4XBaUIKxf9E14k7_UmzTvrNs7lYSJ4IjO8LZLIuRbcBLjAgQ9F81ekDM6friPpJXz92DYxmxHgRwrtOrv2c4ICVaXPvw&openid.claimed_id=https%3A%2F%2Fwww.amazon.fr%2Fap%2Fid%2Famzn1.account.AHK3ZGZWEINHOYKBZGTAELEFBZYA&openid.identity=https%3A%2F%2Fwww.amazon.fr%2Fap%2Fid%2Famzn1.account.AHK3ZGZWEINHOYKBZGTAELEFBZYA&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.fr%2Fap%2Fsignin&openid.response_nonce=2016-07-14T11%3A25%3A18Z2671187812669941156&openid.return_to=https%3A%2F%2Fwww.amazon.fr%2Fmn%2Fdcw%2Fmyx.html&openid.signed=assoc_handle%2CaToken%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.auth_time=2016-07-14T11%3A25%3A18Z&openid.sig=ZFSIB3vaCuHnA%2FYYH%2BxEc4Q94Wa9TEjqvUd2VdVtdMM%3D&serial=&#/home/content/booksAll/dateDsc/" ADD_DATE="1468495570" LAST_MODIFIED="1468495570">Amazon.fr : Gérer votre contenu et vos appareils</A>
-	        <DD>
-	        <DT><A HREF="http://timeline.knightlab.com/" ADD_DATE="1469183178" LAST_MODIFIED="1469183178">Timeline JS3 - Beautifully crafted timelines that are easy, and intuitive to use.</A>
-	        <DD>Beautifully crafted timelines that are easy, and intuitive to use.
-	        <DT><A HREF="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/Unify%20Template%20v1.9.3/HTML/index.html" ADD_DATE="1469588079" LAST_MODIFIED="1469614635" ICON_URI="file:///Users/lucbonameau/Documents/OM%20GOPAL/SITES/Unify%20Template%20v1.9.3/HTML/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAAgAAAAIACH+pydAAABmUlEQVRYw+2XPUtCURjHf4pUhih4hwYvteii4lBDDoUYZBiN9QWkXCNy6CO4tWfU0hK5tBQV9DIIOuQQ5FAugQ4ODoqkg1CDL/mS994IO0P+4QznOec8z+8+55x776OLJNwfDFePzRYHbnoH9UMODjAHhIFr4B6w/zVAp3xAClgQBQBgBc5bmRAB0II4FAkAje1YEgkAsC4aYFk0wLRogDHDT2ZLEzJ7s5ddtmg6SLGWU1wXdsVwWLzt/sXbPnf5I0DsLRgBjABGACOAfwRgHZfFAkwazIoApd84Nyo4B5BNTsU5eiCvNdh7vdxn6/zKfSe1cT3woBWgWi+Tq2S6bB5pRfHpV2d2VAHiWgEAnopXfUHCrhiyydm2GQ1m/LYQ255TVX8G4LaZBZ8WgGQhzvzUBtLE18l2WLwDgxVrOVKFs4GZaN2CTTQexmq9zMnLrupfEECukiGW2eK1lFTMAEAWWKNRsVi1OI6mg/htIWSTC48U6MtSvvJMsqC+u7pIwt3ZtwPHdNRuw1bviygLLAIB4IBGWT1UfQKvnl6TUY/jfQAAACJ6VFh0U29mdHdhcmUAAHjac0zJT0pV8MxNTE8NSk1MqQQAL5wF1K4MqU0AAAAASUVORK5CYII=">Unify Template</A>
-	        <DD>
-	    </DL><p>
-	    <DT><H3 ADD_DATE="1350051375" LAST_MODIFIED="1436615532" UNFILED_BOOKMARKS_FOLDER="true">Marque-pages non classés</H3>
-	    <DL><p>
-	        <DT><A HREF="http://dotepub.com/" ADD_DATE="1432122552" LAST_MODIFIED="1432122552" ICON_URI="http://dotepub.com/i/xfavicon.png.pagespeed.ic.-bP8OiIiwq.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAGZQTFRF////hbolhbolhbolhbolhbolhbolhbolhbol////hbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolhbolapF6lgAAACF0Uk5TAAYMDRkaICUsLjM0TFNfZWdyc4aSmZqfoK3AzNPa5fP54Ul89wAAAGlJREFUGNNlj9cOgDAIRal71D1arVr5/5+0oqkmnAcClw1AxEkiyMnJFv2k1CADeLPVYtFhuuypas2JxDFGVL++sVPqu2u26DGpm7DhDymg2P9CE3CBtbChfC07jJ8OUPaT1oMM4cO/DxcdYRL4xAu0NwAAAABJRU5ErkJggg==" LAST_CHARSET="UTF-8">dotEPUB — download any webpage as an e-book</A>
-	        <DD>Tool for automatic conversion to the main e-book formats: bookmarklet, Chrome and Firefox extension, widget and API
-	        <DT><A HREF="https://www.hostpapa.fr/commandes/hebergement/Completed/" ADD_DATE="1436615532" LAST_MODIFIED="1436615532">HostPapa : Fournisseur de services d’hébergement Web 100 % énergie verte</A>
-	        <DD>Hébergement web français et enregistrement de nom de domaine français. Lancez votre site web avec HostPapa. Soutien 24/7.
-	    </DL><p>
-		</DL>
-
-
-		<H1>Delicious Bookmarks</H1>
-		<DL><p>
-		<DT><A HREF="https://www.drivy.com/" ADD_DATE="1456833542" PRIVATE="0" TAGS="location,voiture,carsharing,sharing,locationvoiture">Location Voiture Particulier - Drivy</A>
-		<DT><A HREF="https://transferwise.com/" ADD_DATE="1456833520" PRIVATE="0" TAGS="money,exchange,transfer,payments,moneytransfer">TransferWise</A>
-		<DT><A HREF="http://goindia.about.com/od/spiritualplaces/tp/Top-10-Rishikesh-Ashrams.htm" ADD_DATE="1448875658" PRIVATE="0" TAGS="ashrams,rishikesh">11 Top Rishikesh Ashrams for Yoga and Meditation</A>
-		<DT><A HREF="http://www.lonelyplanet.com/india/mumbai-bombay/activities/private-luxury/private-tour-kanheri-caves-elephanta-caves-karla-bhaja-caves-mumbai/item-v-5353BOMPVTCAVE-id" ADD_DATE="1448861245" PRIVATE="0" TAGS="caves">Private Tour: Kanheri Caves, Elephanta Caves or Karla and Bhaja Caves from Mumbai - Lonely Planet</A>
-		<DT><A HREF="http://mumbai-pushpa.blogspot.in/2007/01/foreigners-registration-office.html" ADD_DATE="1448860800" PRIVATE="0" TAGS="FFRO,india">Welcome to Mumbai..!: Foreigners Registration Office</A>
-		<DT><A HREF="http://indiancitizenshiponline.nic.in/" ADD_DATE="1448860795" PRIVATE="0" TAGS="india,immigration">indian citizenship ministry of home affairs</A>
-		<DT><A HREF="http://www.docteurclic.com/sympto-check/" ADD_DATE="1448614920" PRIVATE="0" TAGS="symptome,docteur">analyse de symptomes Sympto-Check - docteurclic.com</A>
-		<DT><A HREF="https://fr.ifixit.com/" ADD_DATE="1448508614" PRIVATE="0" TAGS="">iFixit : Le manuel de réparation gratuit</A>
-		<DT><A HREF="http://www.gurusfeet.com/" ADD_DATE="1448341530" PRIVATE="0" TAGS="">Gurusfeet.com | A meeting place for spiritual gurus and spiritual communities</A>
-		<DT><A HREF="http://www.site-magister.com/paggenr.htm#episto" ADD_DATE="1448291073" PRIVATE="0" TAGS="">LES GENRES LITTÉRAIRES</A>
-		<DT><A HREF="http://sanskritdictionary.org/" ADD_DATE="1445424417" PRIVATE="0" TAGS="sankrit,dictionary">Sanskrit Dictionary -- -- Sanskrit Dictionary</A>
-		<DT><A HREF="http://www.seat61.com/India.htm#routes" ADD_DATE="1445404800" PRIVATE="0" TAGS="">Train travel in India - a beginner's guide |  How to buy tickets online</A>
-		<DT><A HREF="http://www.le-monde-du-guerisseur.com/recettes-dhier-a-daujourdhui.html" ADD_DATE="1444680853" PRIVATE="0" TAGS="guérisseur,maladie">Recettes d'hier & d'aujourd'hui</A>
-		<DT><A HREF="http://www.bahmanpanahi.com/gallery.html" ADD_DATE="1444125867" PRIVATE="0" TAGS="">Gallery</A>
-		<DT><A HREF="https://www.youtube.com/watch?feature=player_embedded&v=Y-xrMh1D0Ps" ADD_DATE="1444043412" PRIVATE="0" TAGS="">16th batch Vedanta Course - 1st Anniversary programme - YouTube</A>
-		<DT><A HREF="http://yogadelaconnaissance.com/" ADD_DATE="1443907685" PRIVATE="0" TAGS="vedanta">Accueil - Yoga de la Connaissance - Enseignement en ligne</A>
-		<DT><A HREF="https://thepiratebay.vg/" ADD_DATE="1443903519" PRIVATE="0" TAGS="torrent">Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</A>
-		<DT><A HREF="http://thegoodretreatguide.com/" ADD_DATE="1443902867" PRIVATE="0" TAGS="">The Good Retreat Guide</A>
-		<DT><A HREF="http://www.chinmayamission.com/" ADD_DATE="1443902589" PRIVATE="0" TAGS="vedanta">Chinmaya Mission Worldwide - Official site of Chinmaya Mission created and managed by Central Chinmaya Mission Trust, MumbaiChinmaya Mission Worldwide | Official site of Chinmaya Mission created and managed by Central Chinmaya Mission Trust, Mumbai</A>
-		<DT><A HREF="http://www.les-renseignements-genereux.org/" ADD_DATE="1443902340" PRIVATE="0" TAGS="">Présentation - Les renseignements généreux</A>
-		<DT><A HREF="http://www.centre-vedantique.fr/" ADD_DATE="1443902023" PRIVATE="0" TAGS="vedanta">Centre Védantique Ramakrishna - Paris</A>
-		<DT><A HREF="http://everytimezone.com/" ADD_DATE="1443901629" PRIVATE="0" TAGS="">Time Zones</A>
-		<DT><A HREF="https://www.epub2mobi.com/" ADD_DATE="1443901609" PRIVATE="0" TAGS="">EPUB to MOBI</A>
-		<DT><A HREF="https://www.changedetection.com/" ADD_DATE="1443901595" PRIVATE="0" TAGS="">ChangeDetection - Know when any web page changes</A>
-		<DT><A HREF="http://www.ahalmaas.com/" ADD_DATE="1443901227" PRIVATE="0" TAGS="">Home - A.H. Almaas</A>
-		<DT><A HREF="http://www.rggweb.fr/" ADD_DATE="1443900489" PRIVATE="0" TAGS="vedanta,radio">1ère Radio Védantique - Radio Gandharva Gana</A>
-		<DT><A HREF="http://www.truetorahjews.org/our_mission" ADD_DATE="1443900213" PRIVATE="0" TAGS="">Our Mission | True Torah Jews</A>
-		<DT><A HREF="http://www.jiva.com/" ADD_DATE="1443900031" PRIVATE="0" TAGS="">Jiva Ayurveda</A>
-		<DT><A HREF="http://liveanddare.com/neo-advaita/2/" ADD_DATE="1443631071" PRIVATE="0" TAGS="advaita,vedanta">Neo-Advaita x True Nonduality - an indepth analysis</A>
-		<DT><A HREF="http://www.arte.tv/sites/fr/webdocs/" ADD_DATE="1442945560" PRIVATE="0" TAGS="">ARTE - PROGRAMMES INTERACTIFS</A>
-		<DT><A HREF="http://www.ekuthuleni-retreat.blogspot.ch/" ADD_DATE="1442945320" PRIVATE="0" TAGS="retreat">Ekuthuleni Retreat Place</A>
-		<DT><A HREF="http://framasoft.org/" ADD_DATE="1442944907" PRIVATE="0" TAGS="">Framasoft - Logiciels Libres</A>
-		<DT><A HREF="http://www.quandpartir.com/" ADD_DATE="1442944875" PRIVATE="0" TAGS="">Quand et où partir ? À chaque saison sa destination...</A>
-		<DT><A HREF="http://www.le-message.org/" ADD_DATE="1442926053" PRIVATE="0" TAGS="">Le Message | Comprenez le, diffusez le, reprenez le pouvoir.</A>
-		<DT><A HREF="http://www.le-message.org/?lang=fr" ADD_DATE="1442926010" PRIVATE="0" TAGS="Chouard,politique">www.le-message.org</A>
-		<DT><A HREF="http://www.trailfinders.com/" ADD_DATE="1442842395" PRIVATE="0" TAGS="bucket shop">Trailfinders - The Travel Experts</A>
-		<DT><A HREF="http://northfieldshostel.com/" ADD_DATE="1442842383" PRIVATE="0" TAGS="hotel,london">OFFICIAL WEBSITE Northfields Hostel - ideal base for travelling into London - Hostel accommodation London</A>
-		<DT><A HREF="http://covoiturage-libre.fr/" ADD_DATE="1442842259" PRIVATE="0" TAGS="">Covoiturage-libre.fr - Le site du covoiturage libre et gratuit !</A>
-		<DT><A HREF="https://www.comment-supprimer.com/" ADD_DATE="1434319105" PRIVATE="0" TAGS="supprimer,comptes">Comment Supprimer ? Nettoyez votre ordinateur !</A>
-		<DT><A HREF="http://www.ouigo.com/fr" ADD_DATE="1433416942" PRIVATE="0" TAGS="">OUIGO par SNCF : TGV low cost à partir de 10 €</A>
-		<DT><A HREF="http://www.ratp.fr/plan-interactif/" ADD_DATE="1433164872" PRIVATE="0" TAGS="map metro paris,plan">Plan Interactif des transports en Ile-de-France</A>
-		<DT><A HREF="http://cgires.free.fr/FrameBase.php?Domaine=PorteVoixPublic&GroupeTables=portevoix&Cols=162&Rows=135" ADD_DATE="1433154942" PRIVATE="0" TAGS="Christophe Gires">'La Compagnie du Porte-Voix'</A>
-		<DT><A HREF="http://www.hebergeurslibres.net/wakka.php?wiki=ListeHebergeurs" ADD_DATE="1432667987" PRIVATE="0" TAGS="hébergeurs,site,liste,éthique,libres">WikiHebergeursLibres:ListeHebergeurs</A>
-		<DT><A HREF="http://www.visaeurope.com/lost-your-card" ADD_DATE="1432667413" PRIVATE="0" TAGS="visa lost">Lost your card?</A>
-		<DT><A HREF="https://sites.google.com/site/wakeupschoolsfrance/" ADD_DATE="1432666668" PRIVATE="0" TAGS="">Cultiver la pleine conscience dans l'éducation</A>
-		<DT><A HREF="http://www.prxbx.com/email/" ADD_DATE="1432666399" PRIVATE="0" TAGS="">Privacy-Conscious Email Services</A>
 		</DL><p>		</div>
 
 	</section>
@@ -2326,9 +2561,9 @@
 	<script src="assets_one_page/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
 	<script src="assets_one_page/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
 	<script src="assets_one_page/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-	<script src="assets_one_page/plugins/modernizr.js"></script>
-	<script src="assets_one_page/plugins/shhos/shhos.js"></script>
-	<script src="assets_one_page/plugins/wow/wow-ini-themes.js"></script>
+        <script src="assets_one_page/plugins/modernizr.js"></script>
+        <script src="assets_one_page/plugins/shhos/shhos.js"></script>
+        <script src="assets_one_page/plugins/wow/wow-ini-themes.js"></script>
 
 	<!-- JS Page Level-->
 	<script src="assets_one_page/js/one.app.js"></script>
@@ -2339,7 +2574,7 @@
 	<script>
 		$(function() {
 			App.init();
-			OwlCarousel.initOwlCarousel();
+			//OwlCarousel.initOwlCarousel();
 		});
 	</script>
 
