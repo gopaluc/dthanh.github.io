@@ -2,23 +2,17 @@ CACHE MANIFEST
 
 #APP
 apps.html
-mon_compte.html
 app_check.html
+app_encasde.css
+assets/plugins/bootstrap/css/bootstrap.css
+assets/plugins/bootstrap/js/bootstrap.js
+assets/plugins/jquery/jquery.js
+
 app_conditions_de_bonheur.html
 app_citations.html
 app_encasde.html
 app_mementos.html
 
-
-# MEMENTOS
-trace_memento_intro.html
-trace_memento0.html
-trace_mementoA.html
-trace_mementoB.html
-trace_mementoC.html
-trace_mementoD.html
-trace_mementoE.html
-trace_mementoF.html
 
 # EN CAS DE
 trace_encasdangoisse.html
@@ -28,36 +22,6 @@ trace_encasde_maletre.html
 trace_encasde_stress.html
 trace_encasde_tempete.html
 
-#CHECK
-trace_check_conviction.html
-trace_check_index.html
-
-
-# CSS
-#CSS Global Compulsory
-assets/plugins/bootstrap/css/bootstrap.min.css
-assets/css/style.css
-#CSS Header and Footer
-assets/css/headers/header-default.css
-assets/css/footers/footer-default.css
-#CSS Implementing Plugins
-assets/plugins/animate.css
-assets/plugins/line-icons/line-icons.css
-assets/plugins/font-awesome/css/font-awesome.min.css
-assets/plugins/parallax-slider/css/parallax-slider.css
-assets/plugins/owl-carousel/owl-carousel/owl.carousel.css
-#CSS Theme
-assets/css/theme-colors/default.css
-assets/css/theme-skins/dark.css
-#CSS Customization
-assets/css/custom.css
-#CSS Page Style
-assets/css/pages/portfolio-v1.css
-assets/css/pages/portfolio-v2.css
-assets/css/pages/page_search.css
-assets/css/pages/shortcode_timeline1.css
-#Personnal Gopal CSS Page Style
-assets/gopal/css/pages/portfolio-v-gopal.css
 
 # Images
 assets/img/traces/
