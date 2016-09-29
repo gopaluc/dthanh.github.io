@@ -1,0 +1,66 @@
+[class*="col-"] {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+  height: 150px;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#maletre, #maletre a
+{
+    background-color: chartreuse;     
+    color: black;
+}
+
+#tempete, #tempete a
+{
+    background-color : fuchsia;
+    color: white;
+}
+
+#angoisse, #angoisse a
+{
+    background-color : darkblue;
+    color: deepskyblue;
+}
+
+#stress, #stress a
+{
+    background-color: yellow;
+    color: red;
+}
+
+#depression, #depression a
+{
+    background-color: black;
+    color: gray;
+}
+
+#colere, #colere a
+{
+    background-color: red;
+    color: white;
+}
+
+button 
+{
+    opacity: 0.7;
+}
+
+button:hover
+{
+    opacity: 1;
+}
+
+img
+{
+    float: left;
+}
