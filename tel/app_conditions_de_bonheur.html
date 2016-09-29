@@ -10,6 +10,11 @@
 
 
 
+
+
+
+
+
 <html manifest="tel.webcache">
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
@@ -87,8 +92,8 @@
         <div class="container">
             <h1 class="pull-left">Mes conditions de bonheur</h1>
             <ul class="pull-right breadcrumb">
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="mon_compte.php">Mon compte</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="mon_compte.html">Mon compte</a></li>
                 <li class="active">Mes conditions de bonheur</li>
                 <li><a href="#"> </a></li>
             </ul>
@@ -100,6 +105,8 @@
     <!--=== Content Part ===-->
     <div class="container content">   
 
+        <p>On vous promet, avant que vous n'arriviez à la cinquième, vous serez envahi par un sentiment de contentement !</p>
+        
         <!-- Basic Form -->
         <div class="panel panel-blue margin-bottom-40">
             <div class="panel-heading">
@@ -125,23 +132,47 @@
                                 <input onkeyup="updateLocal();" class="form-control" id="bonheur4" placeholder="Écrivez votre quatrième condition de bonheur.">
                             </div>
                                                 <div class="form-group">
-                                <label> condition de bonheur</label>
-                                <input onkeyup="updateLocal();" class="form-control" id="bonheur5" placeholder="Écrivez votre  condition de bonheur.">
+                                <label>Cinquième condition de bonheur</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur5" placeholder="Écrivez votre cinquième condition de bonheur.">
                             </div>
                                         <p id="result"></p>
-                    <!--<button type="submit" class="btn-u btn-u-blue">Besoin de plus de conditions de bonheur ?</button>-->
+                    <a id="plusa" class="btn-u btn-u-blue"><i class="fa fa-plus-square"></i> Besoin de plus de conditions de bonheur ?</a><p id="plusCaption"></p>
+                    <br><br>
+                    <button class="btn-u btn-u-red"><i class="fa fa-envelope"></i> Envoyer ces gratitudes à un ami</button>
+                    <button class="btn-u btn-u-red"><i class="fa fa-cloud"></i> Enregistrer ces gratitudes sur mon compte</button>
                     
                 </form>
             </div>
         </div>
         <!-- End Basic Form -->
 
-        
-
     </div><!--/container-->    
 
-
 </div><!--/wrapper-->
+
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+<script>
+    var labels = ['Première', 'Deuxième', 'Troisième', 'Quatrième', 'Cinquième', 'Sixième', 'Septième', 'Huitième', 'Neuvième', 'Dixième'];
+        
+        $('#plusa').on('click', function(){
+            var i = $('.form-group').length;
+    
+            if (i < labels.length)
+            {        
+                $('.form-group:last').after('<div class="form-group"><label>'+labels[i]+' condition de bonheur</label><input onkeyup="updateLocal();" class="form-control" id="bonheur6" placeholder="Écrivez votre '+labels[i].toLowerCase()+' condition de bonheur."></div>');
+                i++;
+            }
+            else
+            {
+                $('#plusa').fadeOut(1000);
+                $('#plusCaption').text("Tableau hors limite");
+            }
+        });
+        
+    
+    
+</script>
 
 
 <script>
