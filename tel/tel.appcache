@@ -1,6 +1,6 @@
 CACHE MANIFEST
 app_encasde.html
 app_encasde.css
-assets/plugins/bootstrap/css/bootstrap.css
-assets/plugins/bootstrap/js/bootstrap.js
-assets/plugins/jquery/jquery.js
+/assets/plugins/bootstrap/css/bootstrap.css
+/assets/plugins/bootstrap/js/bootstrap.js
+/assets/plugins/jquery/jquery.js
