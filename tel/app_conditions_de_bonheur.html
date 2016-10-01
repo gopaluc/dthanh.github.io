@@ -13,12 +13,7 @@
 
 
 
-<<<<<<< HEAD
 <html>
-=======
-
-<html manifest="tel.appcache">
->>>>>>> origin/master
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->  
@@ -166,7 +161,6 @@
 
 
 
-<<<<<<< HEAD
 
 <div class="wrapper">
 
@@ -381,145 +375,6 @@ function updateLocal() {
 	
 </div><!--/container-->
 <!--=== End Content Part ===-->
-=======
-
-<div class="wrapper">
-
-    <!--=== Breadcrumbs ===-->
-    <div class="breadcrumbs">
-        <div class="container">
-            <h1 class="pull-left">Mes conditions de bonheur</h1>
-            <ul class="pull-right breadcrumb">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="mon_compte.html">Mon compte</a></li>
-                <li class="active">Mes conditions de bonheur</li>
-                <li><a href="#"> </a></li>
-            </ul>
-        </div>
-    </div><!--/breadcrumbs-->
-    <!--=== End Breadcrumbs ===-->
- 
-
-    <!--=== Content Part ===-->
-    <div class="container content">   
-
-        <p>On vous promet, avant que vous n'arriviez à la cinquième, vous serez envahi par un sentiment de contentement !</p>
-        
-        <!-- Basic Form -->
-        <div class="panel panel-blue margin-bottom-40">
-            <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-tasks"></i> Mes conditions de bonheur</h3>
-            </div>
-            <div class="panel-body">
-                <form class="margin-bottom-40" role="form">
-
-                                                <div class="form-group">
-                                <label>Première condition de bonheur</label>
-                                <input onkeyup="updateLocal();" class="form-control" id="bonheur1" placeholder="Écrivez votre première condition de bonheur. Exemple : Je respire, ça veut dire que je suis vivant.">
-                            </div>
-                                                <div class="form-group">
-                                <label>Deuxième condition de bonheur</label>
-                                <input onkeyup="updateLocal();" class="form-control" id="bonheur2" placeholder="Écrivez votre deuxième condition de bonheur. Exemple : J'ai de bons yeux qui me permettent de voir toutes les merveilles de formes et de couleur">
-                            </div>
-                                                <div class="form-group">
-                                <label>Troisième condition de bonheur</label>
-                                <input onkeyup="updateLocal();" class="form-control" id="bonheur3" placeholder="Écrivez votre troisième condition de bonheur. Exemple : J'ai suffisemment à manger pour aujourd'hui, même de quoi offrir...">
-                            </div>
-                                                <div class="form-group">
-                                <label>Quatrième condition de bonheur</label>
-                                <input onkeyup="updateLocal();" class="form-control" id="bonheur4" placeholder="Écrivez votre quatrième condition de bonheur.">
-                            </div>
-                                                <div class="form-group">
-                                <label>Cinquième condition de bonheur</label>
-                                <input onkeyup="updateLocal();" class="form-control" id="bonheur5" placeholder="Écrivez votre cinquième condition de bonheur.">
-                            </div>
-                                        <p id="result"></p>
-                    <a id="plusa" class="btn-u btn-u-blue"><i class="fa fa-plus-square"></i> Besoin de plus de conditions de bonheur ?</a>
-                    <p id="plusCaption" ></p>
-                    <br><br>
-                    <button class="btn-u btn-u-red"><i class="fa fa-envelope"></i> Envoyer ces gratitudes à un ami</button>
-                    <button class="btn-u btn-u-red"><i class="fa fa-cloud"></i> Enregistrer ces gratitudes sur mon compte</button>
-                    
-                </form>
-            </div>
-        </div>
-        <!-- End Basic Form -->
-
-    </div><!--/container-->    
-
-</div><!--/wrapper-->
-
-<script src="assets/plugins/jquery/jquery.min.js"></script>
-
-<script>
-    var labels = ['Première', 'Deuxième', 'Troisième', 'Quatrième', 'Cinquième', 'Sixième', 'Septième', 'Huitième', 'Neuvième', 'Dixième'];
-        
-        $('#plusa').on('click', function(){
-            var i = $('.form-group').length;
-    
-            if (i < labels.length)
-            {        
-                $('.form-group:last').after('<div class="form-group"><label>'+labels[i]+' condition de bonheur</label><input onkeyup="updateLocal();" class="form-control" id="bonheur6" placeholder="Écrivez votre '+labels[i].toLowerCase()+' condition de bonheur."></div>');
-                i++;
-            }
-            else
-            {
-                $('#plusa').fadeOut(1000);
-                $('#plusCaption').text("Tableau hors limite");
-            }
-        });
-        
-    
-    
-</script>
-
-
-<script>
-// Load
-if(typeof(Storage) !== "undefined") {
-    if (typeof(localStorage.bonheur1) !== "undefined")
-    {
-        document.getElementById("bonheur1").value=localStorage.bonheur1;
-    }
-
-    if (typeof(localStorage.bonheur2) !== "undefined")
-    {
-        document.getElementById("bonheur2").value=localStorage.bonheur2;
-    }
-    if (typeof(localStorage.bonheur3) !== "undefined")
-    {
-        document.getElementById("bonheur3").value=localStorage.bonheur3;
-    }
-    if (typeof(localStorage.bonheur4) !== "undefined")
-    {
-        document.getElementById("bonheur4").value=localStorage.bonheur4;
-    }
-    if (typeof(localStorage.bonheur5) !== "undefined")
-    {
-        document.getElementById("bonheur5").value=localStorage.bonheur5;
-    }
-
-} else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-}
-
-
-function updateLocal() {
-     if(typeof(Storage) !== "undefined") {
-        localStorage.bonheur1 = document.getElementById("bonheur1").value;
-        localStorage.bonheur2 = document.getElementById("bonheur2").value;
-        localStorage.bonheur3 = document.getElementById("bonheur3").value;
-        localStorage.bonheur4 = document.getElementById("bonheur4").value;
-        localStorage.bonheur5 = document.getElementById("bonheur5").value;
-        document.getElementById("result").innerHTML = "Bonheur enregistré";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }   
-}
-
-
-</script>
->>>>>>> origin/master
 
 
 			<script type="text/javascript">
