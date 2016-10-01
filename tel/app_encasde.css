@@ -1,3 +1,5 @@
+
+/*
 [class*="col-"] {
   background-color: lightgreen;
   border: 2px solid black;
@@ -6,6 +8,7 @@
   text-align: center;
   height: 150px;
 }
+*/
 
 h1{
     font-size: 3em;

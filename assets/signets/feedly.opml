@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>null subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="Medias" title="Medias">
+            <outline type="rss" text="Rue89 : Médias" title="Rue89 : Médias" xmlUrl="http://www.rue89.com/medias/feed" htmlUrl="http://api.rue89.nouvelobs.com/medias"/>
+            <outline type="rss" text="Pour une presse libérée des puissances de l'argent et de l'Etat" title="Pour une presse libérée des puissances de l'argent et de l'Etat" xmlUrl="https://journalistesdebout.com/feed/" htmlUrl="https://journalistesdebout.com"/>
+            <outline type="rss" text="Acrimed | Action Critique Médias" title="Acrimed | Action Critique Médias" xmlUrl="http://www.acrimed.org/spip.php?page=backend" htmlUrl="http://www.acrimed.org/"/>
+        </outline>
+        <outline text="Tech" title="Tech">
+            <outline type="rss" text="Molleindustria" title="Molleindustria" xmlUrl="http://www.molleindustria.org/blog/feed/" htmlUrl="http://www.molleindustria.org/blog"/>
+            <outline type="rss" text="Rue89 : Tech" title="Rue89 : Tech" xmlUrl="http://www.rue89.com/hi-tech/feed" htmlUrl="http://api.rue89.nouvelobs.com/tech"/>
+        </outline>
+        <outline text="EDU" title="EDU">
+            <outline type="rss" text="Veille LB Education" title="Veille LB Education" xmlUrl="http://pipes.yahoo.com/pipes/pipe.run?_id=4f9fc225350f1e7ebec66514db9604c3&amp;_render=rss"/>
+            <outline type="rss" text="Observatoire de la Violence Educative Ordinaire" title="Observatoire de la Violence Educative Ordinaire" xmlUrl="http://www.oveo.org/index.php?option=com_rd_rss&amp;id=2"/>
+            <outline type="rss" text="Raymond Barbry" title="Raymond Barbry" xmlUrl="http://agepsraymondbarbry.wordpress.com/feed/" htmlUrl="https://agepsraymondbarbry.wordpress.com"/>
+            <outline type="rss" text="tous citoyens chercheurs" title="tous citoyens chercheurs" xmlUrl="http://touscitoyenschercheurs.wordpress.com/feed/" htmlUrl="https://touscitoyenschercheurs.wordpress.com"/>
+            <outline type="rss" text="Veille LB e-learning" title="Veille LB e-learning" xmlUrl="http://pipes.yahoo.com/pipes/pipe.run?_id=ae2e128ac0ed6583f85a221fedc701b3&amp;_render=rss" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=ae2e128ac0ed6583f85a221fedc701b3"/>
+            <outline type="rss" text="Élucubrations pédagogiques" title="Élucubrations pédagogiques" xmlUrl="http://jejoueenclasse.free.fr/elucubrations/?feed=rss2" htmlUrl="http://jejoueenclasse.free.fr/elucubrations"/>
+            <outline type="rss" text="Scoop Education France | Scoop.it" title="Scoop Education France | Scoop.it" xmlUrl="http://www.scoop.it/t/scoop-education/rss.xml" htmlUrl="http://www.scoop.it/t/scoop-education"/>
+            <outline type="rss" text="Editorial" title="Editorial" xmlUrl="http://www.oveo.org/index.php?format=feed&amp;type=rss" htmlUrl="http://www.oveo.org/index.php?option=com_content&amp;view=featured"/>
+        </outline>
+        <outline text="Actualité" title="Actualité">
+            <outline type="rss" text="Arrêt sur Info" title="Arrêt sur Info" xmlUrl="http://arretsurinfo.ch/feed/" htmlUrl="http://arretsurinfo.ch"/>
+            <outline type="rss" text="Nada-info.fr" title="Nada-info.fr" xmlUrl="http://nada-info.fr/site/?feed=rss2" htmlUrl="http://nada-info.fr/site"/>
+            <outline type="rss" text="Les moutons enragés" title="Les moutons enragés" xmlUrl="http://lesmoutonsenrages.fr/feed/" htmlUrl="http://lesmoutonsenrages.fr"/>
+            <outline type="rss" text="Mediapart" title="Mediapart" xmlUrl="http://www.mediapart.fr/articles/feed" htmlUrl="https://www.mediapart.fr/"/>
+            <outline type="rss" text="Rue89" title="Rue89" xmlUrl="http://www.rue89.com/homepage/feed" htmlUrl="http://api.rue89.nouvelobs.com"/>
+            <outline type="rss" text="Sputnik France - Actualités - Prises de Position - Radio" title="Sputnik France - Actualités - Prises de Position - Radio" xmlUrl="http://fr.rian.ru/export/rss2/index.xml" htmlUrl="https://fr.sputniknews.com"/>
+            <outline type="rss" text="CQFD, mensuel de critique et d'expérimentation sociales" title="CQFD, mensuel de critique et d'expérimentation sociales" xmlUrl="http://www.cqfd-journal.org/spip.php?page=backend" htmlUrl="http://www.cqfd-journal.org/"/>
+            <outline type="rss" text="Là-bas si j'y suis" title="Là-bas si j'y suis" xmlUrl="http://www.la-bas.org/spip.php?page=backend" htmlUrl="http://la-bas.org/"/>
+        </outline>
+        <outline text="DIVERS" title="DIVERS">
+            <outline type="rss" text="Commentaires pour Le blog de magikotto" title="Commentaires pour Le blog de magikotto" xmlUrl="http://magikotto.wordpress.com/comments/feed/" htmlUrl="https://magikotto.wordpress.com"/>
+            <outline type="rss" text="P R I S M E" title="P R I S M E" xmlUrl="http://www.documentation-sociale.org/prisme/index.php?format=feed&amp;type=rss"/>
+            <outline type="rss" text="Veille LB Nouvelles technologies" title="Veille LB Nouvelles technologies" xmlUrl="http://pipes.yahoo.com/pipes/pipe.run?_id=f2a6c064471aa5194df547e26a125558&amp;_render=rss" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=f2a6c064471aa5194df547e26a125558"/>
+            <outline type="rss" text="TEDTalks (video)" title="TEDTalks (video)" xmlUrl="http://feeds.feedburner.com/tedtalks_video" htmlUrl="http://www.ted.com/talks/list"/>
+            <outline type="rss" text="Veille LB Artistes" title="Veille LB Artistes" xmlUrl="http://pipes.yahoo.com/pipes/pipe.run?_id=6a6d7d189e44862dd03915c42e8250dc&amp;_render=rss" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=6a6d7d189e44862dd03915c42e8250dc"/>
+            <outline type="rss" text="Le blog de magikotto" title="Le blog de magikotto" xmlUrl="http://magikotto.wordpress.com/feed/" htmlUrl="https://magikotto.wordpress.com"/>
+            <outline type="rss" text="www.kolocsolidaire.org" title="www.kolocsolidaire.org" xmlUrl="http://www.kolocsolidaire.org/spip/spip.php?page=backend"/>
+            <outline type="rss" text="Labyrinthe" title="Labyrinthe" xmlUrl="http://labyrinthe.revues.org/backend?format=rssnumeros" htmlUrl="http://labyrinthe.revues.org"/>
+            <outline type="rss" text="Years 21+" title="Years 21+" xmlUrl="http://www.edu.aurovilleportal.org/21-years?format=feed&amp;limitstart=&amp;type=rss" htmlUrl="http://www.edu.aurovilleportal.org"/>
+        </outline>
+        <outline text="BUD" title="BUD">
+            <outline type="rss" text="Le Dhamma de la Forêt" title="Le Dhamma de la Forêt" xmlUrl="http://www.dhammadelaforet.org/info.css+xml" htmlUrl="http://www.dhammadelaforet.org/"/>
+            <outline type="rss" text="Buddhist Geeks" title="Buddhist Geeks" xmlUrl="http://feeds.feedburner.com/BuddhistGeeksPodcast" htmlUrl="http://www.buddhistgeeks.com"/>
+            <outline type="rss" text="Wake Up Schools » Feed" title="Wake Up Schools » Feed" xmlUrl="http://wakeupschools.org/feed/" htmlUrl="http://wakeupschools.org"/>
+            <outline type="rss" text="J'ai deux kôans à vous dire..." title="J'ai deux kôans à vous dire..." xmlUrl="http://zen.viabloga.com/index.xml" htmlUrl="http://zen.viabloga.com"/>
+            <outline type="rss" text="Au Coeur du Zen" title="Au Coeur du Zen" xmlUrl="http://aucoeurduzen.blogspot.com/feeds/posts/default" htmlUrl="http://aucoeurduzen.blogspot.com/"/>
+            <outline type="rss" text="Les ‘Pissenlits Généreux’" title="Les ‘Pissenlits Généreux’" xmlUrl="http://pissenlitsgenereux.blogspot.com/feeds/posts/default" htmlUrl="http://pissenlitsgenereux.blogspot.com/"/>
+            <outline type="rss" text="Zen Peacemakers" title="Zen Peacemakers" xmlUrl="http://zenpeacemakers.org/feed/" htmlUrl="http://zenpeacemakers.org"/>
+            <outline type="rss" text="Matthieu Ricard" title="Matthieu Ricard" xmlUrl="http://www.matthieuricard.org/index.php/MR/rss_20/" htmlUrl="http://www.matthieuricard.org/blog"/>
+            <outline type="rss" text="Plum Village" title="Plum Village" xmlUrl="http://plumvillage.org/feed/" htmlUrl="http://plumvillage.org"/>
+            <outline type="rss" text="S’ÉVEILLER" title="S’ÉVEILLER" xmlUrl="http://bouddhisme-action.org/feed/" htmlUrl="http://bouddhisme-action.org"/>
+            <outline type="rss" text="Learning Happiness in Bhutan" title="Learning Happiness in Bhutan" xmlUrl="http://havinhtho.blogspot.com/feeds/posts/default" htmlUrl="http://havinhtho.blogspot.com/"/>
+        </outline>
+        <outline text="ENGAGES FR" title="ENGAGES FR">
+            <outline type="rss" text="Survie" title="Survie" xmlUrl="http://feeds.survie.org/survie?format=xml" htmlUrl="http://survie.org?lang=fr"/>
+            <outline type="rss" text="Les derniers communiqués d'Attac France" title="Les derniers communiqués d'Attac France" xmlUrl="http://www.france.attac.org/salledepresse/feed" htmlUrl="https://france.attac.org/"/>
+            <outline type="rss" text="L214 Éthique &amp; Animaux" title="L214 Éthique &amp; Animaux" xmlUrl="http://www.l214.com/rss.xml" htmlUrl="http://www.l214.com"/>
+            <outline type="rss" text="One Voice" title="One Voice" xmlUrl="http://www.one-voice.fr/feed/" htmlUrl="http://www.one-voice.fr"/>
+            <outline type="rss" text="Mouvement Colibris" title="Mouvement Colibris" xmlUrl="http://www.colibris-lemouvement.org/colibris.xml" htmlUrl="http://www.colibris-lemouvement.org/colibris.xml"/>
+            <outline type="rss" text="Blog du Plan C" title="Blog du Plan C" xmlUrl="http://chouard.org/blog/feed/" htmlUrl="http://chouard.org/blog"/>
+            <outline type="rss" text="La Vie des idées" title="La Vie des idées" xmlUrl="http://www.laviedesidees.fr/spip.php?page=backend" htmlUrl="http://www.laviedesidees.fr/"/>
+            <outline type="rss" text="S’ÉVEILLER" title="S’ÉVEILLER" xmlUrl="http://bouddhisme-action.org/feed/" htmlUrl="http://bouddhisme-action.org"/>
+            <outline type="rss" text="Mouvement pour une Alternative Non-..." title="Mouvement pour une Alternative Non-..." xmlUrl="http://nonviolence.fr/spip.php?page=backend" htmlUrl="http://nonviolence.fr/"/>
+        </outline>
+        <outline text="PSI" title="PSI">
+            <outline type="rss" text="Psycho Actif, le blog de Christophe André" title="Psycho Actif, le blog de Christophe André" xmlUrl="http://www.blogger.com/feeds/8602534542175680834/posts/default" htmlUrl="http://psychoactif.blogspot.com/"/>
+            <outline type="rss" text="psychoactif.blogspot.com/feeds/posts/default" title="psychoactif.blogspot.com/feeds/posts/default" xmlUrl="http://psychoactif.blogspot.com/feeds/posts/default"/>
+            <outline type="rss" text="Sciences Humaines" title="Sciences Humaines" xmlUrl="http://www.scienceshumaines.com/rss/" htmlUrl="http://www.scienceshumaines.com/rss"/>
+            <outline type="rss" text="Le cercle psy, le magazine de toutes les psychologies" title="Le cercle psy, le magazine de toutes les psychologies" xmlUrl="http://le-cercle-psy.scienceshumaines.com/rss/" htmlUrl="http://le-cercle-psy.scienceshumaines.com/rss"/>
+            <outline type="rss" text="www.pleineconscienceetpsychologie.fr" title="www.pleineconscienceetpsychologie.fr" xmlUrl="http://www.pleineconscienceetpsychologie.fr/spip.php?page=backend" htmlUrl="http://www.pleineconscienceetpsychologie.fr/"/>
+        </outline>
+        <outline text="TRUTH" title="TRUTH">
+            <outline type="rss" text="Les Racines du ciel" title="Les Racines du ciel" xmlUrl="http://www.franceculture.fr/emission/4486149/rss" htmlUrl="http://www.radiofrance.fr/"/>
+            <outline type="rss" text="Conscience sans objet" title="Conscience sans objet" xmlUrl="http://consciencesansobjet.blogspot.com/feeds/posts/default" htmlUrl="http://consciencesansobjet.blogspot.com/"/>
+            <outline type="rss" text="Invité de Marc" title="Invité de Marc" xmlUrl="http://www.invitedemarc.com/feed/" htmlUrl="http://www.invitedemarc.com"/>
+            <outline type="rss" text="ÉVEIL IMPERSONNEL et approches non-duelles" title="ÉVEIL IMPERSONNEL et approches non-duelles" xmlUrl="http://eveilimpersonnel.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://eveilimpersonnel.blogspot.com/"/>
+            <outline type="rss" text="3e millénaire - Spiritualité - Conn..." title="3e millénaire - Spiritualité - Conn..." xmlUrl="http://www.revue3emillenaire.com/blog/?feed=rss2" htmlUrl="http://www.revue3emillenaire.com/blog"/>
+            <outline type="rss" text="FOUDRE" title="FOUDRE" xmlUrl="http://foudreevolutive.blogspot.com/feeds/posts/default" htmlUrl="http://foudreevolutive.blogspot.com/"/>
+            <outline type="rss" text="Ramakant Maharaj" title="Ramakant Maharaj" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClVsFgHYRR6RsWhokITCw6w" htmlUrl="http://www.youtube.com/channel/UClVsFgHYRR6RsWhokITCw6w"/>
+            <outline type="rss" text="Voyage de Noos" title="Voyage de Noos" xmlUrl="http://voyagedenoos.blogspot.com/feeds/posts/default" htmlUrl="http://voyagedenoos.blogspot.com/"/>
+            <outline type="rss" text="Meditation et Spiritualité | Spiritualité 3G" title="Meditation et Spiritualité | Spiritualité 3G" xmlUrl="http://www.spiritualite3g.com/feed/rss/" htmlUrl="http://www.spiritualite3g.com"/>
+        </outline>
+        <outline text="Géopolitique" title="Géopolitique">
+            <outline type="rss" text="NSAE" title="NSAE" xmlUrl="http://www.nsae.fr/feed/" htmlUrl="http://nsae.fr"/>
+            <outline type="rss" text="Le Saker Francophone" title="Le Saker Francophone" xmlUrl="http://lesakerfrancophone.fr/feed" htmlUrl="http://lesakerfrancophone.fr"/>
+            <outline type="rss" text="Le Monde diplomatique" title="Le Monde diplomatique" xmlUrl="http://www.monde-diplomatique.fr/recents.xml" htmlUrl="http://www.monde-diplomatique.fr/"/>
+        </outline>
+    </body>
+</opml>
