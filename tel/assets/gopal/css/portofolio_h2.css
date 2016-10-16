@@ -1,8 +1,18 @@
-@media max-width: 768px
-{
+@media (max-device-width: 768px) {
     /* Rédigez vos propriétés CSS ici */
     #mask h2
     {
         font-size: 1em;
+    }
+    
+    h2
+    {
+        font-size: 1em;
+    }   
+    
+    
+    body
+    {
+        background-color: red;
     }
 }

@@ -1,0 +1,99 @@
+
+/*
+[class*="col-"] {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+  height: 150px;
+}
+*/
+
+.luc
+{
+    background-color: black;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button 
+{
+    border-radius: 50px;
+    border: 5px black solid;
+    opacity: 0.9;
+}
+
+button:hover
+{
+    opacity: 1;
+}
+
+img
+{
+    float: left;
+}
+
+#sp1, #sp1 a
+{
+    background-color: chartreuse;     
+    color: black;
+}
+
+#sp2, #sp2 a
+{
+    background-color : fuchsia;
+    color: white;
+}
+
+#sp3, #sp3 a
+{
+    background-color : orange;
+    color: deepskyblue;
+}
+
+#sp4, #sp4 a
+{
+    background-color: yellow;
+    color: red;
+}
+
+#sp5, #sp5 a
+{
+    background-color: black;
+    color: gray;
+}
+
+#sp6, #sp6 a
+{
+    background-color: red;
+    color: white;
+}
+
+#sp5, #sp5 a
+{
+    background-color : aqua;
+    color: gray;
+}
+
+#sp6, #sp6 a
+{
+    background-color: aquamarine;
+    color: white;
+}
+
+#sp7, #sp7 a
+{
+    background-color: cyan;
+    color: gray;
+}
+
+#sp8, #sp8 a
+{
+    background-color: deepskyblue;
+    color: white;
+}

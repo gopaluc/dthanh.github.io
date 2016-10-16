@@ -16,12 +16,12 @@
 <html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 
 
 
 <head>
-    <title>Tout Est Lumière</title>
+    <title>Everything Is Light</title>
     <!-- Meta -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,12 +52,6 @@
 <link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
 <link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css">    <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
-    
-    <!-- CSS Portfolios -->
-    <link rel="stylesheet" href="assets/css/pages/portfolio-v1.css">
-    <link rel="stylesheet" href="assets/css/pages/portfolio-v2.css">
-    <link rel="stylesheet" href="assets/gopal/css/pages/portfolio-v-gopal.css">
-    <link rel="stylesheet" href="assets/gopal/css/portofolio_h2.css">
 </head>
 
 <body>
@@ -79,14 +73,14 @@
             <ul class="loginbar pull-right">
                 <li class="hoverSelector">
                     <i class="fa fa-globe"></i>
-                    <a>Langues</a>
+                    <a>Languages</a>
                         <ul class="languages hoverSelectorBlock">
-                                                    <li class="active"><a href="index_fr.html">Français <i class="fa fa-check"></i></a></li>
-                            <li><a href="en/index.html">English</a></li>
+                                                    <li><a href="fr/index.html">Français</a></li>
+                            <li class="active"><a href="index_en.html">English <i class="fa fa-check"></i></a></li>
                                             </ul>
                 </li>
                 <li class="topbar-devider"></li>
-                <li><a href="page_faq.html">Aide</a></li>
+                <li><a href="page_faq.html">Help</a></li>
                 <li class="topbar-devider"></li>
                 
                 <li><a href="page_login.html">Login</a></li>                
@@ -109,7 +103,7 @@
             <ul class="nav navbar-nav">
                 <li class="page-scroll">
                   <a href="index.html#traces">
-                    Traces                  </a> 
+                    Footprints                  </a> 
                 </li>
                 <li>
                   <a href="index.html#ressources">
@@ -148,215 +142,77 @@
     <!--=== Content Part ===-->
     <div class="container content"> 
 
-<div name="top" class="wrapper">
-        
+<div class="wrapper">
+
     <!--=== Breadcrumbs ===-->
     <div class="breadcrumbs">
         <div class="container">
-            <h1 class="pull-left">Images métaphores psi</h1>
-            <ul class="pull-right breadcrumb">
+            <h1 class="pull-left">Injonctions & introjections</h1>
+            <ul class="pull-right breadcrumb hidden-xs">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html#ressources">Ressources</a></li>
-                <li class="active">Images métaphores psi</li>
+                <li><a href="apps.html">Apps</a></li>
+                <li class="active">Injonctions & introjections</li>
                 <li><a href="#"> </a></li>
             </ul>
         </div>
     </div><!--/breadcrumbs-->
     <!--=== End Breadcrumbs ===-->
-    <p>Des images pour intégrer des vérités</p> 
-
-            <!--=== Content Part ===-->
-        <div class="container content portfolio-4-columns"> 
-    <div class="row"> 
-            <div class="col-md-3 col-sm-6">
-                <div class="view view-tenth-gopal">
-                    <img class="img-responsive" src="assets/img/similes_psi/point_noir.jpg" />
-                    <div class="mask">
-                        <h2>Image du point noir</h2>
-                        <a href="#point_noir" class="info">Lire plus</a> 
-                    </div>                
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="view view-tenth-gopal">
-                    <img class="img-responsive" src="assets/img/similes_psi/verre_moitie.jpg" />
-                    <div class="mask">
-                        <h2>Le manque et le besoin</h2>
-                        <a href="#verre" class="info">Lire plus</a> 
-                    </div>                
-                </div>
-            </div>
-    </div>    
-    <!--/row-->
-        </div><!--/container-->
-        <!--=== End Content Part ===-->
  
-    <a name="point_noir"></a>
-     
-    <!--=== Breadcrumbs ===-->
-    <div class="breadcrumbs">
-        <div class="container">
-            <h1 class="pull-left"> Image du point noir</h1>
-            <ul class="pull-right breadcrumb">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html#ressources">Ressources</a></li>
-                <li><a href="#top">Images</a></li>
-                <li class="active">Image du point noir</li>
-                <li><a href="#"> </a></li>
-            </ul>
+
+    <!--=== Content Part ===-->
+    <div class="container content">   
+
+        <p>Vous avez été conditionnés par les injonctions ("fais ceci, pas cela") et les introjections ("tu es ceci, cela"). Retrouvez ces virus et détruisez-les !</p>
+        
+        <!-- Basic Form -->
+        <div class="panel panel-blue margin-bottom-40">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-tasks"></i> Injonctions & introjections</h3>
+            </div>
+            <div class="panel-body">
+                <form class="margin-bottom-40" role="form">
+
+                                                <div class="form-group">
+                                <label>Première introjection/injonction</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur1" placeholder="Écrivez la première introjection/injonction. Exemple : Tu es nul">
+                            </div>
+                                                <div class="form-group">
+                                <label>Deuxième introjection/injonction</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur2" placeholder="Écrivez la deuxième introjection/injonction. Exemple : Tu dois faire selon mes attentes">
+                            </div>
+                                                <div class="form-group">
+                                <label>Troisième introjection/injonction</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur3" placeholder="Écrivez la troisième introjection/injonction. Exemple : Tu es né et vas mourir...">
+                            </div>
+                                                <div class="form-group">
+                                <label>Quatrième introjection/injonction</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur4" placeholder="Écrivez la quatrième introjection/injonction.">
+                            </div>
+                                                <div class="form-group">
+                                <label>Cinquième introjection/injonction</label>
+                                <input onkeyup="updateLocal();" class="form-control" id="bonheur5" placeholder="Écrivez la cinquième introjection/injonction.">
+                            </div>
+                                        <p id="result"></p>
+                    <a id="plusa" class="btn-u btn-u-blue"><i class="fa fa-plus-square"></i> Besoin de plus d'introjection/injonction ?</a>
+                    <p id="plusCaption" ></p>
+
+                    
+                    <br><br>
+                    <button class="btn-u btn-u-red"><i class="fa fa-cloud"></i> Enregistrer ces introjection/injonction sur mon compte</button>
+                    
+                </form>
+            </div>
         </div>
-    </div><!--/breadcrumbs-->
-    <!--=== End Breadcrumbs ===--> 
+        <!-- End Basic Form -->
 
-    <div class="container content"> 
-
-        <div class="row portfolio-item margin-bottom-50"> 
- 
-            <div class="col-md-3">
-                <img width="250" src="assets/img/similes_psi/point_noir.jpg" />
-            </div>
-         
-
-            <!-- Content Info -->        
-            <div class="col-md-9">
-                <p>Regardez l'image ci-contre. Que voyez vous ? Un point noir n'est ce pas ? Mais pouvez vous aussi voir l'espace blanc autour ? <br>    
-De même lorsque survient la souffrance, notre mental a l'habitude de se concentrer sur ce qui en va pas. Ouvrons notre présence à l'espace vierge dans lequel tout apparait.</p>                
-                
-                            </div>     
-
-            <!-- End Content Info -->  
-        </div><!--/row-->
-        <button onclick="javascript:history.back()" class="btn-u btn-u-blue" type="button">Page Précédente</button>
-    </div><!--/container-->  
-   
-    <!--=== End Content Part ===-->
-    <hr class="devider devider-db">
- 
-    <a name="verre"></a>
-     
-    <!--=== Breadcrumbs ===-->
-    <div class="breadcrumbs">
-        <div class="container">
-            <h1 class="pull-left"> Le manque et le besoin</h1>
-            <ul class="pull-right breadcrumb">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html#ressources">Ressources</a></li>
-                <li><a href="#top">Images</a></li>
-                <li class="active">Le manque et le besoin</li>
-                <li><a href="#"> </a></li>
-            </ul>
-        </div>
-    </div><!--/breadcrumbs-->
-    <!--=== End Breadcrumbs ===--> 
-
-    <div class="container content"> 
-
-        <div class="row portfolio-item margin-bottom-50"> 
- 
-            <div class="col-md-3">
-                <img width="250" src="assets/img/similes_psi/verre_moitie.jpg" />
-            </div>
-         
-
-            <!-- Content Info -->        
-            <div class="col-md-9">
-                <p>Que voyez vous ? le verre à moitié vide ou à moitié plein ? </p>                
-                
-                            </div>     
-
-            <!-- End Content Info -->  
-        </div><!--/row-->
-        <button onclick="javascript:history.back()" class="btn-u btn-u-blue" type="button">Page Précédente</button>
-    </div><!--/container-->  
-   
-    <!--=== End Content Part ===-->
-    <hr class="devider devider-db">
-
+    </div><!--/container-->    
 
 </div><!--/wrapper-->
 
 
-		<hr class="devider devider-db">
-		<!--=== Content Part ===-->
-<div class="container content hidden-xs">
-	
 
-	<div class="headline"><h2>Envoyer un commentaire</h2></div>
-	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p>
-
-	<form action="post/envoyer_mail.html" method="post" id="sky-form3" class="sky-form sky-changes-3">
-		<fieldset>
-			<div class="row">
-				<section class="col col-6">
-					<label class="label">Nom</label>
-					<label class="input">
-						<i class="icon-append fa fa-user"></i>
-						<input type="text" name="name" id="name">
-					</label>
-				</section>
-				<section class="col col-6">
-					<label class="label">E-mail</label>
-					<label class="input">
-						<i class="icon-append fa fa-envelope-o"></i>
-						<input type="email" name="email" id="email">
-					</label>
-				</section>
-			</div>
-
-			<section>
-				<label class="label">Objet</label>
-				<label class="input">
-					<i class="icon-append fa fa-tag"></i>
-					<input type="text" name="subject" id="subject">
-				</label>
-			</section>
-
-			<section>
-				<label class="label">Message</label>
-				<label class="textarea">
-					<i class="icon-append fa fa-comment"></i>
-					<textarea rows="4" name="message" id="message"></textarea>
-				</label>
-			</section>
-
-			<section>
-				<label class="label">Entrez les caractères suivants:</label>
-				<label class="input input-captcha">
-					<img src="assets/plugins/sky-forms-pro/skyforms/captcha/image.html?1476086282" width="100" height="32" alt="Captcha image" />
-					<input type="text" maxlength="6" name="captcha" id="captcha">
-				</label>
-			</section>
-
-			<section>
-				<label class="checkbox"><input type="checkbox" name="copy"><i></i>Envoyer une copie à mon adresse email</label>
-			</section>
-		</fieldset>
-
-		<footer>
-			<button type="submit" class="btn-u">Envoyer le message</button>
-		</footer>
-
-		<div class="message">
-			<i class="rounded-x fa fa-check"></i>
-			<p>Votre message a été envoyé sent!</p>
-		</div>
-	</form>
-
-	
-</div><!--/container-->
-<!--=== End Content Part ===-->
-
-
-			<script type="text/javascript">
-		jQuery(document).ready(function() {
-
-			PageContactForm.initPageContactForm();
-		});
-	</script>
     </div>
     <!-- End Content Part -->
-
-
 
     <!--=== Footer ===-->
     <div id="footer-default" class="footer-default">
@@ -367,11 +223,11 @@ De même lorsque survient la souffrance, notre mental a l'habitude de se concent
                 <div class="col-md-4 md-margin-bottom-40">
                     <!-- Recent Blogs -->
                     <div class="posts">
-                        <div class="headline"><h2>À propos de ce site</h2></div>
+                        <div class="headline"><h2>About this website</h2></div>
                         <dl class="dl-horizontal">
                             <dt><a href="aproposdecesite.html"><img src="assets/img/lumiere/1 - 60x60.jpg" alt="" /></a></dt>
                             <dd>
-                                <p><a href="aproposdecesite.html">Ce site est comme un miel composé des fleurs butinées sur mon chemin...<br>Lire plus</a></p> 
+                                <p><a href="aproposdecesite.html">This site is like honey composed from the different flowers I sucked on my way...<br>Read more</a></p> 
                             </dd>
                         </dl>
                     </div>
@@ -416,11 +272,11 @@ De même lorsque survient la souffrance, notre mental a l'habitude de se concent
                 <div class="col-md-4 md-margin-bottom-40">
                     <!-- Recent Blogs -->
                     <div class="posts">
-                        <div class="headline"><h2>À propos de l'auteur</h2></div>
+                        <div class="headline"><h2>About the author</h2></div>
                         <dl class="dl-horizontal">
                             <dt><a href="aproposdecesite.html#aproposdelauteur"><img src="assets/img/personnes/luclachance60x60.jpg" alt="" /></a></dt>
                             <dd>
-                                <p><a href="aproposdecesite.html#aproposdelauteur">Tout a commencé par un départ en tour du monde en 2004...<br>Lire plus</a></p> 
+                                <p><a href="aproposdecesite.html#aproposdelauteur">Everything begun with a round the world trip in 2004...<br>Read more</a></p> 
                             </dd>
                         </dl>
                     </div>
@@ -449,7 +305,7 @@ De même lorsque survient la souffrance, notre mental a l'habitude de se concent
             <div class="row">
                 <div class="col-md-6">                     
                     <p>
-                        2016 &copy; Tout Est Lumière. Copyleft. October 10, 2016, 1:28 pm                    </p>
+                        2016 &copy; Everything Is Light. Copyleft. October 10, 2016, 1:53 pm                    </p>
                 </div>
                 <div class="col-md-6">  
                     <a href="index.html">
@@ -463,7 +319,7 @@ De même lorsque survient la souffrance, notre mental a l'habitude de se concent
         </div> 
     </div>
     
-</div>     <!--=== End Footer ===-->
+</div> 
 </div><!--/wrapper-->
 
     <!-- JS Global Compulsory -->
@@ -493,6 +349,68 @@ De même lorsque survient la souffrance, notre mental a l'habitude de se concent
     <script src="assets/plugins/html5shiv.js"></script>
     <script src="assets/plugins/placeholder-IE-fixes.js"></script>
     <![endif]-->
+<script>
+    var labels = ['Première', 'Deuxième', 'Troisième', 'Quatrième', 'Cinquième', 'Sixième', 'Septième', 'Huitième', 'Neuvième', 'Dixième'];
+        
+        $('#plusa').on('click', function(){
+            var i = $('.form-group').length;
+    
+            if (i < labels.length)
+            {        
+                $('.form-group:last').after('<div class="form-group"><label>'+labels[i]+' condition de bonheur</label><input onkeyup="updateLocal();" class="form-control" id="bonheur6" placeholder="Écrivez votre '+labels[i].toLowerCase()+' condition de bonheur."></div>');
+                i++;
+            }
+            else
+            {
+                $('#plusa').fadeOut(1000);
+                $('#plusCaption').text("Tableau hors limite");
+            }
+        });
+        
+    // Load
+    if(typeof(Storage) !== "undefined") {
+        if (typeof(localStorage.bonheur1) !== "undefined")
+        {
+            document.getElementById("bonheur1").value=localStorage.bonheur1;
+        }
+
+        if (typeof(localStorage.bonheur2) !== "undefined")
+        {
+            document.getElementById("bonheur2").value=localStorage.bonheur2;
+        }
+        if (typeof(localStorage.bonheur3) !== "undefined")
+        {
+            document.getElementById("bonheur3").value=localStorage.bonheur3;
+        }
+        if (typeof(localStorage.bonheur4) !== "undefined")
+        {
+            document.getElementById("bonheur4").value=localStorage.bonheur4;
+        }
+        if (typeof(localStorage.bonheur5) !== "undefined")
+        {
+            document.getElementById("bonheur5").value=localStorage.bonheur5;
+        }
+
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+
+
+    function updateLocal() {
+         if(typeof(Storage) !== "undefined") {
+            localStorage.bonheur1 = document.getElementById("bonheur1").value;
+            localStorage.bonheur2 = document.getElementById("bonheur2").value;
+            localStorage.bonheur3 = document.getElementById("bonheur3").value;
+            localStorage.bonheur4 = document.getElementById("bonheur4").value;
+            localStorage.bonheur5 = document.getElementById("bonheur5").value;
+            document.getElementById("result").innerHTML = "Bonheur enregistré";
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+        }   
+    }
+
+</script>
 
 </body>
+
 </html> 
