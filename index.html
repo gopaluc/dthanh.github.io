@@ -129,8 +129,11 @@
 						<span class="sr-only">Toggle Dropdown</span>
 					</button>
 					<ul class="dropdown-menu" role="menu">
+						<li onClick='window.open(Presearch + rech.q.value)'><i class="fa fa-arrows-alt"></i> Presearch</li>
 						<li onClick='window.open(DuckDuckGo + rech.q.value)'><i class="fa fa-arrows-alt"></i> DuckDuckGo</li>
 						<li onClick='window.open(Google + rech.q.value)'><i class="fa fa-arrows-alt"></i> Google</li>
+						
+						
 					</ul>
 				</div>
 
@@ -449,6 +452,8 @@
 		<!-- Pages -->
 		var DuckDuckGo = "https://duckduckgo.com/?q=";
 		var Google = "http://www.google.fr/search?q=";
+		var Presearch = "https://engine.presearch.org/search?q=";
+		
 		var pages_default = DuckDuckGo;
 
 		<!-- Images -->
